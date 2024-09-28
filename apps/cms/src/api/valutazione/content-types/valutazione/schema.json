@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "valutazioni",
+  "info": {
+    "singularName": "valutazione",
+    "pluralName": "valutazioni",
+    "displayName": "Valutazione Pagina"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "url": {
+      "type": "string",
+      "required": true
+    },
+    "rating": {
+      "type": "integer"
+    },
+    "risposta": {
+      "type": "string"
+    },
+    "descrizione": {
+      "type": "text"
+    }
+  }
+}

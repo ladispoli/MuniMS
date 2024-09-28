@@ -1,0 +1,234 @@
+{
+  "key": "plugin_content_manager_configuration_content_types::api::appuntamento.appuntamento",
+  "value": {
+    "uid": "api::appuntamento.appuntamento",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "titolo",
+      "defaultSortBy": "titolo",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "titolo": {
+        "edit": {
+          "label": "titolo",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "titolo",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "contenuto": {
+        "edit": {
+          "label": "contenuto",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "contenuto",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "dataPrenotazione": {
+        "edit": {
+          "label": "dataPrenotazione",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "dataPrenotazione",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "dataInizio": {
+        "edit": {
+          "label": "dataInizio",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "dataInizio",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "dataFine": {
+        "edit": {
+          "label": "dataFine",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "dataFine",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "servizio": {
+        "edit": {
+          "label": "servizio",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "titolo"
+        },
+        "list": {
+          "label": "servizio",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "unita_organizzativa": {
+        "edit": {
+          "label": "unita_organizzativa",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "titolo"
+        },
+        "list": {
+          "label": "unita_organizzativa",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "createdAt": {
+        "edit": {
+          "label": "createdAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "createdAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedAt": {
+        "edit": {
+          "label": "updatedAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "updatedAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "createdBy": {
+        "edit": {
+          "label": "createdBy",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true,
+          "mainField": "firstname"
+        },
+        "list": {
+          "label": "createdBy",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedBy": {
+        "edit": {
+          "label": "updatedBy",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true,
+          "mainField": "firstname"
+        },
+        "list": {
+          "label": "updatedBy",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "titolo",
+        "dataPrenotazione",
+        "dataInizio"
+      ],
+      "edit": [
+        [
+          {
+            "name": "titolo",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "contenuto",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "dataPrenotazione",
+            "size": 6
+          },
+          {
+            "name": "dataInizio",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "dataFine",
+            "size": 6
+          },
+          {
+            "name": "servizio",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "unita_organizzativa",
+            "size": 6
+          }
+        ]
+      ]
+    }
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

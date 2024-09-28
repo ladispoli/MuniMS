@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_homepage_siti_tematicis",
+  "info": {
+    "displayName": "sito tematico",
+    "icon": "link",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "titolo": {
+      "type": "string",
+      "required": true
+    },
+    "link": {
+      "type": "string",
+      "required": true
+    },
+    "descrizione": {
+      "type": "text",
+      "required": true
+    },
+    "immagine": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "coloreSfondo": {
+      "type": "customField",
+      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
+      "customField": "plugin::color-picker.color"
+    },
+    "icona": {
+      "type": "string"
+    }
+  }
+}

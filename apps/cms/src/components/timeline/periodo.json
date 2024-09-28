@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_timeline_periodos",
+  "info": {
+    "displayName": "periodo",
+    "icon": "clock",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "valore": {
+      "type": "integer",
+      "required": true,
+      "min": 1,
+      "default": 1
+    },
+    "misura": {
+      "type": "enumeration",
+      "enum": [
+        "ora",
+        "ore",
+        "giorno",
+        "giorni",
+        "settimana",
+        "settimane",
+        "mese",
+        "mesi",
+        "anno",
+        "anni"
+      ],
+      "required": true
+    },
+    "titolo": {
+      "type": "string",
+      "required": true
+    },
+    "descrizione": {
+      "type": "text"
+    }
+  }
+}

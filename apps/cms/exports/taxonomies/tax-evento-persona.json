@@ -1,0 +1,116 @@
+[
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/1",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Iscrizione Scuola/Università e/o richiesta borsa di studio"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/2",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Invalidità"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/5",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Ricerca di lavoro, avvio nuovo lavoro, disoccupazione"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/4",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Pensionamento"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/5",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Richiesta o rinnovo patente"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/6",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Registrazione o possesso veicolo"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/7",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Accesso al trasporto pubblico"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/8",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Compravendita/affitto casa/edifici/terreni, costruzione o ristrutturazione casa/edificio"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/9",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Cambio di residenza o domicilio"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/10",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Espatri oper lavoro, studio o pensionamento"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/11",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Richiesta passaporto, visto e assistenza viaggi internazionali"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/12",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Nascita di un bambino, richiesta adozioni"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/13",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Matrimonio e/o cambio stato civile"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/14",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Morte ed eredità"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/15",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Prenotazione e disdetta visite/esami"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/16",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Denuncia crimini"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/17",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Dichiarazione dei redditi, versamento e riscossione tributi/imposte e contributi"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/18",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Accesso ai luoghi della cultura"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/19",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Possesso, cura, smarrimento animale da compagnia"
+  }
+]

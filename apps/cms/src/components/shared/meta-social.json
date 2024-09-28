@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_shared_meta_socials",
+  "info": {
+    "displayName": "metaSocial",
+    "icon": "project-diagram",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "socialNetwork": {
+      "type": "enumeration",
+      "enum": [
+        "Facebook",
+        "Twitter"
+      ],
+      "required": true
+    },
+    "titolo": {
+      "type": "string",
+      "required": true,
+      "maxLength": 60
+    },
+    "descrizione": {
+      "type": "string",
+      "maxLength": 65,
+      "required": true
+    },
+    "immagine": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    }
+  }
+}

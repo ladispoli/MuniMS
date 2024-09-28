@@ -1,0 +1,370 @@
+{
+  "key": "plugin_content_manager_configuration_content_types::api::homepage.homepage",
+  "value": {
+    "uid": "api::homepage.homepage",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "id",
+      "defaultSortBy": "id",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "eventiInEvidenza": {
+        "edit": {
+          "label": "Eventi in evidenza",
+          "description": "l numero di eventi in evidenza da mostrare nella sezione \"Eventi\". Verranno mostrati gli eventi selezionati nella 'single type' \"Eventi in evidenza\". Lasciare questo campo vuoto per mostrare uno carosello con gli ultimi 9 eventi",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "eventiInEvidenza",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "argomenti": {
+        "edit": {
+          "label": "Argomenti in evidenza",
+          "description": "Solamente 3 argomenti verranno mostrati nella sezione in evidenza, nell'ordine qui indicato",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "nome"
+        },
+        "list": {
+          "label": "argomenti",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "immagineArgomenti": {
+        "edit": {
+          "label": "immagine di copertina sezione Argomenti",
+          "description": "Immagine di sfondo per la sezione \"Argomenti in evidenza\"",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "immagineArgomenti",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "argomentiNotizie": {
+        "edit": {
+          "label": "Notizie da mostrare per Argomenti in evidenza",
+          "description": "Il numero di notizie da mostrare nella sezione \"Argomenti in evidenza\" per ogni argomento. Verranno prese automaticamente le ultime notizie in ordine di data di pubblicazione",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "argomentiNotizie",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "argomentiServizi": {
+        "edit": {
+          "label": "Servizi da mostrare per Argomenti in evidenza",
+          "description": "Il numero di servizi da mostrare nella sezione \"Argomenti in evidenza\" per ogni argomento. Verranno mostrati i servizi in ordine alfabetico",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "argomentiServizi",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "altriArgomenti": {
+        "edit": {
+          "label": "Altri argomenti",
+          "description": "Lista di link rapidi ad altri argomenti da mostrare sotto la sezione \"Argomenti in evidenza\".",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "nome"
+        },
+        "list": {
+          "label": "altriArgomenti",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "sitiTematici": {
+        "edit": {
+          "label": "Siti tematici",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "sitiTematici",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "linkUtili": {
+        "edit": {
+          "label": "Link utili",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "linkUtili",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "galleriaSfondo": {
+        "edit": {
+          "label": "Galleria di Sfondo",
+          "description": "Una galleria di immagini da mostrare a sfondo in cima alla homepage",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "galleriaSfondo",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "linkAccessoRapido": {
+        "edit": {
+          "label": "Accesso Rapido",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "linkAccessoRapido",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "mostraAvvisiInScadenza": {
+        "edit": {
+          "label": "Mostra sezione \"Avvisi in scadenza\"",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "mostraAvvisiInScadenza",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "mostraAmministrazione": {
+        "edit": {
+          "label": "Mostra sezione \"Amministrazione\"",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "mostraAmministrazione",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "mostraSoloPrimaNovitaInEvidenza": {
+        "edit": {
+          "label": "Mostra solo la prima notizia in evidenza",
+          "description": "Verrá mostrata solamente la prima notizia in evidenza, selezionata dalla 'single type' \"Notizie in evidenza\". Successivamente verranno mostrate le ultime novitá in ordine di pubblicazione",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "mostraSoloPrimaNovitaInEvidenza",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "notizieInEvidenza": {
+        "edit": {
+          "label": "Notizie in evidenza",
+          "description": "Il numero di notizie in evidenza da mostrare nella sezione \"In evidenza\" oltre alla prima. Se \"Mostra solo la prima notizia in evidenza\" é selezionato, verranno prese le ultime novità in ordine di pubblicazione. Altrimenti verranno mostrate le novità selezionate nella 'single type' \"Notizie in evidenza\". Lasciare questo campo vuoto per mostrare uno carosello con le ultime 9 notizie",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "notizieInEvidenza",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "createdAt": {
+        "edit": {
+          "label": "createdAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "createdAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedAt": {
+        "edit": {
+          "label": "updatedAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "updatedAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "createdBy": {
+        "edit": {
+          "label": "createdBy",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true,
+          "mainField": "firstname"
+        },
+        "list": {
+          "label": "createdBy",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedBy": {
+        "edit": {
+          "label": "updatedBy",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true,
+          "mainField": "firstname"
+        },
+        "list": {
+          "label": "updatedBy",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "edit": [
+        [
+          {
+            "name": "galleriaSfondo",
+            "size": 8
+          }
+        ],
+        [
+          {
+            "name": "mostraSoloPrimaNovitaInEvidenza",
+            "size": 6
+          },
+          {
+            "name": "notizieInEvidenza",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "mostraAvvisiInScadenza",
+            "size": 6
+          },
+          {
+            "name": "eventiInEvidenza",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "argomenti",
+            "size": 6
+          },
+          {
+            "name": "immagineArgomenti",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "argomentiNotizie",
+            "size": 6
+          },
+          {
+            "name": "argomentiServizi",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "altriArgomenti",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "linkAccessoRapido",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "sitiTematici",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "mostraAmministrazione",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "linkUtili",
+            "size": 12
+          }
+        ]
+      ],
+      "list": [
+        "id",
+        "createdAt",
+        "updatedAt",
+        "immagineArgomenti"
+      ]
+    }
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

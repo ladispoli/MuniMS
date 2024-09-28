@@ -1,0 +1,443 @@
+{
+  "key": "plugin_seo_settings",
+  "value": {
+    "api::appuntamento.appuntamento": {
+      "collectionName": "appuntamento",
+      "seoChecks": {
+        "metaTitle": true,
+        "metaDescription": true,
+        "metaRobots": true,
+        "metaSocial": true,
+        "wordCount": true,
+        "canonicalUrl": true,
+        "keywordDensity": true,
+        "structuredData": true,
+        "alternativeText": true,
+        "lastUpdatedAt": true
+      }
+    },
+    "api::argomento.argomento": {
+      "collectionName": "argomento",
+      "seoChecks": {
+        "metaTitle": true,
+        "metaDescription": true,
+        "metaRobots": true,
+        "metaSocial": true,
+        "wordCount": true,
+        "canonicalUrl": true,
+        "keywordDensity": true,
+        "structuredData": true,
+        "alternativeText": true,
+        "lastUpdatedAt": true
+      }
+    },
+    "api::contatto.contatto": {
+      "collectionName": "contatto",
+      "seoChecks": {
+        "metaTitle": true,
+        "metaDescription": true,
+        "metaRobots": true,
+        "metaSocial": true,
+        "wordCount": true,
+        "canonicalUrl": true,
+        "keywordDensity": true,
+        "structuredData": true,
+        "alternativeText": true,
+        "lastUpdatedAt": true
+      }
+    },
+    "api::dataset.dataset": {
+      "collectionName": "dataset",
+      "seoChecks": {
+        "metaTitle": true,
+        "metaDescription": true,
+        "metaRobots": true,
+        "metaSocial": true,
+        "wordCount": true,
+        "canonicalUrl": true,
+        "keywordDensity": true,
+        "structuredData": true,
+        "alternativeText": true,
+        "lastUpdatedAt": true
+      }
+    },
+    "api::documento-privato.documento-privato": {
+      "collectionName": "documento-privato",
+      "seoChecks": {
+        "metaTitle": true,
+        "metaDescription": true,
+        "metaRobots": true,
+        "metaSocial": true,
+        "wordCount": true,
+        "canonicalUrl": true,
+        "keywordDensity": true,
+        "structuredData": true,
+        "alternativeText": true,
+        "lastUpdatedAt": true
+      }
+    },
+    "api::documento-pubblico.documento-pubblico": {
+      "collectionName": "documento-pubblico",
+      "seoChecks": {
+        "metaTitle": true,
+        "metaDescription": true,
+        "metaRobots": true,
+        "metaSocial": true,
+        "wordCount": true,
+        "canonicalUrl": true,
+        "keywordDensity": true,
+        "structuredData": true,
+        "alternativeText": true,
+        "lastUpdatedAt": true
+      }
+    },
+    "api::evento.evento": {
+      "collectionName": "evento",
+      "seoChecks": {
+        "metaTitle": true,
+        "metaDescription": true,
+        "metaRobots": true,
+        "metaSocial": true,
+        "wordCount": true,
+        "canonicalUrl": true,
+        "keywordDensity": true,
+        "structuredData": true,
+        "alternativeText": true,
+        "lastUpdatedAt": true
+      }
+    },
+    "api::incarico.incarico": {
+      "collectionName": "incarico",
+      "seoChecks": {
+        "metaTitle": true,
+        "metaDescription": true,
+        "metaRobots": true,
+        "metaSocial": true,
+        "wordCount": true,
+        "canonicalUrl": true,
+        "keywordDensity": true,
+        "structuredData": true,
+        "alternativeText": true,
+        "lastUpdatedAt": true
+      }
+    },
+    "api::luogo.luogo": {
+      "collectionName": "luogo",
+      "seoChecks": {
+        "metaTitle": true,
+        "metaDescription": true,
+        "metaRobots": true,
+        "metaSocial": true,
+        "wordCount": true,
+        "canonicalUrl": true,
+        "keywordDensity": true,
+        "structuredData": true,
+        "alternativeText": true,
+        "lastUpdatedAt": true
+      }
+    },
+    "api::messaggio.messaggio": {
+      "collectionName": "messaggio",
+      "seoChecks": {
+        "metaTitle": true,
+        "metaDescription": true,
+        "metaRobots": true,
+        "metaSocial": true,
+        "wordCount": true,
+        "canonicalUrl": true,
+        "keywordDensity": true,
+        "structuredData": true,
+        "alternativeText": true,
+        "lastUpdatedAt": true
+      }
+    },
+    "api::notizia.notizia": {
+      "collectionName": "notizia",
+      "seoChecks": {
+        "metaTitle": true,
+        "metaDescription": true,
+        "metaRobots": true,
+        "metaSocial": true,
+        "wordCount": true,
+        "canonicalUrl": true,
+        "keywordDensity": true,
+        "structuredData": true,
+        "alternativeText": true,
+        "lastUpdatedAt": true
+      }
+    },
+    "api::pagamento.pagamento": {
+      "collectionName": "pagamento",
+      "seoChecks": {
+        "metaTitle": true,
+        "metaDescription": true,
+        "metaRobots": true,
+        "metaSocial": true,
+        "wordCount": true,
+        "canonicalUrl": true,
+        "keywordDensity": true,
+        "structuredData": true,
+        "alternativeText": true,
+        "lastUpdatedAt": true
+      }
+    },
+    "api::persona.persona": {
+      "collectionName": "persona",
+      "seoChecks": {
+        "metaTitle": true,
+        "metaDescription": true,
+        "metaRobots": true,
+        "metaSocial": true,
+        "wordCount": true,
+        "canonicalUrl": true,
+        "keywordDensity": true,
+        "structuredData": true,
+        "alternativeText": true,
+        "lastUpdatedAt": true
+      }
+    },
+    "api::pratica.pratica": {
+      "collectionName": "pratica",
+      "seoChecks": {
+        "metaTitle": true,
+        "metaDescription": true,
+        "metaRobots": true,
+        "metaSocial": true,
+        "wordCount": true,
+        "canonicalUrl": true,
+        "keywordDensity": true,
+        "structuredData": true,
+        "alternativeText": true,
+        "lastUpdatedAt": true
+      }
+    },
+    "api::servizio.servizio": {
+      "collectionName": "servizio",
+      "seoChecks": {
+        "metaTitle": true,
+        "metaDescription": true,
+        "metaRobots": true,
+        "metaSocial": true,
+        "wordCount": true,
+        "canonicalUrl": true,
+        "keywordDensity": true,
+        "structuredData": true,
+        "alternativeText": true,
+        "lastUpdatedAt": true
+      }
+    },
+    "api::tax-documento.tax-documento": {
+      "collectionName": "tax-documento",
+      "seoChecks": {
+        "metaTitle": true,
+        "metaDescription": true,
+        "metaRobots": true,
+        "metaSocial": true,
+        "wordCount": true,
+        "canonicalUrl": true,
+        "keywordDensity": true,
+        "structuredData": true,
+        "alternativeText": true,
+        "lastUpdatedAt": true
+      }
+    },
+    "api::tax-documento-albo-pretorio.tax-documento-albo-pretorio": {
+      "collectionName": "tax-documento-albo-pretorio",
+      "seoChecks": {
+        "metaTitle": true,
+        "metaDescription": true,
+        "metaRobots": true,
+        "metaSocial": true,
+        "wordCount": true,
+        "canonicalUrl": true,
+        "keywordDensity": true,
+        "structuredData": true,
+        "alternativeText": true,
+        "lastUpdatedAt": true
+      }
+    },
+    "api::tax-evento.tax-evento": {
+      "collectionName": "tax-evento",
+      "seoChecks": {
+        "metaTitle": true,
+        "metaDescription": true,
+        "metaRobots": true,
+        "metaSocial": true,
+        "wordCount": true,
+        "canonicalUrl": true,
+        "keywordDensity": true,
+        "structuredData": true,
+        "alternativeText": true,
+        "lastUpdatedAt": true
+      }
+    },
+    "api::tax-evento-impresa.tax-evento-impresa": {
+      "collectionName": "tax-evento-impresa",
+      "seoChecks": {
+        "metaTitle": true,
+        "metaDescription": true,
+        "metaRobots": true,
+        "metaSocial": true,
+        "wordCount": true,
+        "canonicalUrl": true,
+        "keywordDensity": true,
+        "structuredData": true,
+        "alternativeText": true,
+        "lastUpdatedAt": true
+      }
+    },
+    "api::tax-evento-persona.tax-evento-persona": {
+      "collectionName": "tax-evento-persona",
+      "seoChecks": {
+        "metaTitle": true,
+        "metaDescription": true,
+        "metaRobots": true,
+        "metaSocial": true,
+        "wordCount": true,
+        "canonicalUrl": true,
+        "keywordDensity": true,
+        "structuredData": true,
+        "alternativeText": true,
+        "lastUpdatedAt": true
+      }
+    },
+    "api::tax-incarico.tax-incarico": {
+      "collectionName": "tax-incarico",
+      "seoChecks": {
+        "metaTitle": true,
+        "metaDescription": true,
+        "metaRobots": true,
+        "metaSocial": true,
+        "wordCount": true,
+        "canonicalUrl": true,
+        "keywordDensity": true,
+        "structuredData": true,
+        "alternativeText": true,
+        "lastUpdatedAt": true
+      }
+    },
+    "api::tax-licenza.tax-licenza": {
+      "collectionName": "tax-licenza",
+      "seoChecks": {
+        "metaTitle": true,
+        "metaDescription": true,
+        "metaRobots": true,
+        "metaSocial": true,
+        "wordCount": true,
+        "canonicalUrl": true,
+        "keywordDensity": true,
+        "structuredData": true,
+        "alternativeText": true,
+        "lastUpdatedAt": true
+      }
+    },
+    "api::tax-luogo.tax-luogo": {
+      "collectionName": "tax-luogo",
+      "seoChecks": {
+        "metaTitle": true,
+        "metaDescription": true,
+        "metaRobots": true,
+        "metaSocial": true,
+        "wordCount": true,
+        "canonicalUrl": true,
+        "keywordDensity": true,
+        "structuredData": true,
+        "alternativeText": true,
+        "lastUpdatedAt": true
+      }
+    },
+    "api::tax-notizia.tax-notizia": {
+      "collectionName": "tax-notizia",
+      "seoChecks": {
+        "metaTitle": true,
+        "metaDescription": true,
+        "metaRobots": true,
+        "metaSocial": true,
+        "wordCount": true,
+        "canonicalUrl": true,
+        "keywordDensity": true,
+        "structuredData": true,
+        "alternativeText": true,
+        "lastUpdatedAt": true
+      }
+    },
+    "api::tax-servizio.tax-servizio": {
+      "collectionName": "tax-servizio",
+      "seoChecks": {
+        "metaTitle": true,
+        "metaDescription": true,
+        "metaRobots": true,
+        "metaSocial": true,
+        "wordCount": true,
+        "canonicalUrl": true,
+        "keywordDensity": true,
+        "structuredData": true,
+        "alternativeText": true,
+        "lastUpdatedAt": true
+      }
+    },
+    "api::tax-stato-pratica.tax-stato-pratica": {
+      "collectionName": "tax-stato-pratica",
+      "seoChecks": {
+        "metaTitle": true,
+        "metaDescription": true,
+        "metaRobots": true,
+        "metaSocial": true,
+        "wordCount": true,
+        "canonicalUrl": true,
+        "keywordDensity": true,
+        "structuredData": true,
+        "alternativeText": true,
+        "lastUpdatedAt": true
+      }
+    },
+    "api::tax-tema-dataset.tax-tema-dataset": {
+      "collectionName": "tax-tema-dataset",
+      "seoChecks": {
+        "metaTitle": true,
+        "metaDescription": true,
+        "metaRobots": true,
+        "metaSocial": true,
+        "wordCount": true,
+        "canonicalUrl": true,
+        "keywordDensity": true,
+        "structuredData": true,
+        "alternativeText": true,
+        "lastUpdatedAt": true
+      }
+    },
+    "api::tax-unita-organizzativa.tax-unita-organizzativa": {
+      "collectionName": "tax-unita-organizzativa",
+      "seoChecks": {
+        "metaTitle": true,
+        "metaDescription": true,
+        "metaRobots": true,
+        "metaSocial": true,
+        "wordCount": true,
+        "canonicalUrl": true,
+        "keywordDensity": true,
+        "structuredData": true,
+        "alternativeText": true,
+        "lastUpdatedAt": true
+      }
+    },
+    "api::unita-organizzativa.unita-organizzativa": {
+      "collectionName": "unita-organizzativa",
+      "seoChecks": {
+        "metaTitle": true,
+        "metaDescription": true,
+        "metaRobots": true,
+        "metaSocial": true,
+        "wordCount": true,
+        "canonicalUrl": true,
+        "keywordDensity": true,
+        "structuredData": true,
+        "alternativeText": true,
+        "lastUpdatedAt": true
+      }
+    }
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

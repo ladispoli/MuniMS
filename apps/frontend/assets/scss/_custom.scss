@@ -1,0 +1,36 @@
+ul.list-comma-inline {
+	display: inline;
+	list-style: none;
+	padding: 0;
+
+	li {
+		display: inline;
+		&:not(:last-child)::after {
+			content: ', ';
+		}
+	}
+}
+
+.page-section {
+	&:nth-child(2n + 1) {
+		background-color: $color-background-muted;
+	}
+}
+
+.section {
+	&-primary-light {
+		background-color: $color-background-primary-lighter;
+	}
+}
+
+.drop-shadow {
+	box-shadow: 0 0.9375rem 1.325rem -0.9rem rgba(0, 0, 0, 0.1);
+}
+
+.drop-shadow-up {
+	box-shadow: 0 -0.6375rem 1.125rem -0.9rem rgba(0, 0, 0, .1);
+}
+
+.drop-shadow-dark {
+	box-shadow: 0 1rem 1.5rem -0.8rem rgba(0, 0, 0, 0.35);
+}

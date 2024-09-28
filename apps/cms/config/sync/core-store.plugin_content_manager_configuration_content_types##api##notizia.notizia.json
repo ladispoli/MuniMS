@@ -1,0 +1,448 @@
+{
+  "key": "plugin_content_manager_configuration_content_types::api::notizia.notizia",
+  "value": {
+    "uid": "api::notizia.notizia",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 100,
+      "mainField": "titolo",
+      "defaultSortBy": "data",
+      "defaultSortOrder": "DESC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "titolo": {
+        "edit": {
+          "label": "Titolo",
+          "description": "Il titolo della notizia, del comunicato o dell'avviso",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "titolo",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "descrizione": {
+        "edit": {
+          "label": "Descrizione breve (abstract)",
+          "description": "Descrizione sintetica della notizia, inferiore a 255 caratteri",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "descrizione",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "data": {
+        "edit": {
+          "label": "Data della notizia",
+          "description": "Data di pubblicazione della notizia, da questa data la notizia sarà visibile sul sito",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "data",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "dataScadenza": {
+        "edit": {
+          "label": "Data di scadenza",
+          "description": "Eventuale data di scadenza (in caso di avviso pubblicato) o di fine pubblicazione. Dopo questa data la notizia viene archiviata",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "scadenza",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "numeroComunicato": {
+        "edit": {
+          "label": "Numero progressivo comunicato stampa",
+          "description": "Se è un comunicato stampa, indica un'eventuale numero progressivo del comunicato stampa",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "numeroComunicato",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "immagine": {
+        "edit": {
+          "label": "Immagine",
+          "description": "Immagine principale della notizia (copertina)",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "immagine",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "contenuto": {
+        "edit": {
+          "label": "Testo completo della notizia (contenuto)",
+          "description": "Testo principale della notizia (che include multimedia etc)",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "contenuto",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "galleria": {
+        "edit": {
+          "label": "Galleria",
+          "description": "Una o più immagini o video corredati da didascalie",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "galleria",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "tax_notizia": {
+        "edit": {
+          "label": "Tipo di notizia",
+          "description": "Il tipo di notizia secondo la tassonomia prevista",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "tassonomia"
+        },
+        "list": {
+          "label": "categoria",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "argomenti": {
+        "edit": {
+          "label": "Argomenti (tag)",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "nome"
+        },
+        "list": {
+          "label": "argomenti",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "persone": {
+        "edit": {
+          "label": "Persone",
+          "description": "Link a schede persone dell'amminsitrazione citate nella notizia",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "nomeCompleto"
+        },
+        "list": {
+          "label": "persone",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "luoghi": {
+        "edit": {
+          "label": "Luoghi",
+          "description": "Link a schede luoghi del sito citati nella notizia",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "nome"
+        },
+        "list": {
+          "label": "luoghi",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "unita_organizzativa": {
+        "edit": {
+          "label": "A cura di (unità organizzativa)",
+          "description": "Ufficio che ha curato il comunicato (presumibilmente l'ufficio comunicazione)",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "titolo"
+        },
+        "list": {
+          "label": "unita_organizzativa",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "allegati": {
+        "edit": {
+          "label": "Allegati",
+          "description": "Link a schede di documenti o file allegati",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "titolo"
+        },
+        "list": {
+          "label": "allegati",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "datasets": {
+        "edit": {
+          "label": "Datasets",
+          "description": "Lista alle schede dataset collegate al documento",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "titolo"
+        },
+        "list": {
+          "label": "datasets",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "slug": {
+        "edit": {
+          "label": "slug",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "slug",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "seo": {
+        "edit": {
+          "label": "seo",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "seo",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "showImagePreviewOnly": {
+        "edit": {
+          "label": "Mostra immagine solamente in anteprima",
+          "description": "L'immagine non viene mostrata nella pagina della notizia, ma solamente in anteprima",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "showImagePreviewOnly",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "createdAt": {
+        "edit": {
+          "label": "createdAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "createdAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedAt": {
+        "edit": {
+          "label": "updatedAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "updatedAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "createdBy": {
+        "edit": {
+          "label": "createdBy",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true,
+          "mainField": "firstname"
+        },
+        "list": {
+          "label": "createdBy",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedBy": {
+        "edit": {
+          "label": "updatedBy",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true,
+          "mainField": "firstname"
+        },
+        "list": {
+          "label": "updatedBy",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "edit": [
+        [
+          {
+            "name": "titolo",
+            "size": 8
+          }
+        ],
+        [
+          {
+            "name": "slug",
+            "size": 8
+          }
+        ],
+        [
+          {
+            "name": "tax_notizia",
+            "size": 6
+          },
+          {
+            "name": "numeroComunicato",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "data",
+            "size": 6
+          },
+          {
+            "name": "dataScadenza",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "argomenti",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "descrizione",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "immagine",
+            "size": 6
+          },
+          {
+            "name": "showImagePreviewOnly",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "contenuto",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "galleria",
+            "size": 8
+          }
+        ],
+        [
+          {
+            "name": "unita_organizzativa",
+            "size": 6
+          },
+          {
+            "name": "persone",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "luoghi",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "allegati",
+            "size": 6
+          },
+          {
+            "name": "datasets",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "seo",
+            "size": 12
+          }
+        ]
+      ],
+      "list": ["immagine", "titolo", "tax_notizia", "data", "dataScadenza"]
+    }
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

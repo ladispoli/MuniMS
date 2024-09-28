@@ -1,0 +1,97 @@
+{
+  "key": "plugin_content_manager_configuration_components::listino-prezzi.prezzo",
+  "value": {
+    "uid": "listino-prezzi.prezzo",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "titolo",
+      "defaultSortBy": "titolo",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "costo": {
+        "edit": {
+          "label": "Costo (Euro)",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "costo",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "titolo": {
+        "edit": {
+          "label": "Titolo",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "titolo",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "descrizione": {
+        "edit": {
+          "label": "Descrizione aggiuntiva",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "descrizione",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "costo",
+        "titolo",
+        "descrizione"
+      ],
+      "edit": [
+        [
+          {
+            "name": "costo",
+            "size": 4
+          },
+          {
+            "name": "titolo",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "descrizione",
+            "size": 8
+          }
+        ]
+      ]
+    },
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

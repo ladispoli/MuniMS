@@ -1,0 +1,560 @@
+[
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-culture/cultural-interest-places/A",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Architettura Militare e fortificata"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-culture/cultural-interest-places/A1",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Architettura Militare e fortificata > Castello"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-culture/cultural-interest-places/A2",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Architettura Militare e fortificata > Fortezza"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-culture/cultural-interest-places/A3",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Architettura Militare e fortificata > Mura"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-culture/cultural-interest-places/A4",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Architettura Militare e fortificata > Roccaforte"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-culture/cultural-interest-places/A5",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Architettura Militare e fortificata > Torre"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-culture/cultural-interest-places/B",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Architettura Residenziale"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-culture/cultural-interest-places/B1",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Architettura Residenziale > Palazzo"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-culture/cultural-interest-places/B1",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Architettura Residenziale > Trullo"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-culture/cultural-interest-places/B3",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Architettura Residenziale > Villa"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-culture/cultural-interest-places/C",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Area Archeologica"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-culture/cultural-interest-places/C2",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Area Archeologica > Sito archeologico"
+  },
+  {
+    "vocabolario": "https://schema.gov.it/lodview/controlled-vocabulary/classifications-for-culture/cultural-interest-places/D15",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Area Archeologica > Parco Archeologico"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-culture/cultural-interest-places/D",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Centro per la cultura"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-culture/cultural-interest-places/D10",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Centro per la cultura > Acquario"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-culture/cultural-interest-places/D1",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Centro per la cultura > Anfiteatro"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-culture/cultural-interest-places/D2",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Centro per la cultura > Archivio"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-culture/cultural-interest-places/D3",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Centro per la cultura > Auditorium"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-culture/cultural-interest-places/D4",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Centro per la cultura > Biblioteca"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-culture/cultural-interest-places/D5",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Centro per la cultura > Cinema"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-culture/cultural-interest-places/D6",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Centro per la cultura > Galleria"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-culture/cultural-interest-places/D7",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Centro per la cultura > Museo"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-culture/cultural-interest-places/D11",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Centro per la cultura > Osservatorio"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-culture/cultural-interest-places/D8",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Centro per la cultura > Pinacoteca"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-culture/cultural-interest-places/D12",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Centro per la cultura > Planetario"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-culture/cultural-interest-places/D14",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Centro per la cultura > Scuola"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-culture/cultural-interest-places/D9",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Centro per la cultura > Teatro"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-culture/cultural-interest-places/D13",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Centro per la cultura > Università/Facoltà"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-culture/cultural-interest-places/E",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Edificio di culto"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-culture/cultural-interest-places/E1",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Edificio di culto > Abbazia"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-culture/cultural-interest-places/E2",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Edificio di culto > Chiesa"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-culture/cultural-interest-places/E3",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Edificio di culto > Campanile"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-culture/cultural-interest-places/E4",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Edificio di culto > Battistero"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-culture/cultural-interest-places/E10",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Edificio di culto > Convento"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-culture/cultural-interest-places/E11",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Edificio di culto > Duomo"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-culture/cultural-interest-places/E12",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Edificio di culto > Edicola"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-culture/cultural-interest-places/E13",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Edificio di culto > Eremo"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-culture/cultural-interest-places/E14",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Edificio di culto > Mausoleo"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-culture/cultural-interest-places/E15",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Edificio di culto > Monastero"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-culture/cultural-interest-places/E16",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Edificio di culto > Santuario"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-culture/cultural-interest-places/E17",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Edificio di culto > Sinagoga"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-culture/cultural-interest-places/E18",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Edificio di culto > Tempio"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-culture/cultural-interest-places/E19",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Edificio di culto > Sepolcro"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-culture/cultural-interest-places/E2",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Edificio di culto > Basilica"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-culture/cultural-interest-places/E5",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Edificio di culto > Cappella"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-culture/cultural-interest-places/E6",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Edificio di culto > Catacomba"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-culture/cultural-interest-places/E7",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Edificio di culto > Cattedrale"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-culture/cultural-interest-places/E9",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Edificio di culto > Cimitero"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-culture/cultural-interest-places/F",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Monumento o complesso monumentale"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-culture/cultural-interest-places/F1",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Monumento o complesso monumentale > Archi"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-culture/cultural-interest-places/F2",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Monumento o complesso monumentale > Colonna"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-culture/cultural-interest-places/F3",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Monumento o complesso monumentale > Complesso monumentale"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-culture/cultural-interest-places/F4",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Monumento o complesso monumentale > Monumento"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-culture/cultural-interest-places/F5",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Monumento o complesso monumentale > Obelisco"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-culture/cultural-interest-places/G",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Parco e giardino"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-culture/cultural-interest-places/G1",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Parco e giardino > Belvedere"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-culture/cultural-interest-places/G2",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Parco e giardino > Giardino"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-culture/cultural-interest-places/G3",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Parco e giardino > Parco"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-culture/cultural-interest-places/G4",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Parco e giardino > Viale"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-culture/cultural-interest-places/H",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Bellezza naturale"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-culture/cultural-interest-places/H1",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Bellezza naturale > Costa marittima"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-culture/cultural-interest-places/H2",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Bellezza naturale > Lago"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-culture/cultural-interest-places/H3",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Bellezza naturale > Corso d’acqua"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-culture/cultural-interest-places/H4",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Bellezza naturale > Montagna"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-culture/cultural-interest-places/H5",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Bellezza naturale > Ghiacciaio"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-culture/cultural-interest-places/H6",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Bellezza naturale > Riserva Naturale"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-culture/cultural-interest-places/H7",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Bellezza naturale > Foresta e bosco"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-culture/cultural-interest-places/H8",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Bellezza naturale > Vulcano"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-culture/cultural-interest-places/I",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Luogo per lo sport e il tempo libero"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-culture/cultural-interest-places/I1",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Luogo per lo sport e il tempo libero > Campo Sportivo"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-culture/cultural-interest-places/I2",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Luogo per lo sport e il tempo libero > Piscina"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-culture/cultural-interest-places/I3",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Luogo per lo sport e il tempo libero > Stadio"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-culture/cultural-interest-places/I4",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Luogo per lo sport e il tempo libero > Terme"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-culture/cultural-interest-places/I5",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Luogo per lo sport e il tempo libero > Casinò"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-culture/cultural-interest-places/I6",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Luogo per lo sport e il tempo libero > Circolo sportivo"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-culture/cultural-interest-places/I7",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Luogo per lo sport e il tempo libero > Piazza"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-culture/cultural-interest-places/L",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Architettura commerciale"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-culture/cultural-interest-places/L1",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Architettura commerciale > Mercati"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-culture/cultural-interest-places/L2",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Architettura commerciale > Farmacie"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-culture/cultural-interest-places/M",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Centro per l'assistenza e la tutela sociale"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-culture/cultural-interest-places/M1",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Centro per l'assistenza e la tutela sociale > Casa di riposo"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-culture/cultural-interest-places/M2",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Centro per l'assistenza e la tutela sociale > Centro di accoglienza"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-culture/cultural-interest-places/M3",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Centro per l'assistenza e la tutela sociale > Ospedale"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-culture/cultural-interest-places/N",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Infrastruttura e impianto"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-culture/cultural-interest-places/N1",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Infrastruttura e impianto > Centro di raccolta"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-culture/cultural-interest-places/N2",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Infrastruttura e impianto > Acquedotto"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-culture/cultural-interest-places/N3",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Infrastruttura e impianto > Aeroporto"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-culture/cultural-interest-places/N4",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Infrastruttura e impianto > Porto"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-culture/cultural-interest-places/O",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Struttura ricettiva"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-culture/cultural-interest-places/O1",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Struttura ricettiva > Albergo"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-culture/cultural-interest-places/O2",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Struttura ricettiva > Foresteria"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-culture/cultural-interest-places/O3",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Struttura ricettiva > Rifugio"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-culture/cultural-interest-places/O4",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Struttura ricettiva > Rifugio per animali"
+  }
+]

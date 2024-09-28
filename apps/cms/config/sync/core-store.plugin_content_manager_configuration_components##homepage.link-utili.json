@@ -1,0 +1,76 @@
+{
+  "key": "plugin_content_manager_configuration_components::homepage.link-utili",
+  "value": {
+    "uid": "homepage.link-utili",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "titolo",
+      "defaultSortBy": "link",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "link": {
+        "edit": {
+          "label": "Link",
+          "description": "formato: \"http...\" = link esterno, \"/...\" = link interno",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "link",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "titolo": {
+        "edit": {
+          "label": "Titolo",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "titolo",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "link",
+        "titolo"
+      ],
+      "edit": [
+        [
+          {
+            "name": "titolo",
+            "size": 6
+          },
+          {
+            "name": "link",
+            "size": 6
+          }
+        ]
+      ]
+    },
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

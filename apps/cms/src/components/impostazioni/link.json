@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_impostazioni_links",
+  "info": {
+    "displayName": "Link",
+    "icon": "attachment",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "titolo": {
+      "type": "string",
+      "required": true
+    },
+    "link": {
+      "type": "string",
+      "required": true
+    },
+    "descrizione": {
+      "type": "text"
+    },
+    "attrs": {
+      "type": "json"
+    },
+    "icona": {
+      "type": "string"
+    }
+  }
+}

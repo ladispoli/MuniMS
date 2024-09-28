@@ -1,0 +1,115 @@
+{
+  "key": "plugin_content_manager_configuration_components::timeline.data",
+  "value": {
+    "uid": "timeline.data",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "titolo",
+      "defaultSortBy": "titolo",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "data": {
+        "edit": {
+          "label": "Data",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "data",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "orario": {
+        "edit": {
+          "label": "Orario",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "orario",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "titolo": {
+        "edit": {
+          "label": "Titolo",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "titolo",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "descrizione": {
+        "edit": {
+          "label": "Descrizione aggiuntiva",
+          "description": "aggiungere solo se necessario",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "descrizione",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "data",
+        "orario",
+        "titolo"
+      ],
+      "edit": [
+        [
+          {
+            "name": "data",
+            "size": 4
+          },
+          {
+            "name": "orario",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "titolo",
+            "size": 6
+          },
+          {
+            "name": "descrizione",
+            "size": 6
+          }
+        ]
+      ]
+    },
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

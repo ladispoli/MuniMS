@@ -1,0 +1,91 @@
+{
+  "kind": "singleType",
+  "collectionName": "homepages",
+  "info": {
+    "singularName": "homepage",
+    "pluralName": "homepages",
+    "displayName": "Homepage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "argomenti": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::argomento.argomento"
+    },
+    "immagineArgomenti": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "argomentiNotizie": {
+      "type": "integer",
+      "default": 3,
+      "min": 0
+    },
+    "argomentiServizi": {
+      "type": "integer",
+      "default": 3,
+      "min": 0
+    },
+    "altriArgomenti": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::argomento.argomento"
+    },
+    "sitiTematici": {
+      "displayName": "siti tematici",
+      "type": "component",
+      "repeatable": true,
+      "component": "homepage.siti-tematici"
+    },
+    "linkUtili": {
+      "displayName": "link utili",
+      "type": "component",
+      "repeatable": true,
+      "component": "homepage.link-utili"
+    },
+    "galleriaSfondo": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "linkAccessoRapido": {
+      "type": "component",
+      "repeatable": true,
+      "component": "homepage.siti-tematici"
+    },
+    "mostraAvvisiInScadenza": {
+      "type": "boolean",
+      "default": true,
+      "required": false
+    },
+    "mostraAmministrazione": {
+      "type": "boolean",
+      "default": true
+    },
+    "eventiInEvidenza": {
+      "type": "integer",
+      "default": 3,
+      "min": 0,
+      "max": 6
+    },
+    "mostraSoloPrimaNovitaInEvidenza": {
+      "type": "boolean"
+    },
+    "notizieInEvidenza": {
+      "type": "integer",
+      "max": 6,
+      "min": 0
+    }
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "kind": "collectionType",
+  "collectionName": "luoghi",
+  "info": {
+    "singularName": "luogo",
+    "pluralName": "luoghi",
+    "displayName": "Luogo",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nome": {
+      "type": "string",
+      "required": true,
+      "maxLength": 255
+    },
+    "nome2": {
+      "type": "string",
+      "maxLength": 255
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "nome",
+      "required": true
+    },
+    "argomenti": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::argomento.argomento"
+    },
+    "tax_luogo": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::tax-luogo.tax-luogo"
+    },
+    "immagine": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "descrizione": {
+      "type": "text",
+      "required": true
+    },
+    "contenuto": {
+      "type": "customField",
+      "options": {
+        "preset": "rich"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "galleria": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "videos"
+      ]
+    },
+    "servizi": {
+      "type": "customField",
+      "options": {
+        "preset": "rich"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "accesso": {
+      "type": "customField",
+      "options": {
+        "preset": "rich"
+      },
+      "customField": "plugin::ckeditor.CKEditor",
+      "required": false
+    },
+    "indirizzo": {
+      "type": "string",
+      "required": true,
+      "maxLength": 255
+    },
+    "quartiere": {
+      "type": "string",
+      "maxLength": 255
+    },
+    "circoscrizione": {
+      "type": "string",
+      "maxLength": 255
+    },
+    "cap": {
+      "type": "string",
+      "required": true,
+      "maxLength": 255
+    },
+    "contatti": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::contatto.contatto"
+    },
+    "info": {
+      "type": "customField",
+      "options": {
+        "preset": "standard"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "unita_organizzativa": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::unita-organizzativa.unita-organizzativa",
+      "inversedBy": "sede_principale"
+    },
+    "identificativo": {
+      "type": "uid",
+      "maxLength": 255
+    },
+    "orari": {
+      "type": "customField",
+      "options": {
+        "preset": "rich"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "costi": {
+      "type": "component",
+      "repeatable": false,
+      "component": "listino-prezzi.contenuto"
+    },
+    "luoghi_correlati": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::luogo.luogo"
+    },
+    "indirizzo2": {
+      "type": "string",
+      "maxLength": 255
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    },
+    "showImagePreviewOnly": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

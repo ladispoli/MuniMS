@@ -1,0 +1,76 @@
+{
+  "key": "plugin_content_manager_configuration_components::contatti.telefono",
+  "value": {
+    "uid": "contatti.telefono",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "numero",
+      "defaultSortBy": "numero",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "numero": {
+        "edit": {
+          "label": "Numero",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "numero",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "prefisso": {
+        "edit": {
+          "label": "Prefisso",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "prefisso",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "numero",
+        "prefisso"
+      ],
+      "edit": [
+        [
+          {
+            "name": "prefisso",
+            "size": 4
+          },
+          {
+            "name": "numero",
+            "size": 8
+          }
+        ]
+      ]
+    },
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

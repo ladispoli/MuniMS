@@ -1,0 +1,19 @@
+{
+  "kind": "singleType",
+  "collectionName": "documenti_in_evidenza_collection",
+  "info": {
+    "singularName": "documenti-in-evidenza",
+    "pluralName": "documenti-in-evidenza-collection",
+    "displayName": "Documenti in evidenza"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "documenti": {
+      "type": "component",
+      "repeatable": true,
+      "component": "impostazioni.link"
+    }
+  }
+}

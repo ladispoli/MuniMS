@@ -1,0 +1,77 @@
+{
+  "key": "plugin_content_manager_configuration_components::listino-prezzi.contenuto",
+  "value": {
+    "uid": "listino-prezzi.contenuto",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "id",
+      "defaultSortBy": "id",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "contenuto": {
+        "edit": {
+          "label": "Descrizione",
+          "description": "informazioni riguardanti costi e prezzi",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "contenuto",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "prezzi": {
+        "edit": {
+          "label": "Listino prezzi",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "prezzi",
+          "searchable": false,
+          "sortable": false
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "prezzi"
+      ],
+      "edit": [
+        [
+          {
+            "name": "contenuto",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "prezzi",
+            "size": 12
+          }
+        ]
+      ]
+    },
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

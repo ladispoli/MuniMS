@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_faq_domandas",
+  "info": {
+    "displayName": "domanda",
+    "icon": "question"
+  },
+  "options": {},
+  "attributes": {
+    "titolo": {
+      "type": "string",
+      "required": true
+    },
+    "contenuto": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "standard"
+      },
+      "required": true,
+      "customField": "plugin::ckeditor.CKEditor"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+	"name": "munims_meilisearch",
+	"version": "1.0.0",
+	"author": {
+		"name": "Ladispoli"
+	},
+	"scripts": {
+		"dev": "docker compose up",
+		"start": "docker compose up",
+		"stop": "docker compose down"
+	},
+	"license": "ISC"
+}

@@ -1,0 +1,92 @@
+[
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/1",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Avvio impresa"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/2",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Avvio nuova attività professionale"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/3",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Richiesta licenze, permessi e certificati"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/4",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Registrazione impresa transfrontaliera"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/5",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Avviso e registrazione filiale"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/6",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Finanziamento impresa"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/7",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Gestione personale"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/8",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Pagamento iva, tasse e dogane"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/9",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Notifiche autorità"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/10",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Chiusura impresa e attività professionale"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/11",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Chiusura filiale"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/12",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Ristrutturazione impresa"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/13",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Vendita impresa"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/14",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Bancarotta"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/15",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Partecipazione ad appalti pubblici nazionali e transfrontalieri"
+  }
+]

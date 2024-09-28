@@ -1,0 +1,293 @@
+{
+  "key": "plugin_content_manager_configuration_content_types::api::pagamento.pagamento",
+  "value": {
+    "uid": "api::pagamento.pagamento",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "titolo",
+      "defaultSortBy": "titolo",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "titolo": {
+        "edit": {
+          "label": "titolo",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "titolo",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "pratica": {
+        "edit": {
+          "label": "pratica",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "titolo"
+        },
+        "list": {
+          "label": "pratica",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "ricevuta": {
+        "edit": {
+          "label": "ricevuta",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "ricevuta",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "data": {
+        "edit": {
+          "label": "data",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "data",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "importo": {
+        "edit": {
+          "label": "importo",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "importo",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "contenuto": {
+        "edit": {
+          "label": "contenuto",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "contenuto",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "modPagamento": {
+        "edit": {
+          "label": "modPagamento",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "modPagamento",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "servizi": {
+        "edit": {
+          "label": "servizi",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "titolo"
+        },
+        "list": {
+          "label": "servizi",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "esito": {
+        "edit": {
+          "label": "esito",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "esito",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "documenti_privati": {
+        "edit": {
+          "label": "documenti_privati",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "titolo"
+        },
+        "list": {
+          "label": "documenti_privati",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "createdAt": {
+        "edit": {
+          "label": "createdAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "createdAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedAt": {
+        "edit": {
+          "label": "updatedAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "updatedAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "createdBy": {
+        "edit": {
+          "label": "createdBy",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true,
+          "mainField": "firstname"
+        },
+        "list": {
+          "label": "createdBy",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedBy": {
+        "edit": {
+          "label": "updatedBy",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true,
+          "mainField": "firstname"
+        },
+        "list": {
+          "label": "updatedBy",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "titolo",
+        "pratica",
+        "ricevuta"
+      ],
+      "edit": [
+        [
+          {
+            "name": "titolo",
+            "size": 6
+          },
+          {
+            "name": "pratica",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "ricevuta",
+            "size": 6
+          },
+          {
+            "name": "data",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "importo",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "contenuto",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "modPagamento",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "servizi",
+            "size": 6
+          },
+          {
+            "name": "esito",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "documenti_privati",
+            "size": 6
+          }
+        ]
+      ]
+    }
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

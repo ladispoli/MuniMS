@@ -1,0 +1,72 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pagamenti",
+  "info": {
+    "singularName": "pagamento",
+    "pluralName": "pagamenti",
+    "displayName": "Pagamento",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titolo": {
+      "type": "string",
+      "required": true,
+      "maxLength": 255
+    },
+    "pratica": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::pratica.pratica"
+    },
+    "ricevuta": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "files"
+      ]
+    },
+    "data": {
+      "type": "datetime",
+      "required": true
+    },
+    "importo": {
+      "type": "decimal",
+      "required": true
+    },
+    "contenuto": {
+      "type": "customField",
+      "options": {
+        "preset": "standard"
+      },
+      "required": true,
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "modPagamento": {
+      "type": "customField",
+      "options": {
+        "preset": "standard"
+      },
+      "required": true,
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "servizi": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::servizio.servizio"
+    },
+    "esito": {
+      "type": "text",
+      "required": true
+    },
+    "documenti_privati": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::documento-privato.documento-privato"
+    }
+  }
+}

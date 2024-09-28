@@ -1,0 +1,50 @@
+{
+  "kind": "collectionType",
+  "collectionName": "appuntamenti",
+  "info": {
+    "singularName": "appuntamento",
+    "pluralName": "appuntamenti",
+    "displayName": "Appuntamento"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titolo": {
+      "type": "string",
+      "required": true,
+      "maxLength": 255
+    },
+    "contenuto": {
+      "type": "customField",
+      "options": {
+        "preset": "standard"
+      },
+      "required": true,
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "dataPrenotazione": {
+      "type": "datetime",
+      "required": true
+    },
+    "dataInizio": {
+      "type": "datetime",
+      "required": true
+    },
+    "dataFine": {
+      "type": "datetime",
+      "required": true
+    },
+    "servizio": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::servizio.servizio"
+    },
+    "unita_organizzativa": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::unita-organizzativa.unita-organizzativa"
+    }
+  }
+}

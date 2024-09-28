@@ -1,0 +1,92 @@
+[
+  {
+    "vocabolario": "https://schema.gov.it/lodview/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters/1",
+    "note": "Iscrizioni, agevolazioni e servizi per nidi, scuole e università.",
+    "disabilitato": false,
+    "tassonomia": "Educazione e formazione"
+  },
+  {
+    "vocabolario": "https://schema.gov.it/lodview/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters/2",
+    "note": "Servizi sanitari e di sostegno per minori, famiglie, anziani e persone con disabilità.",
+    "disabilitato": false,
+    "tassonomia": "Salute, benessere e assistenza"
+  },
+  {
+    "vocabolario": "https://schema.gov.it/lodview/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters/3",
+    "note": "Lavoro, concorsi e selezioni, licenze, abilitazioni professionali e sicurezza sul lavoro.",
+    "disabilitato": false,
+    "tassonomia": "Vita lavorativa"
+  },
+  {
+    "vocabolario": "https://schema.gov.it/lodview/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters/4",
+    "note": "Parcheggi, viabilità, automobili e trasporto pubblico.",
+    "disabilitato": false,
+    "tassonomia": "Mobilità e trasporti"
+  },
+  {
+    "vocabolario": "https://schema.gov.it/lodview/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters/5",
+    "note": "Piani urbanistici, piani paesaggistici e tutti i certificati per immobili, case, terreni ed edifici.",
+    "disabilitato": false,
+    "tassonomia": "Catasto e urbanistica"
+  },
+  {
+    "vocabolario": "https://schema.gov.it/lodview/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters/6",
+    "note": "Documenti d’identità, cambio di residenza, servizi elettorali, cimiteriali e certificati per nascita, matrimoni e unioni civili.",
+    "disabilitato": false,
+    "tassonomia": "Anagrafe e stato civile"
+  },
+  {
+    "vocabolario": "https://schema.gov.it/lodview/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters/7",
+    "note": "Sostegno e sviluppo del turismo, strutture ricettive e informazioni turistiche.",
+    "disabilitato": false,
+    "tassonomia": "Turismo"
+  },
+  {
+    "vocabolario": "https://schema.gov.it/lodview/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters/8",
+    "note": "Polizia municipale, tribunale e Protezione civile.",
+    "disabilitato": false,
+    "tassonomia": "Giustizia e sicurezza pubblica"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters/9",
+    "note": "Tasse e tributi su immobili, rifiuti, affissioni e pubblicità.",
+    "disabilitato": false,
+    "tassonomia": "Tributi, finanze e contravvenzioni"
+  },
+  {
+    "vocabolario": "https://schema.gov.it/lodview/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters/10",
+    "note": "Luoghi della cultura e dell’arte, impianti sportivi e richieste di contributi per la cultura, lo spettacolo e lo sport.",
+    "disabilitato": false,
+    "tassonomia": "Cultura e tempo libero"
+  },
+  {
+    "vocabolario": "https://schema.gov.it/lodview/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters/11",
+    "note": "Aree verdi e parchi, inquinamento, igiene urbana e rifiuti.",
+    "disabilitato": false,
+    "tassonomia": "Ambiente"
+  },
+  {
+    "vocabolario": "https://schema.gov.it/lodview/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters/12",
+    "note": "Avvio di un’attività, commercio, autorizzazioni e concessioni per attività produttive, mercati, incentivi e supporto alle imprese.",
+    "disabilitato": false,
+    "tassonomia": "Imprese e commercio"
+  },
+  {
+    "vocabolario": "https://schema.gov.it/lodview/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters/13",
+    "note": "Autorizzazioni, permessi, licenze, concessioni di suolo, passi carrabili e prestito di beni del Comune.",
+    "disabilitato": false,
+    "tassonomia": "Autorizzazioni"
+  },
+  {
+    "vocabolario": "https://schema.gov.it/lodview/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters/14",
+    "note": "Gare d’appalto e avvisi per lavori, servizi e forniture al Comune.",
+    "disabilitato": false,
+    "tassonomia": "Appalti pubblici"
+  },
+  {
+    "vocabolario": "https://schema.gov.it/lodview/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters/15",
+    "note": "Autorizzazioni e politiche alimentari per agricoltura e pesca.",
+    "disabilitato": false,
+    "tassonomia": "Agricoltura e pesca"
+  }
+]

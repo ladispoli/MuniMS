@@ -1,0 +1,166 @@
+{
+  "kind": "collectionType",
+  "collectionName": "eventi",
+  "info": {
+    "singularName": "evento",
+    "pluralName": "eventi",
+    "displayName": "Evento",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titolo": {
+      "type": "string",
+      "required": true,
+      "maxLength": 255
+    },
+    "tax_evento": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::tax-evento.tax-evento"
+    },
+    "sottotitolo": {
+      "type": "string",
+      "maxLength": 255
+    },
+    "dataInizio": {
+      "type": "date",
+      "required": true
+    },
+    "dataFine": {
+      "type": "date",
+      "required": true
+    },
+    "timeline": {
+      "type": "component",
+      "repeatable": false,
+      "component": "timeline.descrizione",
+      "required": false
+    },
+    "descrizione": {
+      "type": "text",
+      "required": true
+    },
+    "argomenti": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::argomento.argomento"
+    },
+    "immagine": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "contenuto": {
+      "type": "customField",
+      "options": {
+        "preset": "rich"
+      },
+      "required": true,
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "partecipanti": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::persona.persona"
+    },
+    "galleria": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "videos"
+      ]
+    },
+    "perChi": {
+      "type": "customField",
+      "options": {
+        "preset": "rich"
+      },
+      "required": true,
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "luoghi": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::luogo.luogo"
+    },
+    "costi": {
+      "type": "component",
+      "repeatable": false,
+      "component": "listino-prezzi.contenuto"
+    },
+    "allegati": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "files"
+      ]
+    },
+    "contatti": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::contatto.contatto"
+    },
+    "unita_organizzative": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::unita-organizzativa.unita-organizzativa"
+    },
+    "patrocinio": {
+      "type": "customField",
+      "options": {
+        "preset": "standard"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "sponsor": {
+      "type": "customField",
+      "options": {
+        "preset": "standard"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "info": {
+      "type": "customField",
+      "options": {
+        "preset": "standard"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "evento_padre": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::evento.evento",
+      "inversedBy": "eventi_figli"
+    },
+    "eventi_figli": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::evento.evento",
+      "mappedBy": "evento_padre"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "titolo",
+      "required": true
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    },
+    "showImagePreviewOnly": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

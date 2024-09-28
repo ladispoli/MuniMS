@@ -1,0 +1,515 @@
+{
+  "key": "plugin_content_manager_configuration_content_types::api::unita-organizzativa.unita-organizzativa",
+  "value": {
+    "uid": "api::unita-organizzativa.unita-organizzativa",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 100,
+      "mainField": "titolo",
+      "defaultSortBy": "titolo",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "titolo": {
+        "edit": {
+          "label": "Titolo",
+          "description": "Titolo della struttura (può essere una struttura amministrativa (e quindi un'area o un ufficio), oppure una struttura politica (la giunta comunale, il consiglio comunale, una commissione o altro) oppure una struttura che non rientra nelle precedenti (una biblioteca, un museo, etc...)",
+          "placeholder": "Nome dell'unità organizzativa",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "titolo",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "descrizione": {
+        "edit": {
+          "label": "Descrizione breve",
+          "description": "Descrizione sintetica (inferiore ai 255 caratteri) della struttura",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "descrizione",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "immagine": {
+        "edit": {
+          "label": "Immagine",
+          "description": "Immagine principale e rappresentativa della struttura",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "immagine",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "logo": {
+        "edit": {
+          "label": "Logo",
+          "description": "Logo della struttura o organizzazione, se presente.",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "logo",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "competenze": {
+        "edit": {
+          "label": "Competenze (Cosa fa/Cos'è)",
+          "description": "Elenco/descrizione dei compiti assegnati alla struttura",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "competenze",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "info": {
+        "edit": {
+          "label": "Ulteriori informazioni",
+          "description": "Ulteriori informazioni sulla struttura non contemplate dai campi precedenti",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "info",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "tax_unita_organizzativa": {
+        "edit": {
+          "label": "Tipo di organizzazione",
+          "description": "La tipologia di organizzazione secondo la tassonomia prevista",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "tassonomia"
+        },
+        "list": {
+          "label": "Tipo",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "argomenti": {
+        "edit": {
+          "label": "Argomenti (tag)",
+          "description": "Argomenti (tag) di cui si occupa",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "nome"
+        },
+        "list": {
+          "label": "argomenti",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "persone_componenti": {
+        "edit": {
+          "label": "Persone che compongono la struttura",
+          "description": "Un link alla scheda persona per ciascuno dei componenti della struttura (ad es. lista assessori se la struttura è politica, lista funzionari se la struttura è amministrativa, e così via...)",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "nomeCompleto"
+        },
+        "list": {
+          "label": "persone_componenti",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "contatti": {
+        "edit": {
+          "label": "Contatti",
+          "description": "Eventuali contatti dell'unità organizzativa",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "titolo"
+        },
+        "list": {
+          "label": "contatti",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "unita_organizzativa_padre": {
+        "edit": {
+          "label": "Unità organizzativa genitore",
+          "description": "Se la struttura fa parte di un'Area o altre macro unità, va inserita la struttura principale.",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "titolo"
+        },
+        "list": {
+          "label": "Unità organizzativa genitore",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "sede_principale": {
+        "edit": {
+          "label": "Sede principale",
+          "description": "Relazione con un luogo (sede fisica principale)",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "nome"
+        },
+        "list": {
+          "label": "sede_principale",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "sedi_secondarie": {
+        "edit": {
+          "label": "Altre sedi",
+          "description": "Relazioni con eventuali altri luoghi che sono definibili come sedi",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "nome"
+        },
+        "list": {
+          "label": "sedi_secondarie",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "documenti_pubblici": {
+        "edit": {
+          "label": "Allegati",
+          "description": "Elenco di documenti allegati alla struttura",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "titolo"
+        },
+        "list": {
+          "label": "documenti_pubblici",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "slug": {
+        "edit": {
+          "label": "slug",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "slug",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "seo": {
+        "edit": {
+          "label": "seo",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "seo",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "servizi": {
+        "edit": {
+          "label": "Servizi",
+          "description": "Relazione con i servizi offerti dalla struttura",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "titolo"
+        },
+        "list": {
+          "label": "servizi",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "persona_responsabile": {
+        "edit": {
+          "label": "Responsabile",
+          "description": "persona responsabile della struttura (figura politica o funzionario amministrativo)",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "nomeCompleto"
+        },
+        "list": {
+          "label": "Responsabile",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "persona_assessore": {
+        "edit": {
+          "label": "Assessore di riferimento",
+          "description": "L'assessore di riferimento della struttura, se esiste e se diverso dal responsabile",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "nomeCompleto"
+        },
+        "list": {
+          "label": "persona_assessore",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "orari": {
+        "edit": {
+          "label": "Orario per il pubblico",
+          "description": "Orario di apertura al pubblico. Nota: se si inserisce una tabella assicurarsi che sia a larghezza massima (trascinare il bordo destro della tabella fino a farle occupare tutto lo spazio possibile)",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "orari",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "order": {
+        "edit": {
+          "label": "Ordine ",
+          "description": "Ordinamento dell'area organizzativa nelle pagine di elenco, di default viene ordinata per 'titolo'",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "order",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "createdAt": {
+        "edit": {
+          "label": "createdAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "createdAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedAt": {
+        "edit": {
+          "label": "updatedAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "updatedAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "createdBy": {
+        "edit": {
+          "label": "createdBy",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true,
+          "mainField": "firstname"
+        },
+        "list": {
+          "label": "createdBy",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedBy": {
+        "edit": {
+          "label": "updatedBy",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true,
+          "mainField": "firstname"
+        },
+        "list": {
+          "label": "updatedBy",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "edit": [
+        [
+          {
+            "name": "titolo",
+            "size": 6
+          },
+          {
+            "name": "slug",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "tax_unita_organizzativa",
+            "size": 6
+          },
+          {
+            "name": "unita_organizzativa_padre",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "argomenti",
+            "size": 6
+          },
+          {
+            "name": "order",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "descrizione",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "immagine",
+            "size": 6
+          },
+          {
+            "name": "logo",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "competenze",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "contatti",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "sede_principale",
+            "size": 6
+          },
+          {
+            "name": "sedi_secondarie",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "orari",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "persona_responsabile",
+            "size": 6
+          },
+          {
+            "name": "persona_assessore",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "persone_componenti",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "servizi",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "documenti_pubblici",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "info",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "seo",
+            "size": 12
+          }
+        ]
+      ],
+      "list": [
+        "titolo",
+        "tax_unita_organizzativa",
+        "unita_organizzativa_padre",
+        "persona_responsabile"
+      ]
+    }
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

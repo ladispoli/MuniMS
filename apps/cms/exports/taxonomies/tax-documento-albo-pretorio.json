@@ -1,0 +1,200 @@
+[
+  {
+    "vocabolario": "https://schema.gov.it/lodview/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Atto amministrativo"
+  },
+  {
+    "vocabolario": "https://schema.gov.it/lodview/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-01",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Atto amministrativo > Decreto"
+  },
+  {
+    "vocabolario": "https://schema.gov.it/lodview/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-01-01",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Atto amministrativo > Decreto > Decreto del Dirigente"
+  },
+  {
+    "vocabolario": "https://schema.gov.it/lodview/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-01-02",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Atto amministrativo > Decreto > Decreto del Sindaco"
+  },
+  {
+    "vocabolario": "https://schema.gov.it/lodview/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-02",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Atto amministrativo > Deliberazione"
+  },
+  {
+    "vocabolario": "https://schema.gov.it/lodview/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-02-01",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Atto amministrativo > Deliberazione > Deliberazione del Consiglio comunale"
+  },
+  {
+    "vocabolario": "https://schema.gov.it/lodview/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-02-02",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Atto amministrativo > Deliberazione > Deliberazione della Giunta comunale"
+  },
+  {
+    "vocabolario": "https://schema.gov.it/lodview/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-02-03",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Atto amministrativo > Deliberazione > Deliberazione del Commissario ad acta"
+  },
+  {
+    "vocabolario": "https://schema.gov.it/lodview/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-02-04",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Atto amministrativo > Deliberazione > Deliberazione del Consiglio circoscrizionale"
+  },
+  {
+    "vocabolario": "https://schema.gov.it/lodview/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-02-05",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Atto amministrativo > Deliberazione > Deliberazione dell'Esecutivo circoscrizionale"
+  },
+  {
+    "vocabolario": "https://schema.gov.it/lodview/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-02-06",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Atto amministrativo > Deliberazione > Deliberazione di altri Organi"
+  },
+  {
+    "vocabolario": "https://schema.gov.it/lodview/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-03",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Atto amministrativo > Determinazione"
+  },
+  {
+    "vocabolario": "https://schema.gov.it/lodview/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-03-02",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Atto amministrativo > Determinazione > Determinazione del Sindaco"
+  },
+  {
+    "vocabolario": "https://schema.gov.it/lodview/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-03-01",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Atto amministrativo > Determinazione > Determinazione del Dirigente"
+  },
+  {
+    "vocabolario": "https://schema.gov.it/lodview/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-04",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Atto amministrativo > Ordinanza"
+  },
+  {
+    "vocabolario": "https://schema.gov.it/lodview/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-04-01",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Atto amministrativo > Ordinanza > Ordinanza del Dirigente"
+  },
+  {
+    "vocabolario": "https://schema.gov.it/lodview/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-04-02",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Atto amministrativo > Ordinanza > Ordinanza del Sindaco"
+  },
+  {
+    "vocabolario": "https://schema.gov.it/lodview/controlled-vocabulary/classifications-for-documents/municipal-notice-board/B",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Atto autorizzativo"
+  },
+  {
+    "vocabolario": "https://schema.gov.it/lodview/controlled-vocabulary/classifications-for-documents/municipal-notice-board/B-01",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Atto autorizzativo > Permesso a costruire"
+  },
+  {
+    "vocabolario": "https://schema.gov.it/lodview/controlled-vocabulary/classifications-for-documents/municipal-notice-board/C",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Atto dello stato civile"
+  },
+  {
+    "vocabolario": "https://schema.gov.it/lodview/controlled-vocabulary/classifications-for-documents/municipal-notice-board/C-01",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Atto dello stato civile > Provvedimento di cancellazione per irreperibilità"
+  },
+  {
+    "vocabolario": "https://schema.gov.it/lodview/controlled-vocabulary/classifications-for-documents/municipal-notice-board/C-02",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Atto dello stato civile > Pubblicazione cambio nome"
+  },
+  {
+    "vocabolario": "https://schema.gov.it/lodview/controlled-vocabulary/classifications-for-documents/municipal-notice-board/C-03",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Atto dello stato civile > Pubblicazione di matrimonio"
+  },
+  {
+    "vocabolario": "https://schema.gov.it/lodview/controlled-vocabulary/classifications-for-documents/municipal-notice-board/D",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Atto generico"
+  },
+  {
+    "vocabolario": "https://schema.gov.it/lodview/controlled-vocabulary/classifications-for-documents/municipal-notice-board/D-01",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Atto generico > Avviso"
+  },
+  {
+    "vocabolario": "https://schema.gov.it/lodview/controlled-vocabulary/classifications-for-documents/municipal-notice-board/D-01-01",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Atto generico > Avviso > Avviso di deposito in casa comunale"
+  },
+  {
+    "vocabolario": "https://schema.gov.it/lodview/controlled-vocabulary/classifications-for-documents/municipal-notice-board/D-01-02",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Atto generico > Avviso > Avviso/Manifesto"
+  },
+  {
+    "vocabolario": "https://schema.gov.it/lodview/controlled-vocabulary/classifications-for-documents/municipal-notice-board/D-02",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Atto generico > Bando"
+  },
+  {
+    "vocabolario": "https://schema.gov.it/lodview/controlled-vocabulary/classifications-for-documents/municipal-notice-board/D-02-01",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Atto generico > Bando > Bando di concorso"
+  },
+  {
+    "vocabolario": "https://schema.gov.it/lodview/controlled-vocabulary/classifications-for-documents/municipal-notice-board/D-02-02",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Atto generico > Bando > Bando di gara"
+  },
+  {
+    "vocabolario": "https://schema.gov.it/lodview/controlled-vocabulary/classifications-for-documents/municipal-notice-board/D-02-03",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Atto generico > Bando > Bando di contributi e vantaggi economici"
+  },
+  {
+    "vocabolario": "https://schema.gov.it/lodview/controlled-vocabulary/classifications-for-documents/municipal-notice-board/E",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Pubblicazione esterna"
+  },
+  {
+    "vocabolario": "https://schema.gov.it/lodview/controlled-vocabulary/classifications-for-documents/municipal-notice-board/E-01",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Pubblicazione esterna > Atto di terzi"
+  }
+]

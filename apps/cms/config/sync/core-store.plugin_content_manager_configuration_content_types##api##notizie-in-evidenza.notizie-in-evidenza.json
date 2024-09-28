@@ -1,0 +1,137 @@
+{
+  "key": "plugin_content_manager_configuration_content_types::api::notizie-in-evidenza.notizie-in-evidenza",
+  "value": {
+    "uid": "api::notizie-in-evidenza.notizie-in-evidenza",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "id",
+      "defaultSortBy": "id",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "notizie": {
+        "edit": {
+          "label": "Notizie",
+          "description": "le notizie che supereranno la data di scadenza, se indicata, non verranno mostrate. Anche se continueranno ad essere presente in questo elenco",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "titolo"
+        },
+        "list": {
+          "label": "notizie",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "mostraSoloInHomepage": {
+        "edit": {
+          "label": "Mostra solo in Homepage",
+          "description": "Mostra la sezione \"Novità in evidenza\" solamente in homepage, non mostrarla nella sezione \"Novità\" o in altre parti del sito",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "mostraSoloInHomepage",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "createdAt": {
+        "edit": {
+          "label": "createdAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "createdAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedAt": {
+        "edit": {
+          "label": "updatedAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "updatedAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "createdBy": {
+        "edit": {
+          "label": "createdBy",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true,
+          "mainField": "firstname"
+        },
+        "list": {
+          "label": "createdBy",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedBy": {
+        "edit": {
+          "label": "updatedBy",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true,
+          "mainField": "firstname"
+        },
+        "list": {
+          "label": "updatedBy",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "edit": [
+        [
+          {
+            "name": "notizie",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "mostraSoloInHomepage",
+            "size": 6
+          }
+        ]
+      ],
+      "list": [
+        "id",
+        "notizie",
+        "createdAt",
+        "updatedAt"
+      ]
+    }
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

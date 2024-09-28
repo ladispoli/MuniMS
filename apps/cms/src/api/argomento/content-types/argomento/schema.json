@@ -1,0 +1,47 @@
+{
+  "kind": "collectionType",
+  "collectionName": "argomenti",
+  "info": {
+    "singularName": "argomento",
+    "pluralName": "argomenti",
+    "displayName": "Argomento (tag)",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {
+    "import-export-entries": {
+      "idField": "slug"
+    }
+  },
+  "attributes": {
+    "nome": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "vocabolario": {
+      "type": "string",
+      "required": false,
+      "unique": true,
+      "regex": "^https?:\\/\\/(?:www\\.)?[-a-zA-Z0-9@:%._\\+~#=]{1,256}\\.[a-zA-Z0-9()]{1,6}\\b(?:[-a-zA-Z0-9()@:%_\\+.~#?&\\/=]*)$"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "nome",
+      "required": true
+    },
+    "note": {
+      "type": "text"
+    },
+    "immagine": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

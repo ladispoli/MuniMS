@@ -1,0 +1,510 @@
+{
+  "key": "plugin_content_manager_configuration_content_types::api::documento-privato.documento-privato",
+  "value": {
+    "uid": "api::documento-privato.documento-privato",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "titolo",
+      "defaultSortBy": "titolo",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "titolo": {
+        "edit": {
+          "label": "titolo",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "titolo",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "protocollo": {
+        "edit": {
+          "label": "protocollo",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "protocollo",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "data": {
+        "edit": {
+          "label": "data",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "data",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "immagine": {
+        "edit": {
+          "label": "immagine",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "immagine",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "pratica": {
+        "edit": {
+          "label": "pratica",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "titolo"
+        },
+        "list": {
+          "label": "pratica",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "servizio": {
+        "edit": {
+          "label": "servizio",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "titolo"
+        },
+        "list": {
+          "label": "servizio",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "argomenti": {
+        "edit": {
+          "label": "argomenti",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "nome"
+        },
+        "list": {
+          "label": "argomenti",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "descrizione": {
+        "edit": {
+          "label": "descrizione",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "descrizione",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "contenuto": {
+        "edit": {
+          "label": "contenuto",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "contenuto",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "files": {
+        "edit": {
+          "label": "files",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "files",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "galleria": {
+        "edit": {
+          "label": "galleria",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "galleria",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "unita_organizzativa": {
+        "edit": {
+          "label": "unita_organizzativa",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "titolo"
+        },
+        "list": {
+          "label": "unita_organizzativa",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "autore": {
+        "edit": {
+          "label": "autore",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "autore",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "tax_licenza": {
+        "edit": {
+          "label": "tax_licenza",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "tassonomia"
+        },
+        "list": {
+          "label": "tax_licenza",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "info": {
+        "edit": {
+          "label": "info",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "info",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "riferimenti": {
+        "edit": {
+          "label": "riferimenti",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "riferimenti",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "documenti_correlati": {
+        "edit": {
+          "label": "documenti_correlati",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "titolo"
+        },
+        "list": {
+          "label": "documenti_correlati",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "tax_eventi_persone": {
+        "edit": {
+          "label": "tax_eventi_persone",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "tassonomia"
+        },
+        "list": {
+          "label": "tax_eventi_persone",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "tax_eventi_imprese": {
+        "edit": {
+          "label": "tax_eventi_imprese",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "tassonomia"
+        },
+        "list": {
+          "label": "tax_eventi_imprese",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "slug": {
+        "edit": {
+          "label": "slug",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "slug",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "nomeIdentificativo": {
+        "edit": {
+          "label": "Nome Identificativo",
+          "description": "Nome utile ad identificare il documento all'interno del CMS, per metterlo in relazione con altre tipologie di contenuto. Questo nome non é visibile a utenti esterni, é utile solamente agli operatori che gestiscono i contenuti del CMS.",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "nomeIdentificativo",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "createdAt": {
+        "edit": {
+          "label": "createdAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "createdAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedAt": {
+        "edit": {
+          "label": "updatedAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "updatedAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "createdBy": {
+        "edit": {
+          "label": "createdBy",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true,
+          "mainField": "firstname"
+        },
+        "list": {
+          "label": "createdBy",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedBy": {
+        "edit": {
+          "label": "updatedBy",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true,
+          "mainField": "firstname"
+        },
+        "list": {
+          "label": "updatedBy",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "edit": [
+        [
+          {
+            "name": "nomeIdentificativo",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "titolo",
+            "size": 6
+          },
+          {
+            "name": "protocollo",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "data",
+            "size": 6
+          },
+          {
+            "name": "immagine",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "pratica",
+            "size": 6
+          },
+          {
+            "name": "servizio",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "argomenti",
+            "size": 6
+          },
+          {
+            "name": "descrizione",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "contenuto",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "files",
+            "size": 6
+          },
+          {
+            "name": "galleria",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "unita_organizzativa",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "autore",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "tax_licenza",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "info",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "riferimenti",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "documenti_correlati",
+            "size": 6
+          },
+          {
+            "name": "tax_eventi_persone",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "tax_eventi_imprese",
+            "size": 6
+          },
+          {
+            "name": "slug",
+            "size": 6
+          }
+        ]
+      ],
+      "list": [
+        "id",
+        "titolo",
+        "protocollo",
+        "data"
+      ]
+    }
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

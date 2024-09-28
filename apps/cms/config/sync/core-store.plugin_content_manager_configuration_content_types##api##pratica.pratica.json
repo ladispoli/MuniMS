@@ -1,0 +1,276 @@
+{
+  "key": "plugin_content_manager_configuration_content_types::api::pratica.pratica",
+  "value": {
+    "uid": "api::pratica.pratica",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "titolo",
+      "defaultSortBy": "titolo",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "titolo": {
+        "edit": {
+          "label": "titolo",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "titolo",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "protocollo": {
+        "edit": {
+          "label": "protocollo",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "protocollo",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "unita_organizzative": {
+        "edit": {
+          "label": "unita_organizzative",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "titolo"
+        },
+        "list": {
+          "label": "unita_organizzative",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "servizio": {
+        "edit": {
+          "label": "servizio",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "titolo"
+        },
+        "list": {
+          "label": "servizio",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "tax_stato_pratica": {
+        "edit": {
+          "label": "tax_stato_pratica",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "tassonomia"
+        },
+        "list": {
+          "label": "tax_stato_pratica",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "contenuto": {
+        "edit": {
+          "label": "contenuto",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "contenuto",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "documenti": {
+        "edit": {
+          "label": "documenti",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "titolo"
+        },
+        "list": {
+          "label": "documenti",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "argomenti": {
+        "edit": {
+          "label": "argomenti",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "nome"
+        },
+        "list": {
+          "label": "argomenti",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "documenti_privati": {
+        "edit": {
+          "label": "documenti_privati",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "titolo"
+        },
+        "list": {
+          "label": "documenti_privati",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "createdAt": {
+        "edit": {
+          "label": "createdAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "createdAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedAt": {
+        "edit": {
+          "label": "updatedAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "updatedAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "createdBy": {
+        "edit": {
+          "label": "createdBy",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true,
+          "mainField": "firstname"
+        },
+        "list": {
+          "label": "createdBy",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedBy": {
+        "edit": {
+          "label": "updatedBy",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true,
+          "mainField": "firstname"
+        },
+        "list": {
+          "label": "updatedBy",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "titolo",
+        "protocollo",
+        "unita_organizzative"
+      ],
+      "edit": [
+        [
+          {
+            "name": "titolo",
+            "size": 6
+          },
+          {
+            "name": "protocollo",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "unita_organizzative",
+            "size": 6
+          },
+          {
+            "name": "servizio",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "tax_stato_pratica",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "contenuto",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "documenti",
+            "size": 6
+          },
+          {
+            "name": "argomenti",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "documenti_privati",
+            "size": 6
+          }
+        ]
+      ]
+    }
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

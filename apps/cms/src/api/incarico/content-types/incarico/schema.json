@@ -1,0 +1,83 @@
+{
+  "kind": "collectionType",
+  "collectionName": "incarichi",
+  "info": {
+    "singularName": "incarico",
+    "pluralName": "incarichi",
+    "displayName": "Incarico",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titolo": {
+      "type": "string",
+      "required": true,
+      "maxLength": 255
+    },
+    "compensi": {
+      "type": "customField",
+      "options": {
+        "preset": "standard"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "importi": {
+      "type": "customField",
+      "options": {
+        "preset": "standard"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "dataInizio": {
+      "type": "date",
+      "required": true
+    },
+    "dataFine": {
+      "type": "date"
+    },
+    "dataInsediamento": {
+      "type": "date"
+    },
+    "info": {
+      "type": "customField",
+      "options": {
+        "preset": "standard"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "tax_incarico": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::tax-incarico.tax-incarico"
+    },
+    "persona": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::persona.persona",
+      "inversedBy": "incarichi"
+    },
+    "unita_organizzativa": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::unita-organizzativa.unita-organizzativa"
+    },
+    "atto_nomina": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::documento-pubblico.documento-pubblico"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "titolo",
+      "required": true
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    }
+  }
+}

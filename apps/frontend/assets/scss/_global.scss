@@ -1,0 +1,43 @@
+/** bootstrap italia and bootstrap variables, mixins and functions */
+
+// funzioni e variabili colore
+@import 'bootstrap-italia/src/scss/functions';
+@import 'bootstrap-italia/src/scss/utilities/colors_vars';
+
+// color custom variables
+$color-text-primary-hover: hsl($primary-h, 100%, 19%);
+$color-text-primary-active: hsl($primary-h, 100%, 14%);
+$color-background-primary-lighter: hsl($primary-h, 40%, 95%);
+$color-background-highlight: hsl($primary-h, 40%, 85%);
+$btn-comuni-primary-hover: #fcfcfc;
+$header-center-bg-color: $primary;
+$header-slim-bg-color: #001f42;
+$section-header-background-color: $primary-a10;
+$section-user-header-background-color: #fcfcfc;
+$card-link-color: $primary;
+$card-comuni-bg-dark: #262b2d;
+$footer-top-background: hsl($primary-h, 68%, 23%);
+$footer-comuni-bg-color: hsl($primary-h, 68%, 23%);
+$link-list-comuni-color: #376072;
+$link-list-hover-color: $primary;
+
+//variables
+@import 'bootstrap-italia/src/scss/variables';
+
+// BS5 Configuration
+@import 'bootstrap/scss/functions';
+@import 'bootstrap/scss/variables';
+//@import 'bootstrap/scss/maps';
+@import 'bootstrap/scss/mixins';
+
+/** custom variables mixins and functions */
+@import 'mixins';
+
+/** custom classes */
+@import 'custom';
+
+/** vue transition classes */
+@import 'transitions';
+
+/** print styles */
+@import 'print';

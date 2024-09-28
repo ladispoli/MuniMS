@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_contatti_links",
+  "info": {
+    "displayName": "Link",
+    "icon": "link"
+  },
+  "options": {},
+  "attributes": {
+    "valore": {
+      "type": "string",
+      "regex": "^https?:\\/\\/(?:www\\.)?[-a-zA-Z0-9@:%._\\+~#=]{1,256}\\.[a-zA-Z0-9()]{1,6}\\b(?:[-a-zA-Z0-9()@:%_\\+.~#?&\\/=]*)$",
+      "required": true
+    },
+    "tipo": {
+      "type": "enumeration",
+      "enum": [
+        "URL",
+        "Whatsapp",
+        "Telegram",
+        "Skype",
+        "Linkedin",
+        "Twitter"
+      ],
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "kind": "singleType",
+  "collectionName": "faqs",
+  "info": {
+    "singularName": "faq",
+    "pluralName": "faqs",
+    "displayName": "Domande frequenti",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "domande": {
+      "displayName": "domanda",
+      "type": "component",
+      "repeatable": true,
+      "component": "faq.domanda",
+      "required": true
+    }
+  }
+}

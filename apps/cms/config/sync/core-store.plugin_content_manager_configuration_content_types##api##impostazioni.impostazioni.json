@@ -1,0 +1,674 @@
+{
+  "key": "plugin_content_manager_configuration_content_types::api::impostazioni.impostazioni",
+  "value": {
+    "uid": "api::impostazioni.impostazioni",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "municipalityName",
+      "defaultSortBy": "municipalityName",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "municipalityName": {
+        "edit": {
+          "label": "Nome",
+          "description": "Il nome del comune, viene visualizzato come titolo nell'header del sito",
+          "placeholder": "Comune di ...",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "municipalityName",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "municipalityTagline": {
+        "edit": {
+          "label": "Sottotitolo",
+          "description": "Viene mostrato sotto al nome del comune, nell'header del sito",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "municipalityTagline",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "municipalityAddress": {
+        "edit": {
+          "label": "Indirizzo municipio",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "municipalityAddress",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "municipalityFiscalCode": {
+        "edit": {
+          "label": "Codice fiscale",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "municipalityFiscalCode",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "municipalityVatNumber": {
+        "edit": {
+          "label": "Partita iva",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "municipalityVatNumber",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "municipalityFreephone": {
+        "edit": {
+          "label": "Numero verde",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "municipalityFreephone",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "municipalitySwitchboard": {
+        "edit": {
+          "label": "Numero centralino",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "municipalitySwitchboard",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "municipalityEmail": {
+        "edit": {
+          "label": "Email",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "municipalityEmail",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "municipalityPec": {
+        "edit": {
+          "label": "Pec",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "municipalityPec",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "municipalityUrpEmail": {
+        "edit": {
+          "label": "Email URP",
+          "description": "Indirizzo email dell'Ufficio Relazioni con il Pubblico",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "municipalityUrpEmail",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "ownerName": {
+        "edit": {
+          "label": "Nome Amministrazione afferente",
+          "description": "La regione o la provincia (ente) di appartenenza",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "ownerName",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "ownerUrl": {
+        "edit": {
+          "label": "Url Amministrazione afferente",
+          "description": "Url della regione o della provincia (ente) di appartenenza",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "ownerUrl",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "cittadinoAttivoBaseUrl": {
+        "edit": {
+          "label": "Url base portale Cittadino Attivo",
+          "description": "Url di base al portale cittadino attivo esterno (piattaforma per i servizi della PA)",
+          "placeholder": "https://...",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "cittadinoAttivoBaseUrl",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "facebookUrl": {
+        "edit": {
+          "label": "Facebook",
+          "description": "Link social",
+          "placeholder": "https://...",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "facebookUrl",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "twitterUrl": {
+        "edit": {
+          "label": "Twitter",
+          "description": "Link social",
+          "placeholder": "https://...",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "twitterUrl",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "youtubeUrl": {
+        "edit": {
+          "label": "YouTube",
+          "description": "Link social",
+          "placeholder": "https://...",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "youtubeUrl",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "telegramUrl": {
+        "edit": {
+          "label": "Telegram",
+          "description": "Link social",
+          "placeholder": "https://...",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "telegramUrl",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "whatsappUrl": {
+        "edit": {
+          "label": "WhatsApp",
+          "description": "Link social",
+          "placeholder": "https://...",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "whatsappUrl",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "instagramUrl": {
+        "edit": {
+          "label": "Instagram",
+          "description": "Link social",
+          "placeholder": "https://...",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "instagramUrl",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "rssUrl": {
+        "edit": {
+          "label": "RSS",
+          "description": "Link social",
+          "placeholder": "https://...",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "rssUrl",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "navTopBar": {
+        "edit": {
+          "label": "Navigazione sopra l'header (link rapidi)",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "navTopBar",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "footerPrimaryExtra": {
+        "edit": {
+          "label": "Navigazione Footer principale",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "footerPrimaryExtra",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "footerSecondaryExtra": {
+        "edit": {
+          "label": "Navigazione Footer secondaria",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "footerSecondaryExtra",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "prenotaAppuntamentoLink": {
+        "edit": {
+          "label": "Link Prenotazione Appuntamento",
+          "description": "Link al servizio formato: \"http...\" = link esterno, \"/...\" = link interno",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "prenotaAppuntamentoLink",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "richiediAssistenzaLink": {
+        "edit": {
+          "label": "Link Richiesta Assistenza",
+          "description": "Link al servizio formato: \"http...\" = link esterno, \"/...\" = link interno",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "richiediAssistenzaLink",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "segnalaDisservizioLink": {
+        "edit": {
+          "label": "Link Segnalazione Disservizio",
+          "description": "Link al servizio formato: \"http...\" = link esterno, \"/...\" = link interno",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "segnalaDisservizioLink",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "logo": {
+        "edit": {
+          "label": "Logo",
+          "description": "Immagine del logo del comune, in PNG",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "logo",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "favicon": {
+        "edit": {
+          "label": "favicon",
+          "description": "Icona del logo del comune, in ICO",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "favicon",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "dichiarazioneAccessibilitaLink": {
+        "edit": {
+          "label": "Link Dichiarazione di Accessibilità",
+          "description": "Compila la dichiarazione di accessibilità e inserisci il link qui",
+          "placeholder": "https://form.agid.gov.it/...",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "dichiarazioneAccessibilitaLink",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "obiettiviAccessibilitaLink": {
+        "edit": {
+          "label": "Link Obiettivi di Accessibilità",
+          "description": "Compila gli obiettii di accessibilità e inserisci il link qui",
+          "placeholder": "https://form.agid.gov.it/...",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "obiettiviAccessibilitaLink",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "createdAt": {
+        "edit": {
+          "label": "createdAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "createdAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedAt": {
+        "edit": {
+          "label": "updatedAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "updatedAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "createdBy": {
+        "edit": {
+          "label": "createdBy",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true,
+          "mainField": "firstname"
+        },
+        "list": {
+          "label": "createdBy",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedBy": {
+        "edit": {
+          "label": "updatedBy",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true,
+          "mainField": "firstname"
+        },
+        "list": {
+          "label": "updatedBy",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "edit": [
+        [
+          {
+            "name": "municipalityName",
+            "size": 6
+          },
+          {
+            "name": "municipalityTagline",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "logo",
+            "size": 6
+          },
+          {
+            "name": "favicon",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "municipalityAddress",
+            "size": 8
+          }
+        ],
+        [
+          {
+            "name": "municipalityFiscalCode",
+            "size": 6
+          },
+          {
+            "name": "municipalityVatNumber",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "municipalityFreephone",
+            "size": 6
+          },
+          {
+            "name": "municipalitySwitchboard",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "municipalityEmail",
+            "size": 6
+          },
+          {
+            "name": "municipalityPec",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "municipalityUrpEmail",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "ownerName",
+            "size": 6
+          },
+          {
+            "name": "ownerUrl",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "cittadinoAttivoBaseUrl",
+            "size": 8
+          }
+        ],
+        [
+          {
+            "name": "facebookUrl",
+            "size": 6
+          },
+          {
+            "name": "twitterUrl",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "youtubeUrl",
+            "size": 6
+          },
+          {
+            "name": "telegramUrl",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "whatsappUrl",
+            "size": 6
+          },
+          {
+            "name": "instagramUrl",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "rssUrl",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "navTopBar",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "footerPrimaryExtra",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "footerSecondaryExtra",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "prenotaAppuntamentoLink",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "richiediAssistenzaLink",
+            "size": 6
+          },
+          {
+            "name": "segnalaDisservizioLink",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "dichiarazioneAccessibilitaLink",
+            "size": 6
+          },
+          {
+            "name": "obiettiviAccessibilitaLink",
+            "size": 6
+          }
+        ]
+      ],
+      "list": [
+        "id",
+        "municipalityName",
+        "municipalityTagline",
+        "municipalityAddress"
+      ]
+    }
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

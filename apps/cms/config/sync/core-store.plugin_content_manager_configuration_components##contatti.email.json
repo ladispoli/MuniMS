@@ -1,0 +1,76 @@
+{
+  "key": "plugin_content_manager_configuration_components::contatti.email",
+  "value": {
+    "uid": "contatti.email",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "valore",
+      "defaultSortBy": "id",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "valore": {
+        "edit": {
+          "label": "indirizzo di posta",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "valore",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "isPec": {
+        "edit": {
+          "label": "PEC",
+          "description": "si tratta di un indirizzo di Posta Elettronica Certificata",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "isPec",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "valore",
+        "isPec"
+      ],
+      "edit": [
+        [
+          {
+            "name": "valore",
+            "size": 8
+          },
+          {
+            "name": "isPec",
+            "size": 4
+          }
+        ]
+      ]
+    },
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

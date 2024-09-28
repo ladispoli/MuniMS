@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_contatti_emails",
+  "info": {
+    "displayName": "Email",
+    "icon": "mail-bulk",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "valore": {
+      "type": "email",
+      "required": true
+    },
+    "isPec": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

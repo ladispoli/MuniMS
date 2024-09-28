@@ -1,0 +1,55 @@
+{
+  "name": "munims_cms",
+  "version": "0.1.0",
+  "license": "MIT",
+  "author": {
+    "name": "Ladispoli"
+  },
+  "scripts": {
+    "build": "strapi build",
+    "cs": "config-sync",
+    "dev": "strapi develop",
+    "start": "strapi start",
+    "strapi": "strapi",
+    "tax": "node dist/scripts/tax.js",
+    "watch": "strapi develop --watch-admin"
+  },
+  "dependencies": {
+    "@ckeditor/strapi-plugin-ckeditor": "^0.0.13",
+    "@strapi/plugin-color-picker": "^4.25.7",
+    "@strapi/plugin-graphql": "4.25.7",
+    "@strapi/plugin-seo": "^1.9.9",
+    "@strapi/plugin-users-permissions": "4.25.7",
+    "@strapi/provider-upload-aws-s3": "^4.25.7",
+    "@strapi/strapi": "4.25.7",
+    "pg": "^8.12.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^5.3.4",
+    "strapi-plugin-config-sync": "^1.2.3",
+    "strapi-plugin-duplicate-button": "^1.1.14",
+    "strapi-plugin-import-export-entries": "^1.23.1",
+    "strapi-plugin-local-image-sharp": "^1.7.0",
+    "strapi-plugin-meilisearch": "^0.12.0",
+    "strapi-plugin-placeholder": "^4.4.0",
+    "strapi-plugin-transformer": "^3.1.2",
+    "styled-components": "^5.2.1"
+  },
+  "devDependencies": {
+    "better-sqlite3": "^11.1.2",
+    "dotenv": "^16.4.5",
+    "slugify": "^1.6.6",
+    "util": "^0.12.5"
+  },
+  "packageManager": "yarn@4.0.2",
+  "engines": {
+    "node": ">=18.x.x <=20.x.x",
+    "npm": ">=8.0.0"
+  },
+  "volta": {
+    "node": "18.16.0"
+  },
+  "strapi": {
+    "uuid": "33ea0f2a-4687-4143-b690-b455ac18f554"
+  }
+}

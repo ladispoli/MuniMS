@@ -1,0 +1,2050 @@
+{
+  "name": "Editor",
+  "code": "strapi-editor",
+  "description": "Editors can manage and publish contents including those of other users.",
+  "permissions": [
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "actionParameters": {},
+      "subject": "api::argomento.argomento",
+      "properties": {
+        "fields": [
+          "nome",
+          "vocabolario",
+          "slug",
+          "note",
+          "immagine"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "actionParameters": {},
+      "subject": "api::argomento.argomento",
+      "properties": {},
+      "conditions": [
+        "admin::is-creator",
+        "admin::has-same-role-as-creator"
+      ]
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "actionParameters": {},
+      "subject": "api::argomento.argomento",
+      "properties": {
+        "fields": [
+          "nome",
+          "vocabolario",
+          "slug",
+          "note",
+          "immagine"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "actionParameters": {},
+      "subject": "api::argomento.argomento",
+      "properties": {
+        "fields": [
+          "nome",
+          "vocabolario",
+          "slug",
+          "note",
+          "immagine"
+        ]
+      },
+      "conditions": [
+        "admin::is-creator",
+        "admin::has-same-role-as-creator"
+      ]
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "actionParameters": {},
+      "subject": "api::avviso-generale.avviso-generale",
+      "properties": {
+        "fields": [
+          "contenuto",
+          "attivo"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "actionParameters": {},
+      "subject": "api::avviso-generale.avviso-generale",
+      "properties": {
+        "fields": [
+          "contenuto",
+          "attivo"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "actionParameters": {},
+      "subject": "api::avviso-generale.avviso-generale",
+      "properties": {
+        "fields": [
+          "contenuto",
+          "attivo"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "actionParameters": {},
+      "subject": "api::contatto.contatto",
+      "properties": {
+        "fields": [
+          "titolo",
+          "valori",
+          "persona"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "actionParameters": {},
+      "subject": "api::contatto.contatto",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "actionParameters": {},
+      "subject": "api::contatto.contatto",
+      "properties": {
+        "fields": [
+          "titolo",
+          "valori",
+          "persona"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "actionParameters": {},
+      "subject": "api::contatto.contatto",
+      "properties": {
+        "fields": [
+          "titolo",
+          "valori",
+          "persona"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "actionParameters": {},
+      "subject": "api::dataset.dataset",
+      "properties": {
+        "fields": [
+          "titolo",
+          "descrizione",
+          "tax_temi_dataset",
+          "distribuzione",
+          "tax_licenza",
+          "files",
+          "dataModifica",
+          "unita_organizzativa",
+          "freqAggiornamento",
+          "slug"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "actionParameters": {},
+      "subject": "api::dataset.dataset",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "actionParameters": {},
+      "subject": "api::dataset.dataset",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "actionParameters": {},
+      "subject": "api::dataset.dataset",
+      "properties": {
+        "fields": [
+          "titolo",
+          "descrizione",
+          "tax_temi_dataset",
+          "distribuzione",
+          "tax_licenza",
+          "files",
+          "dataModifica",
+          "unita_organizzativa",
+          "freqAggiornamento",
+          "slug"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "actionParameters": {},
+      "subject": "api::dataset.dataset",
+      "properties": {
+        "fields": [
+          "titolo",
+          "descrizione",
+          "tax_temi_dataset",
+          "distribuzione",
+          "tax_licenza",
+          "files",
+          "dataModifica",
+          "unita_organizzativa",
+          "freqAggiornamento",
+          "slug"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "actionParameters": {},
+      "subject": "api::documenti-in-evidenza.documenti-in-evidenza",
+      "properties": {
+        "fields": [
+          "documenti.titolo",
+          "documenti.link",
+          "documenti.descrizione",
+          "documenti.attrs",
+          "documenti.icona"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "actionParameters": {},
+      "subject": "api::documenti-in-evidenza.documenti-in-evidenza",
+      "properties": {
+        "fields": [
+          "documenti.titolo",
+          "documenti.link",
+          "documenti.descrizione",
+          "documenti.attrs",
+          "documenti.icona"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "actionParameters": {},
+      "subject": "api::documenti-in-evidenza.documenti-in-evidenza",
+      "properties": {
+        "fields": [
+          "documenti.titolo",
+          "documenti.link",
+          "documenti.descrizione",
+          "documenti.attrs",
+          "documenti.icona"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "actionParameters": {},
+      "subject": "api::documento-pubblico.documento-pubblico",
+      "properties": {
+        "fields": [
+          "nomeIdentificativo",
+          "titolo",
+          "data",
+          "immagine",
+          "tax_documento",
+          "argomenti",
+          "descrizione",
+          "contenuto",
+          "files",
+          "galleria",
+          "unita_organizzativa",
+          "autore",
+          "tax_licenza",
+          "servizi",
+          "dataInizio",
+          "dataFine",
+          "info",
+          "riferimenti",
+          "tax_eventi_persone",
+          "tax_eventi_imprese",
+          "documenti_correlati",
+          "identificativo",
+          "protocollo",
+          "datasets",
+          "slug",
+          "seo.metaTitle",
+          "seo.metaDescription",
+          "seo.metaImage",
+          "seo.metaSocial.socialNetwork",
+          "seo.metaSocial.titolo",
+          "seo.metaSocial.descrizione",
+          "seo.metaSocial.immagine",
+          "seo.keywords",
+          "seo.metaRobots",
+          "seo.structuredData",
+          "seo.metaViewport",
+          "seo.canonicalURL"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "actionParameters": {},
+      "subject": "api::documento-pubblico.documento-pubblico",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "actionParameters": {},
+      "subject": "api::documento-pubblico.documento-pubblico",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "actionParameters": {},
+      "subject": "api::documento-pubblico.documento-pubblico",
+      "properties": {
+        "fields": [
+          "nomeIdentificativo",
+          "titolo",
+          "data",
+          "immagine",
+          "tax_documento",
+          "argomenti",
+          "descrizione",
+          "contenuto",
+          "files",
+          "galleria",
+          "unita_organizzativa",
+          "autore",
+          "tax_licenza",
+          "servizi",
+          "dataInizio",
+          "dataFine",
+          "info",
+          "riferimenti",
+          "tax_eventi_persone",
+          "tax_eventi_imprese",
+          "documenti_correlati",
+          "identificativo",
+          "protocollo",
+          "datasets",
+          "slug",
+          "seo.metaTitle",
+          "seo.metaDescription",
+          "seo.metaImage",
+          "seo.metaSocial.socialNetwork",
+          "seo.metaSocial.titolo",
+          "seo.metaSocial.descrizione",
+          "seo.metaSocial.immagine",
+          "seo.keywords",
+          "seo.metaRobots",
+          "seo.structuredData",
+          "seo.metaViewport",
+          "seo.canonicalURL"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "actionParameters": {},
+      "subject": "api::documento-pubblico.documento-pubblico",
+      "properties": {
+        "fields": [
+          "nomeIdentificativo",
+          "titolo",
+          "data",
+          "immagine",
+          "tax_documento",
+          "argomenti",
+          "descrizione",
+          "contenuto",
+          "files",
+          "galleria",
+          "unita_organizzativa",
+          "autore",
+          "tax_licenza",
+          "servizi",
+          "dataInizio",
+          "dataFine",
+          "info",
+          "riferimenti",
+          "tax_eventi_persone",
+          "tax_eventi_imprese",
+          "documenti_correlati",
+          "identificativo",
+          "protocollo",
+          "datasets",
+          "slug",
+          "seo.metaTitle",
+          "seo.metaDescription",
+          "seo.metaImage",
+          "seo.metaSocial.socialNetwork",
+          "seo.metaSocial.titolo",
+          "seo.metaSocial.descrizione",
+          "seo.metaSocial.immagine",
+          "seo.keywords",
+          "seo.metaRobots",
+          "seo.structuredData",
+          "seo.metaViewport",
+          "seo.canonicalURL"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "actionParameters": {},
+      "subject": "api::eventi-in-evidenza.eventi-in-evidenza",
+      "properties": {
+        "fields": [
+          "eventi",
+          "mostraSoloInHomepage"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "actionParameters": {},
+      "subject": "api::eventi-in-evidenza.eventi-in-evidenza",
+      "properties": {
+        "fields": [
+          "eventi",
+          "mostraSoloInHomepage"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "actionParameters": {},
+      "subject": "api::eventi-in-evidenza.eventi-in-evidenza",
+      "properties": {
+        "fields": [
+          "eventi",
+          "mostraSoloInHomepage"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "actionParameters": {},
+      "subject": "api::evento.evento",
+      "properties": {
+        "fields": [
+          "titolo",
+          "tax_evento",
+          "sottotitolo",
+          "dataInizio",
+          "dataFine",
+          "timeline.contenuto",
+          "timeline.date.data",
+          "timeline.date.orario",
+          "timeline.date.titolo",
+          "timeline.date.descrizione",
+          "timeline.periodi.valore",
+          "timeline.periodi.misura",
+          "timeline.periodi.titolo",
+          "timeline.periodi.descrizione",
+          "descrizione",
+          "argomenti",
+          "immagine",
+          "contenuto",
+          "partecipanti",
+          "galleria",
+          "perChi",
+          "luoghi",
+          "costi.contenuto",
+          "costi.prezzi.costo",
+          "costi.prezzi.titolo",
+          "costi.prezzi.descrizione",
+          "allegati",
+          "contatti",
+          "unita_organizzative",
+          "patrocinio",
+          "sponsor",
+          "info",
+          "evento_padre",
+          "eventi_figli",
+          "slug",
+          "seo.metaTitle",
+          "seo.metaDescription",
+          "seo.metaImage",
+          "seo.metaSocial.socialNetwork",
+          "seo.metaSocial.titolo",
+          "seo.metaSocial.descrizione",
+          "seo.metaSocial.immagine",
+          "seo.keywords",
+          "seo.metaRobots",
+          "seo.structuredData",
+          "seo.metaViewport",
+          "seo.canonicalURL",
+          "showImagePreviewOnly"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "actionParameters": {},
+      "subject": "api::evento.evento",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "actionParameters": {},
+      "subject": "api::evento.evento",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "actionParameters": {},
+      "subject": "api::evento.evento",
+      "properties": {
+        "fields": [
+          "titolo",
+          "tax_evento",
+          "sottotitolo",
+          "dataInizio",
+          "dataFine",
+          "timeline.contenuto",
+          "timeline.date.data",
+          "timeline.date.orario",
+          "timeline.date.titolo",
+          "timeline.date.descrizione",
+          "timeline.periodi.valore",
+          "timeline.periodi.misura",
+          "timeline.periodi.titolo",
+          "timeline.periodi.descrizione",
+          "descrizione",
+          "argomenti",
+          "immagine",
+          "contenuto",
+          "partecipanti",
+          "galleria",
+          "perChi",
+          "luoghi",
+          "costi.contenuto",
+          "costi.prezzi.costo",
+          "costi.prezzi.titolo",
+          "costi.prezzi.descrizione",
+          "allegati",
+          "contatti",
+          "unita_organizzative",
+          "patrocinio",
+          "sponsor",
+          "info",
+          "evento_padre",
+          "eventi_figli",
+          "slug",
+          "seo.metaTitle",
+          "seo.metaDescription",
+          "seo.metaImage",
+          "seo.metaSocial.socialNetwork",
+          "seo.metaSocial.titolo",
+          "seo.metaSocial.descrizione",
+          "seo.metaSocial.immagine",
+          "seo.keywords",
+          "seo.metaRobots",
+          "seo.structuredData",
+          "seo.metaViewport",
+          "seo.canonicalURL",
+          "showImagePreviewOnly"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "actionParameters": {},
+      "subject": "api::evento.evento",
+      "properties": {
+        "fields": [
+          "titolo",
+          "tax_evento",
+          "sottotitolo",
+          "dataInizio",
+          "dataFine",
+          "timeline.contenuto",
+          "timeline.date.data",
+          "timeline.date.orario",
+          "timeline.date.titolo",
+          "timeline.date.descrizione",
+          "timeline.periodi.valore",
+          "timeline.periodi.misura",
+          "timeline.periodi.titolo",
+          "timeline.periodi.descrizione",
+          "descrizione",
+          "argomenti",
+          "immagine",
+          "contenuto",
+          "partecipanti",
+          "galleria",
+          "perChi",
+          "luoghi",
+          "costi.contenuto",
+          "costi.prezzi.costo",
+          "costi.prezzi.titolo",
+          "costi.prezzi.descrizione",
+          "allegati",
+          "contatti",
+          "unita_organizzative",
+          "patrocinio",
+          "sponsor",
+          "info",
+          "evento_padre",
+          "eventi_figli",
+          "slug",
+          "seo.metaTitle",
+          "seo.metaDescription",
+          "seo.metaImage",
+          "seo.metaSocial.socialNetwork",
+          "seo.metaSocial.titolo",
+          "seo.metaSocial.descrizione",
+          "seo.metaSocial.immagine",
+          "seo.keywords",
+          "seo.metaRobots",
+          "seo.structuredData",
+          "seo.metaViewport",
+          "seo.canonicalURL",
+          "showImagePreviewOnly"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "actionParameters": {},
+      "subject": "api::faq.faq",
+      "properties": {
+        "fields": [
+          "domande.titolo",
+          "domande.contenuto"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "actionParameters": {},
+      "subject": "api::faq.faq",
+      "properties": {
+        "fields": [
+          "domande.titolo",
+          "domande.contenuto"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "actionParameters": {},
+      "subject": "api::faq.faq",
+      "properties": {
+        "fields": [
+          "domande.titolo",
+          "domande.contenuto"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "actionParameters": {},
+      "subject": "api::homepage.homepage",
+      "properties": {
+        "fields": [
+          "argomenti",
+          "immagineArgomenti",
+          "argomentiNotizie",
+          "argomentiServizi",
+          "altriArgomenti",
+          "sitiTematici.titolo",
+          "sitiTematici.link",
+          "sitiTematici.descrizione",
+          "sitiTematici.immagine",
+          "sitiTematici.coloreSfondo",
+          "sitiTematici.icona",
+          "linkUtili.titolo",
+          "linkUtili.link",
+          "galleriaSfondo",
+          "linkAccessoRapido.titolo",
+          "linkAccessoRapido.link",
+          "linkAccessoRapido.descrizione",
+          "linkAccessoRapido.immagine",
+          "linkAccessoRapido.coloreSfondo",
+          "linkAccessoRapido.icona",
+          "mostraAvvisiInScadenza",
+          "mostraAmministrazione",
+          "eventiInEvidenza",
+          "mostraSoloPrimaNovitaInEvidenza",
+          "notizieInEvidenza"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "actionParameters": {},
+      "subject": "api::homepage.homepage",
+      "properties": {
+        "fields": [
+          "argomenti",
+          "immagineArgomenti",
+          "argomentiNotizie",
+          "argomentiServizi",
+          "altriArgomenti",
+          "sitiTematici.titolo",
+          "sitiTematici.link",
+          "sitiTematici.descrizione",
+          "sitiTematici.immagine",
+          "sitiTematici.coloreSfondo",
+          "sitiTematici.icona",
+          "linkUtili.titolo",
+          "linkUtili.link",
+          "galleriaSfondo",
+          "linkAccessoRapido.titolo",
+          "linkAccessoRapido.link",
+          "linkAccessoRapido.descrizione",
+          "linkAccessoRapido.immagine",
+          "linkAccessoRapido.coloreSfondo",
+          "linkAccessoRapido.icona",
+          "mostraAvvisiInScadenza",
+          "mostraAmministrazione",
+          "eventiInEvidenza",
+          "mostraSoloPrimaNovitaInEvidenza",
+          "notizieInEvidenza"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "actionParameters": {},
+      "subject": "api::homepage.homepage",
+      "properties": {
+        "fields": [
+          "argomenti",
+          "immagineArgomenti",
+          "argomentiNotizie",
+          "argomentiServizi",
+          "altriArgomenti",
+          "sitiTematici.titolo",
+          "sitiTematici.link",
+          "sitiTematici.descrizione",
+          "sitiTematici.immagine",
+          "sitiTematici.coloreSfondo",
+          "sitiTematici.icona",
+          "linkUtili.titolo",
+          "linkUtili.link",
+          "galleriaSfondo",
+          "linkAccessoRapido.titolo",
+          "linkAccessoRapido.link",
+          "linkAccessoRapido.descrizione",
+          "linkAccessoRapido.immagine",
+          "linkAccessoRapido.coloreSfondo",
+          "linkAccessoRapido.icona",
+          "mostraAvvisiInScadenza",
+          "mostraAmministrazione",
+          "eventiInEvidenza",
+          "mostraSoloPrimaNovitaInEvidenza",
+          "notizieInEvidenza"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "actionParameters": {},
+      "subject": "api::impostazioni.impostazioni",
+      "properties": {
+        "fields": [
+          "municipalityName",
+          "municipalityTagline",
+          "municipalityAddress",
+          "municipalityFiscalCode",
+          "municipalityVatNumber",
+          "municipalityFreephone",
+          "municipalitySwitchboard",
+          "municipalityEmail",
+          "municipalityPec",
+          "municipalityUrpEmail",
+          "ownerName",
+          "ownerUrl",
+          "cittadinoAttivoBaseUrl",
+          "facebookUrl",
+          "twitterUrl",
+          "youtubeUrl",
+          "telegramUrl",
+          "whatsappUrl",
+          "instagramUrl",
+          "rssUrl",
+          "navTopBar.titolo",
+          "navTopBar.link",
+          "navTopBar.descrizione",
+          "navTopBar.attrs",
+          "navTopBar.icona",
+          "footerPrimaryExtra.titolo",
+          "footerPrimaryExtra.link",
+          "footerPrimaryExtra.descrizione",
+          "footerPrimaryExtra.attrs",
+          "footerPrimaryExtra.icona",
+          "footerSecondaryExtra.titolo",
+          "footerSecondaryExtra.link",
+          "footerSecondaryExtra.descrizione",
+          "footerSecondaryExtra.attrs",
+          "footerSecondaryExtra.icona",
+          "prenotaAppuntamentoLink",
+          "richiediAssistenzaLink",
+          "segnalaDisservizioLink",
+          "logo",
+          "favicon",
+          "dichiarazioneAccessibilitaLink",
+          "obiettiviAccessibilitaLink"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "actionParameters": {},
+      "subject": "api::impostazioni.impostazioni",
+      "properties": {
+        "fields": [
+          "municipalityName",
+          "municipalityTagline",
+          "municipalityAddress",
+          "municipalityFiscalCode",
+          "municipalityVatNumber",
+          "municipalityFreephone",
+          "municipalitySwitchboard",
+          "municipalityEmail",
+          "municipalityPec",
+          "municipalityUrpEmail",
+          "ownerName",
+          "ownerUrl",
+          "cittadinoAttivoBaseUrl",
+          "facebookUrl",
+          "twitterUrl",
+          "youtubeUrl",
+          "telegramUrl",
+          "whatsappUrl",
+          "instagramUrl",
+          "rssUrl",
+          "navTopBar.titolo",
+          "navTopBar.link",
+          "navTopBar.descrizione",
+          "navTopBar.attrs",
+          "navTopBar.icona",
+          "footerPrimaryExtra.titolo",
+          "footerPrimaryExtra.link",
+          "footerPrimaryExtra.descrizione",
+          "footerPrimaryExtra.attrs",
+          "footerPrimaryExtra.icona",
+          "footerSecondaryExtra.titolo",
+          "footerSecondaryExtra.link",
+          "footerSecondaryExtra.descrizione",
+          "footerSecondaryExtra.attrs",
+          "footerSecondaryExtra.icona",
+          "prenotaAppuntamentoLink",
+          "richiediAssistenzaLink",
+          "segnalaDisservizioLink",
+          "logo",
+          "favicon",
+          "dichiarazioneAccessibilitaLink",
+          "obiettiviAccessibilitaLink"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "actionParameters": {},
+      "subject": "api::impostazioni.impostazioni",
+      "properties": {
+        "fields": [
+          "municipalityName",
+          "municipalityTagline",
+          "municipalityAddress",
+          "municipalityFiscalCode",
+          "municipalityVatNumber",
+          "municipalityFreephone",
+          "municipalitySwitchboard",
+          "municipalityEmail",
+          "municipalityPec",
+          "municipalityUrpEmail",
+          "ownerName",
+          "ownerUrl",
+          "cittadinoAttivoBaseUrl",
+          "facebookUrl",
+          "twitterUrl",
+          "youtubeUrl",
+          "telegramUrl",
+          "whatsappUrl",
+          "instagramUrl",
+          "rssUrl",
+          "navTopBar.titolo",
+          "navTopBar.link",
+          "navTopBar.descrizione",
+          "navTopBar.attrs",
+          "navTopBar.icona",
+          "footerPrimaryExtra.titolo",
+          "footerPrimaryExtra.link",
+          "footerPrimaryExtra.descrizione",
+          "footerPrimaryExtra.attrs",
+          "footerPrimaryExtra.icona",
+          "footerSecondaryExtra.titolo",
+          "footerSecondaryExtra.link",
+          "footerSecondaryExtra.descrizione",
+          "footerSecondaryExtra.attrs",
+          "footerSecondaryExtra.icona",
+          "prenotaAppuntamentoLink",
+          "richiediAssistenzaLink",
+          "segnalaDisservizioLink",
+          "logo",
+          "favicon",
+          "dichiarazioneAccessibilitaLink",
+          "obiettiviAccessibilitaLink"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "actionParameters": {},
+      "subject": "api::incarico.incarico",
+      "properties": {
+        "fields": [
+          "titolo",
+          "compensi",
+          "importi",
+          "dataInizio",
+          "dataFine",
+          "dataInsediamento",
+          "info",
+          "tax_incarico",
+          "persona",
+          "unita_organizzativa",
+          "atto_nomina",
+          "slug",
+          "seo.metaTitle",
+          "seo.metaDescription",
+          "seo.metaImage",
+          "seo.metaSocial.socialNetwork",
+          "seo.metaSocial.titolo",
+          "seo.metaSocial.descrizione",
+          "seo.metaSocial.immagine",
+          "seo.keywords",
+          "seo.metaRobots",
+          "seo.structuredData",
+          "seo.metaViewport",
+          "seo.canonicalURL"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "actionParameters": {},
+      "subject": "api::incarico.incarico",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "actionParameters": {},
+      "subject": "api::incarico.incarico",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "actionParameters": {},
+      "subject": "api::incarico.incarico",
+      "properties": {
+        "fields": [
+          "titolo",
+          "compensi",
+          "importi",
+          "dataInizio",
+          "dataFine",
+          "dataInsediamento",
+          "info",
+          "tax_incarico",
+          "persona",
+          "unita_organizzativa",
+          "atto_nomina",
+          "slug",
+          "seo.metaTitle",
+          "seo.metaDescription",
+          "seo.metaImage",
+          "seo.metaSocial.socialNetwork",
+          "seo.metaSocial.titolo",
+          "seo.metaSocial.descrizione",
+          "seo.metaSocial.immagine",
+          "seo.keywords",
+          "seo.metaRobots",
+          "seo.structuredData",
+          "seo.metaViewport",
+          "seo.canonicalURL"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "actionParameters": {},
+      "subject": "api::incarico.incarico",
+      "properties": {
+        "fields": [
+          "titolo",
+          "compensi",
+          "importi",
+          "dataInizio",
+          "dataFine",
+          "dataInsediamento",
+          "info",
+          "tax_incarico",
+          "persona",
+          "unita_organizzativa",
+          "atto_nomina",
+          "slug",
+          "seo.metaTitle",
+          "seo.metaDescription",
+          "seo.metaImage",
+          "seo.metaSocial.socialNetwork",
+          "seo.metaSocial.titolo",
+          "seo.metaSocial.descrizione",
+          "seo.metaSocial.immagine",
+          "seo.keywords",
+          "seo.metaRobots",
+          "seo.structuredData",
+          "seo.metaViewport",
+          "seo.canonicalURL"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "actionParameters": {},
+      "subject": "api::luoghi-in-evidenza.luoghi-in-evidenza",
+      "properties": {
+        "fields": [
+          "luoghi"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "actionParameters": {},
+      "subject": "api::luoghi-in-evidenza.luoghi-in-evidenza",
+      "properties": {
+        "fields": [
+          "luoghi"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "actionParameters": {},
+      "subject": "api::luoghi-in-evidenza.luoghi-in-evidenza",
+      "properties": {
+        "fields": [
+          "luoghi"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "actionParameters": {},
+      "subject": "api::luogo.luogo",
+      "properties": {
+        "fields": [
+          "nome",
+          "nome2",
+          "slug",
+          "argomenti",
+          "tax_luogo",
+          "immagine",
+          "descrizione",
+          "contenuto",
+          "galleria",
+          "servizi",
+          "accesso",
+          "indirizzo",
+          "quartiere",
+          "circoscrizione",
+          "cap",
+          "contatti",
+          "info",
+          "unita_organizzativa",
+          "identificativo",
+          "orari",
+          "costi.contenuto",
+          "costi.prezzi.costo",
+          "costi.prezzi.titolo",
+          "costi.prezzi.descrizione",
+          "luoghi_correlati",
+          "indirizzo2",
+          "seo.metaTitle",
+          "seo.metaDescription",
+          "seo.metaImage",
+          "seo.metaSocial.socialNetwork",
+          "seo.metaSocial.titolo",
+          "seo.metaSocial.descrizione",
+          "seo.metaSocial.immagine",
+          "seo.keywords",
+          "seo.metaRobots",
+          "seo.structuredData",
+          "seo.metaViewport",
+          "seo.canonicalURL",
+          "showImagePreviewOnly"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "actionParameters": {},
+      "subject": "api::luogo.luogo",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "actionParameters": {},
+      "subject": "api::luogo.luogo",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "actionParameters": {},
+      "subject": "api::luogo.luogo",
+      "properties": {
+        "fields": [
+          "nome",
+          "nome2",
+          "slug",
+          "argomenti",
+          "tax_luogo",
+          "immagine",
+          "descrizione",
+          "contenuto",
+          "galleria",
+          "servizi",
+          "accesso",
+          "indirizzo",
+          "quartiere",
+          "circoscrizione",
+          "cap",
+          "contatti",
+          "info",
+          "unita_organizzativa",
+          "identificativo",
+          "orari",
+          "costi.contenuto",
+          "costi.prezzi.costo",
+          "costi.prezzi.titolo",
+          "costi.prezzi.descrizione",
+          "luoghi_correlati",
+          "indirizzo2",
+          "seo.metaTitle",
+          "seo.metaDescription",
+          "seo.metaImage",
+          "seo.metaSocial.socialNetwork",
+          "seo.metaSocial.titolo",
+          "seo.metaSocial.descrizione",
+          "seo.metaSocial.immagine",
+          "seo.keywords",
+          "seo.metaRobots",
+          "seo.structuredData",
+          "seo.metaViewport",
+          "seo.canonicalURL",
+          "showImagePreviewOnly"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "actionParameters": {},
+      "subject": "api::luogo.luogo",
+      "properties": {
+        "fields": [
+          "nome",
+          "nome2",
+          "slug",
+          "argomenti",
+          "tax_luogo",
+          "immagine",
+          "descrizione",
+          "contenuto",
+          "galleria",
+          "servizi",
+          "accesso",
+          "indirizzo",
+          "quartiere",
+          "circoscrizione",
+          "cap",
+          "contatti",
+          "info",
+          "unita_organizzativa",
+          "identificativo",
+          "orari",
+          "costi.contenuto",
+          "costi.prezzi.costo",
+          "costi.prezzi.titolo",
+          "costi.prezzi.descrizione",
+          "luoghi_correlati",
+          "indirizzo2",
+          "seo.metaTitle",
+          "seo.metaDescription",
+          "seo.metaImage",
+          "seo.metaSocial.socialNetwork",
+          "seo.metaSocial.titolo",
+          "seo.metaSocial.descrizione",
+          "seo.metaSocial.immagine",
+          "seo.keywords",
+          "seo.metaRobots",
+          "seo.structuredData",
+          "seo.metaViewport",
+          "seo.canonicalURL",
+          "showImagePreviewOnly"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "actionParameters": {},
+      "subject": "api::note-legali.note-legali",
+      "properties": {
+        "fields": [
+          "contenuto"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "actionParameters": {},
+      "subject": "api::note-legali.note-legali",
+      "properties": {
+        "fields": [
+          "contenuto"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "actionParameters": {},
+      "subject": "api::note-legali.note-legali",
+      "properties": {
+        "fields": [
+          "contenuto"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "actionParameters": {},
+      "subject": "api::notizia.notizia",
+      "properties": {
+        "fields": [
+          "titolo",
+          "descrizione",
+          "data",
+          "dataScadenza",
+          "numeroComunicato",
+          "immagine",
+          "contenuto",
+          "galleria",
+          "tax_notizia",
+          "argomenti",
+          "persone",
+          "luoghi",
+          "unita_organizzativa",
+          "allegati",
+          "datasets",
+          "slug",
+          "seo.metaTitle",
+          "seo.metaDescription",
+          "seo.metaImage",
+          "seo.metaSocial.socialNetwork",
+          "seo.metaSocial.titolo",
+          "seo.metaSocial.descrizione",
+          "seo.metaSocial.immagine",
+          "seo.keywords",
+          "seo.metaRobots",
+          "seo.structuredData",
+          "seo.metaViewport",
+          "seo.canonicalURL",
+          "showImagePreviewOnly"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "actionParameters": {},
+      "subject": "api::notizia.notizia",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "actionParameters": {},
+      "subject": "api::notizia.notizia",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "actionParameters": {},
+      "subject": "api::notizia.notizia",
+      "properties": {
+        "fields": [
+          "titolo",
+          "descrizione",
+          "data",
+          "dataScadenza",
+          "numeroComunicato",
+          "immagine",
+          "contenuto",
+          "galleria",
+          "tax_notizia",
+          "argomenti",
+          "persone",
+          "luoghi",
+          "unita_organizzativa",
+          "allegati",
+          "datasets",
+          "slug",
+          "seo.metaTitle",
+          "seo.metaDescription",
+          "seo.metaImage",
+          "seo.metaSocial.socialNetwork",
+          "seo.metaSocial.titolo",
+          "seo.metaSocial.descrizione",
+          "seo.metaSocial.immagine",
+          "seo.keywords",
+          "seo.metaRobots",
+          "seo.structuredData",
+          "seo.metaViewport",
+          "seo.canonicalURL",
+          "showImagePreviewOnly"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "actionParameters": {},
+      "subject": "api::notizia.notizia",
+      "properties": {
+        "fields": [
+          "titolo",
+          "descrizione",
+          "data",
+          "dataScadenza",
+          "numeroComunicato",
+          "immagine",
+          "contenuto",
+          "galleria",
+          "tax_notizia",
+          "argomenti",
+          "persone",
+          "luoghi",
+          "unita_organizzativa",
+          "allegati",
+          "datasets",
+          "slug",
+          "seo.metaTitle",
+          "seo.metaDescription",
+          "seo.metaImage",
+          "seo.metaSocial.socialNetwork",
+          "seo.metaSocial.titolo",
+          "seo.metaSocial.descrizione",
+          "seo.metaSocial.immagine",
+          "seo.keywords",
+          "seo.metaRobots",
+          "seo.structuredData",
+          "seo.metaViewport",
+          "seo.canonicalURL",
+          "showImagePreviewOnly"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "actionParameters": {},
+      "subject": "api::notizie-in-evidenza.notizie-in-evidenza",
+      "properties": {
+        "fields": [
+          "notizie",
+          "mostraSoloInHomepage"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "actionParameters": {},
+      "subject": "api::notizie-in-evidenza.notizie-in-evidenza",
+      "properties": {
+        "fields": [
+          "notizie",
+          "mostraSoloInHomepage"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "actionParameters": {},
+      "subject": "api::notizie-in-evidenza.notizie-in-evidenza",
+      "properties": {
+        "fields": [
+          "notizie",
+          "mostraSoloInHomepage"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "actionParameters": {},
+      "subject": "api::persona.persona",
+      "properties": {
+        "fields": [
+          "nome",
+          "cognome",
+          "immagine",
+          "competenze",
+          "deleghe",
+          "biografia",
+          "galleria",
+          "cv",
+          "situazionePatrimoniale",
+          "dichiarazioneRedditi",
+          "speseElettorali",
+          "variazioniSituazionePatrimoniale",
+          "altreCariche",
+          "info",
+          "contatti",
+          "incarichi",
+          "responsabile_unita_organizzative",
+          "assessore_unita_organizzative",
+          "componente_unita_organizzative",
+          "nomeCompleto",
+          "slug",
+          "seo.metaTitle",
+          "seo.metaDescription",
+          "seo.metaImage",
+          "seo.metaSocial.socialNetwork",
+          "seo.metaSocial.titolo",
+          "seo.metaSocial.descrizione",
+          "seo.metaSocial.immagine",
+          "seo.keywords",
+          "seo.metaRobots",
+          "seo.structuredData",
+          "seo.metaViewport",
+          "seo.canonicalURL",
+          "funzione"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "actionParameters": {},
+      "subject": "api::persona.persona",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "actionParameters": {},
+      "subject": "api::persona.persona",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "actionParameters": {},
+      "subject": "api::persona.persona",
+      "properties": {
+        "fields": [
+          "nome",
+          "cognome",
+          "immagine",
+          "competenze",
+          "deleghe",
+          "biografia",
+          "galleria",
+          "cv",
+          "situazionePatrimoniale",
+          "dichiarazioneRedditi",
+          "speseElettorali",
+          "variazioniSituazionePatrimoniale",
+          "altreCariche",
+          "info",
+          "contatti",
+          "incarichi",
+          "responsabile_unita_organizzative",
+          "assessore_unita_organizzative",
+          "componente_unita_organizzative",
+          "nomeCompleto",
+          "slug",
+          "seo.metaTitle",
+          "seo.metaDescription",
+          "seo.metaImage",
+          "seo.metaSocial.socialNetwork",
+          "seo.metaSocial.titolo",
+          "seo.metaSocial.descrizione",
+          "seo.metaSocial.immagine",
+          "seo.keywords",
+          "seo.metaRobots",
+          "seo.structuredData",
+          "seo.metaViewport",
+          "seo.canonicalURL",
+          "funzione"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "actionParameters": {},
+      "subject": "api::persona.persona",
+      "properties": {
+        "fields": [
+          "nome",
+          "cognome",
+          "immagine",
+          "competenze",
+          "deleghe",
+          "biografia",
+          "galleria",
+          "cv",
+          "situazionePatrimoniale",
+          "dichiarazioneRedditi",
+          "speseElettorali",
+          "variazioniSituazionePatrimoniale",
+          "altreCariche",
+          "info",
+          "contatti",
+          "incarichi",
+          "responsabile_unita_organizzative",
+          "assessore_unita_organizzative",
+          "componente_unita_organizzative",
+          "nomeCompleto",
+          "slug",
+          "seo.metaTitle",
+          "seo.metaDescription",
+          "seo.metaImage",
+          "seo.metaSocial.socialNetwork",
+          "seo.metaSocial.titolo",
+          "seo.metaSocial.descrizione",
+          "seo.metaSocial.immagine",
+          "seo.keywords",
+          "seo.metaRobots",
+          "seo.structuredData",
+          "seo.metaViewport",
+          "seo.canonicalURL",
+          "funzione"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "actionParameters": {},
+      "subject": "api::privacy.privacy",
+      "properties": {
+        "fields": [
+          "contenuto"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "actionParameters": {},
+      "subject": "api::privacy.privacy",
+      "properties": {
+        "fields": [
+          "contenuto"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "actionParameters": {},
+      "subject": "api::privacy.privacy",
+      "properties": {
+        "fields": [
+          "contenuto"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "actionParameters": {},
+      "subject": "api::servizio.servizio",
+      "properties": {
+        "fields": [
+          "tax_servizio",
+          "titolo",
+          "attivo",
+          "stato",
+          "sottotitolo",
+          "immagine",
+          "descrizione",
+          "perChi",
+          "contenuto",
+          "zona",
+          "comeUsufruire",
+          "cosaServe",
+          "siOttiene",
+          "procedureEsito",
+          "accessoDigitale",
+          "prenotaAppuntamento",
+          "vincoli",
+          "casiParticolari",
+          "info",
+          "fileCondizioni",
+          "contatti",
+          "unita_organizzativa_responsabile",
+          "documenti",
+          "argomenti",
+          "tax_eventi_persone",
+          "tax_eventi_imprese",
+          "codiceIpa",
+          "classificazione",
+          "slug",
+          "accessoFisico",
+          "timeline.contenuto",
+          "timeline.date.data",
+          "timeline.date.orario",
+          "timeline.date.titolo",
+          "timeline.date.descrizione",
+          "timeline.periodi.valore",
+          "timeline.periodi.misura",
+          "timeline.periodi.titolo",
+          "timeline.periodi.descrizione",
+          "costi.contenuto",
+          "costi.prezzi.costo",
+          "costi.prezzi.titolo",
+          "costi.prezzi.descrizione",
+          "seo.metaTitle",
+          "seo.metaDescription",
+          "seo.metaImage",
+          "seo.metaSocial.socialNetwork",
+          "seo.metaSocial.titolo",
+          "seo.metaSocial.descrizione",
+          "seo.metaSocial.immagine",
+          "seo.keywords",
+          "seo.metaRobots",
+          "seo.structuredData",
+          "seo.metaViewport",
+          "seo.canonicalURL"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "actionParameters": {},
+      "subject": "api::servizio.servizio",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "actionParameters": {},
+      "subject": "api::servizio.servizio",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "actionParameters": {},
+      "subject": "api::servizio.servizio",
+      "properties": {
+        "fields": [
+          "tax_servizio",
+          "titolo",
+          "attivo",
+          "stato",
+          "sottotitolo",
+          "immagine",
+          "descrizione",
+          "perChi",
+          "contenuto",
+          "zona",
+          "comeUsufruire",
+          "cosaServe",
+          "siOttiene",
+          "procedureEsito",
+          "accessoDigitale",
+          "prenotaAppuntamento",
+          "vincoli",
+          "casiParticolari",
+          "info",
+          "fileCondizioni",
+          "contatti",
+          "unita_organizzativa_responsabile",
+          "documenti",
+          "argomenti",
+          "tax_eventi_persone",
+          "tax_eventi_imprese",
+          "codiceIpa",
+          "classificazione",
+          "slug",
+          "accessoFisico",
+          "timeline.contenuto",
+          "timeline.date.data",
+          "timeline.date.orario",
+          "timeline.date.titolo",
+          "timeline.date.descrizione",
+          "timeline.periodi.valore",
+          "timeline.periodi.misura",
+          "timeline.periodi.titolo",
+          "timeline.periodi.descrizione",
+          "costi.contenuto",
+          "costi.prezzi.costo",
+          "costi.prezzi.titolo",
+          "costi.prezzi.descrizione",
+          "seo.metaTitle",
+          "seo.metaDescription",
+          "seo.metaImage",
+          "seo.metaSocial.socialNetwork",
+          "seo.metaSocial.titolo",
+          "seo.metaSocial.descrizione",
+          "seo.metaSocial.immagine",
+          "seo.keywords",
+          "seo.metaRobots",
+          "seo.structuredData",
+          "seo.metaViewport",
+          "seo.canonicalURL"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "actionParameters": {},
+      "subject": "api::servizio.servizio",
+      "properties": {
+        "fields": [
+          "tax_servizio",
+          "titolo",
+          "attivo",
+          "stato",
+          "sottotitolo",
+          "immagine",
+          "descrizione",
+          "perChi",
+          "contenuto",
+          "zona",
+          "comeUsufruire",
+          "cosaServe",
+          "siOttiene",
+          "procedureEsito",
+          "accessoDigitale",
+          "prenotaAppuntamento",
+          "vincoli",
+          "casiParticolari",
+          "info",
+          "fileCondizioni",
+          "contatti",
+          "unita_organizzativa_responsabile",
+          "documenti",
+          "argomenti",
+          "tax_eventi_persone",
+          "tax_eventi_imprese",
+          "codiceIpa",
+          "classificazione",
+          "slug",
+          "accessoFisico",
+          "timeline.contenuto",
+          "timeline.date.data",
+          "timeline.date.orario",
+          "timeline.date.titolo",
+          "timeline.date.descrizione",
+          "timeline.periodi.valore",
+          "timeline.periodi.misura",
+          "timeline.periodi.titolo",
+          "timeline.periodi.descrizione",
+          "costi.contenuto",
+          "costi.prezzi.costo",
+          "costi.prezzi.titolo",
+          "costi.prezzi.descrizione",
+          "seo.metaTitle",
+          "seo.metaDescription",
+          "seo.metaImage",
+          "seo.metaSocial.socialNetwork",
+          "seo.metaSocial.titolo",
+          "seo.metaSocial.descrizione",
+          "seo.metaSocial.immagine",
+          "seo.keywords",
+          "seo.metaRobots",
+          "seo.structuredData",
+          "seo.metaViewport",
+          "seo.canonicalURL"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "actionParameters": {},
+      "subject": "api::unita-organizzativa.unita-organizzativa",
+      "properties": {
+        "fields": [
+          "titolo",
+          "descrizione",
+          "immagine",
+          "logo",
+          "competenze",
+          "info",
+          "tax_unita_organizzativa",
+          "argomenti",
+          "persone_componenti",
+          "contatti",
+          "unita_organizzativa_padre",
+          "sede_principale",
+          "sedi_secondarie",
+          "documenti_pubblici",
+          "slug",
+          "seo.metaTitle",
+          "seo.metaDescription",
+          "seo.metaImage",
+          "seo.metaSocial.socialNetwork",
+          "seo.metaSocial.titolo",
+          "seo.metaSocial.descrizione",
+          "seo.metaSocial.immagine",
+          "seo.keywords",
+          "seo.metaRobots",
+          "seo.structuredData",
+          "seo.metaViewport",
+          "seo.canonicalURL",
+          "servizi",
+          "persona_responsabile",
+          "persona_assessore",
+          "orari",
+          "order"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "actionParameters": {},
+      "subject": "api::unita-organizzativa.unita-organizzativa",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "actionParameters": {},
+      "subject": "api::unita-organizzativa.unita-organizzativa",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "actionParameters": {},
+      "subject": "api::unita-organizzativa.unita-organizzativa",
+      "properties": {
+        "fields": [
+          "titolo",
+          "descrizione",
+          "immagine",
+          "logo",
+          "competenze",
+          "info",
+          "tax_unita_organizzativa",
+          "argomenti",
+          "persone_componenti",
+          "contatti",
+          "unita_organizzativa_padre",
+          "sede_principale",
+          "sedi_secondarie",
+          "documenti_pubblici",
+          "slug",
+          "seo.metaTitle",
+          "seo.metaDescription",
+          "seo.metaImage",
+          "seo.metaSocial.socialNetwork",
+          "seo.metaSocial.titolo",
+          "seo.metaSocial.descrizione",
+          "seo.metaSocial.immagine",
+          "seo.keywords",
+          "seo.metaRobots",
+          "seo.structuredData",
+          "seo.metaViewport",
+          "seo.canonicalURL",
+          "servizi",
+          "persona_responsabile",
+          "persona_assessore",
+          "orari",
+          "order"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "actionParameters": {},
+      "subject": "api::unita-organizzativa.unita-organizzativa",
+      "properties": {
+        "fields": [
+          "titolo",
+          "descrizione",
+          "immagine",
+          "logo",
+          "competenze",
+          "info",
+          "tax_unita_organizzativa",
+          "argomenti",
+          "persone_componenti",
+          "contatti",
+          "unita_organizzativa_padre",
+          "sede_principale",
+          "sedi_secondarie",
+          "documenti_pubblici",
+          "slug",
+          "seo.metaTitle",
+          "seo.metaDescription",
+          "seo.metaImage",
+          "seo.metaSocial.socialNetwork",
+          "seo.metaSocial.titolo",
+          "seo.metaSocial.descrizione",
+          "seo.metaSocial.immagine",
+          "seo.keywords",
+          "seo.metaRobots",
+          "seo.structuredData",
+          "seo.metaViewport",
+          "seo.canonicalURL",
+          "servizi",
+          "persona_responsabile",
+          "persona_assessore",
+          "orari",
+          "order"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "actionParameters": {},
+      "subject": "api::valutazione.valutazione",
+      "properties": {
+        "fields": [
+          "url",
+          "rating",
+          "risposta",
+          "descrizione"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::import-export-entries.export",
+      "actionParameters": {},
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::import-export-entries.import",
+      "actionParameters": {},
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::upload.assets.copy-link",
+      "actionParameters": {},
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::upload.assets.create",
+      "actionParameters": {},
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::upload.assets.download",
+      "actionParameters": {},
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::upload.assets.update",
+      "actionParameters": {},
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::upload.configure-view",
+      "actionParameters": {},
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::upload.read",
+      "actionParameters": {},
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    }
+  ]
+}

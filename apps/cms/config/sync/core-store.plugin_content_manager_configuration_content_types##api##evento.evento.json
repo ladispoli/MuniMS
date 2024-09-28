@@ -1,0 +1,605 @@
+{
+  "key": "plugin_content_manager_configuration_content_types::api::evento.evento",
+  "value": {
+    "uid": "api::evento.evento",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 100,
+      "mainField": "titolo",
+      "defaultSortBy": "dataInizio",
+      "defaultSortOrder": "DESC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "titolo": {
+        "edit": {
+          "label": "Titolo dell'evento",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "titolo",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "tax_evento": {
+        "edit": {
+          "label": "Tipo di evento",
+          "description": "Il tipo di evento secondo la tassonomia specificata",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "tassonomia"
+        },
+        "list": {
+          "label": "tassonomia",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "sottotitolo": {
+        "edit": {
+          "label": "Sottotitolo",
+          "description": "Eventuale sottotitolo o titolo abbreviato",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "sottotitolo",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "dataInizio": {
+        "edit": {
+          "label": "Data di inizio",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "data Inizio",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "dataFine": {
+        "edit": {
+          "label": "Data di fine",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "data fine",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "timeline": {
+        "edit": {
+          "label": "Date e orari",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "timeline",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "descrizione": {
+        "edit": {
+          "label": "Descrizione breve",
+          "description": "Descrizione sintentica dell'evento, inferiore a 160 caratteri",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "descrizione",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "argomenti": {
+        "edit": {
+          "label": "Argomenti (tag)",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "nome"
+        },
+        "list": {
+          "label": "argomenti",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "immagine": {
+        "edit": {
+          "label": "Immagine",
+          "description": "Immagine dell'evento (di copertina)",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "immagine",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "contenuto": {
+        "edit": {
+          "label": "Cos'è",
+          "description": "Introduzione e descrizione esaustiva dell'evento",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "contenuto",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "partecipanti": {
+        "edit": {
+          "label": "Partecipanti (Persone)",
+          "description": "Link a persone dell'amministrazione che interverranno all'evento",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "nomeCompleto"
+        },
+        "list": {
+          "label": "partecipanti",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "galleria": {
+        "edit": {
+          "label": "Galleria",
+          "description": "Una o più immagini e video corredati da didascalie",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "galleria",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "perChi": {
+        "edit": {
+          "label": "A chi è rivolto",
+          "description": "Descrizione testuale dei principali destinatari dell'Evento",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "perChi",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "luoghi": {
+        "edit": {
+          "label": "Luoghi",
+          "description": "Dove si svolgerà l'evento",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "nome"
+        },
+        "list": {
+          "label": "luoghi",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "costi": {
+        "edit": {
+          "label": "Costi",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "costi",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "allegati": {
+        "edit": {
+          "label": "Allegati",
+          "description": "Eventuali documenti in allegato",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "allegati",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "contatti": {
+        "edit": {
+          "label": "Contatti",
+          "description": "Relazione con i punti di contatto dell'evento",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "titolo"
+        },
+        "list": {
+          "label": "contatti",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "unita_organizzative": {
+        "edit": {
+          "label": "Organizzato da (unità organizzative)",
+          "description": "Relazione con le unità organizzative che supportano l'evento, se presenti",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "titolo"
+        },
+        "list": {
+          "label": "unita_organizzative",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "patrocinio": {
+        "edit": {
+          "label": "Patrocinato da",
+          "description": "Nome dell'ente che patrocina l'evento. Si raccomanda di non usare sigle ma il nome esteso (es. Non \"Mise\" ma \"Ministero dello sviluppo economico\").",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "patrocinio",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "sponsor": {
+        "edit": {
+          "label": "Sponsor",
+          "description": "Lista sponsor dell'evento",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "sponsor",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "info": {
+        "edit": {
+          "label": "Ulteriori informazioni",
+          "description": "Ulteriori informazioni sull'evento, FAQ ed eventuali riferimenti normativi",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "info",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "evento_padre": {
+        "edit": {
+          "label": "Evento principale (genitore)",
+          "description": "Un evento può essere parte di un altro evento definito come \"genitore\" (ad es. \"Mostra sul Rinascimento\" è parte dell'evento \"Festival dell'Arte\")",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "titolo"
+        },
+        "list": {
+          "label": "evento_padre",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "eventi_figli": {
+        "edit": {
+          "label": "Appuntamenti (eventi figli)",
+          "description": "Link agli eventi figlio (solo se l'evento in questione è evento genitore)",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "titolo"
+        },
+        "list": {
+          "label": "eventi_figli",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "slug": {
+        "edit": {
+          "label": "slug",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "slug",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "seo": {
+        "edit": {
+          "label": "seo",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "seo",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "showImagePreviewOnly": {
+        "edit": {
+          "label": "Mostra immagine solamente in anteprima",
+          "description": "L'immagine non viene mostrata nella pagina dell'evento, ma solamente in anteprima",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "showImagePreviewOnly",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "createdAt": {
+        "edit": {
+          "label": "createdAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "createdAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedAt": {
+        "edit": {
+          "label": "updatedAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "updatedAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "createdBy": {
+        "edit": {
+          "label": "createdBy",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true,
+          "mainField": "firstname"
+        },
+        "list": {
+          "label": "createdBy",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedBy": {
+        "edit": {
+          "label": "updatedBy",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true,
+          "mainField": "firstname"
+        },
+        "list": {
+          "label": "updatedBy",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "edit": [
+        [
+          {
+            "name": "titolo",
+            "size": 6
+          },
+          {
+            "name": "slug",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "sottotitolo",
+            "size": 8
+          }
+        ],
+        [
+          {
+            "name": "tax_evento",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "descrizione",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "immagine",
+            "size": 6
+          },
+          {
+            "name": "showImagePreviewOnly",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "dataInizio",
+            "size": 6
+          },
+          {
+            "name": "dataFine",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "timeline",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "contenuto",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "perChi",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "argomenti",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "evento_padre",
+            "size": 6
+          },
+          {
+            "name": "eventi_figli",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "unita_organizzative",
+            "size": 6
+          },
+          {
+            "name": "partecipanti",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "galleria",
+            "size": 6
+          },
+          {
+            "name": "luoghi",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "costi",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "allegati",
+            "size": 6
+          },
+          {
+            "name": "contatti",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "patrocinio",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "sponsor",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "info",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "seo",
+            "size": 12
+          }
+        ]
+      ],
+      "list": ["immagine", "titolo", "tax_evento", "dataInizio", "dataFine"]
+    }
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

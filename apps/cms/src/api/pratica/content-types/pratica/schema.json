@@ -1,0 +1,64 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pratiche",
+  "info": {
+    "singularName": "pratica",
+    "pluralName": "pratiche",
+    "displayName": "Pratica",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titolo": {
+      "type": "string",
+      "required": true,
+      "maxLength": 255
+    },
+    "protocollo": {
+      "type": "uid",
+      "required": true,
+      "maxLength": 255
+    },
+    "unita_organizzative": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::unita-organizzativa.unita-organizzativa"
+    },
+    "servizio": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::servizio.servizio"
+    },
+    "tax_stato_pratica": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::tax-stato-pratica.tax-stato-pratica"
+    },
+    "contenuto": {
+      "type": "customField",
+      "options": {
+        "preset": "standard"
+      },
+      "required": true,
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "documenti": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::documento-pubblico.documento-pubblico"
+    },
+    "argomenti": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::argomento.argomento"
+    },
+    "documenti_privati": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::documento-privato.documento-privato"
+    }
+  }
+}

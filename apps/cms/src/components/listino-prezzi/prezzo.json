@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_listino_prezzi_prezzos",
+  "info": {
+    "displayName": "prezzo",
+    "icon": "pin"
+  },
+  "options": {},
+  "attributes": {
+    "costo": {
+      "type": "decimal",
+      "required": true
+    },
+    "titolo": {
+      "type": "string",
+      "required": true
+    },
+    "descrizione": {
+      "type": "text"
+    }
+  }
+}

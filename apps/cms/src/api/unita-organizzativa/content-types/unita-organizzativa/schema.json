@@ -1,0 +1,142 @@
+{
+  "kind": "collectionType",
+  "collectionName": "unita_organizzative",
+  "info": {
+    "singularName": "unita-organizzativa",
+    "pluralName": "unita-organizzative",
+    "displayName": "Unità Organizzativa",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titolo": {
+      "type": "string",
+      "required": true,
+      "maxLength": 255
+    },
+    "descrizione": {
+      "type": "text",
+      "required": true
+    },
+    "immagine": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "competenze": {
+      "type": "customField",
+      "options": {
+        "preset": "standard",
+        "output": "HTML"
+      },
+      "required": true,
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "info": {
+      "type": "customField",
+      "options": {
+        "preset": "standard",
+        "output": "HTML"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "tax_unita_organizzativa": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::tax-unita-organizzativa.tax-unita-organizzativa"
+    },
+    "argomenti": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::argomento.argomento"
+    },
+    "persone_componenti": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::persona.persona",
+      "mappedBy": "componente_unita_organizzative"
+    },
+    "contatti": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::contatto.contatto"
+    },
+    "unita_organizzativa_padre": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::unita-organizzativa.unita-organizzativa"
+    },
+    "sede_principale": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::luogo.luogo",
+      "mappedBy": "unita_organizzativa"
+    },
+    "sedi_secondarie": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::luogo.luogo"
+    },
+    "documenti_pubblici": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::documento-pubblico.documento-pubblico",
+      "mappedBy": "unita_organizzativa"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "titolo",
+      "required": true
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    },
+    "servizi": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::servizio.servizio",
+      "mappedBy": "unita_organizzativa_responsabile"
+    },
+    "persona_responsabile": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::persona.persona",
+      "inversedBy": "responsabile_unita_organizzative"
+    },
+    "persona_assessore": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::persona.persona",
+      "inversedBy": "assessore_unita_organizzative"
+    },
+    "orari": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "standard"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "order": {
+      "type": "integer",
+      "min": 1,
+      "unique": true
+    }
+  }
+}

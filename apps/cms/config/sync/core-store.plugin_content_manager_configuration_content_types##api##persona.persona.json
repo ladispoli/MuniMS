@@ -1,0 +1,544 @@
+{
+  "key": "plugin_content_manager_configuration_content_types::api::persona.persona",
+  "value": {
+    "uid": "api::persona.persona",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 100,
+      "mainField": "nome",
+      "defaultSortBy": "cognome",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "nome": {
+        "edit": {
+          "label": "Nome",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "nome",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "cognome": {
+        "edit": {
+          "label": "Cognome",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "cognome",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "immagine": {
+        "edit": {
+          "label": "Immagine",
+          "description": "Fotografia che ritrae il soggetto descritto nella scheda",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "immagine",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "competenze": {
+        "edit": {
+          "label": "Competenze",
+          "description": "Se Persona Politica, descrizione testuale del ruolo, comprensiva delle deleghe, oppure se Persona Amministrativa, descrizione dei compiti di cui si occupa la persona",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "competenze",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "deleghe": {
+        "edit": {
+          "label": "Deleghe",
+          "description": "Elenco delle deleghe a capo della persona",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "deleghe",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "biografia": {
+        "edit": {
+          "label": "Biografia",
+          "description": "Solo per Persona Politica: testo descrittivo che riporta la biografia della persona",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "biografia",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "galleria": {
+        "edit": {
+          "label": "Galleria",
+          "description": "Solo per Persona Politica: gallery dell'attività politica e istituzionale della persona. Una o più immagini o video corredate da didascalie",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "galleria",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "cv": {
+        "edit": {
+          "label": "Curriculum Vitae",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "cv",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "situazionePatrimoniale": {
+        "edit": {
+          "label": "Situazione patrimoniale",
+          "description": "Solo per Persona Politica: situazione patrimoniale della persona",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "situazionePatrimoniale",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "dichiarazioneRedditi": {
+        "edit": {
+          "label": "Dichiarazione dei redditi",
+          "description": "Obbligatorio per Persona che ha incarichi o cariche politiche: copia dell'ultima dichiarazione dei redditi soggetti all'imposta sui redditi delle persone fisiche Per il soggetto, il coniuge non separato e i parenti entro il secondo grado, ove gli stessi vi consentano (NB: dando eventualmente evidenza del mancato consenso) (NB: è necessario limitare, con appositi accorgimenti a cura dell'interessato o della amministrazione, la pubblicazione dei dati sensibili)",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "dichiarazioneRedditi",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "speseElettorali": {
+        "edit": {
+          "label": "Spese elettorali",
+          "description": "Obbligatorio per Persona che ha incarichi o cariche politiche:: dichiarazione concernente le spese sostenute e le obbligazioni assunte per la propaganda elettorale ovvero attestazione di essersi avvalsi esclusivamente di materiali e di mezzi propagandistici predisposti e messi a disposizione dal partito o dalla formazione politica della cui lista il soggetto ha fatto parte, con l'apposizione della formula «sul mio onore affermo che la dichiarazione corrisponde al vero» (con allegate copie delle dichiarazioni relative a finanziamenti e contributi per un importo che nell'anno superi 5.000 €)",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "speseElettorali",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "variazioniSituazionePatrimoniale": {
+        "edit": {
+          "label": "Variazioni situazione patrimoniale",
+          "description": "Obbligatorio per Persona che ha incarichi o cariche politiche: attestazione concernente le variazioni della situazione patrimoniale intervenute nell'anno precedente e copia della dichiarazione dei redditi Per il soggetto, il coniuge non separato e i parenti entro il secondo grado, ove gli stessi vi consentano (NB: dando eventualmente evidenza del mancato consenso)",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "variazioniSituazionePatrimoniale",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "altreCariche": {
+        "edit": {
+          "label": "Altre cariche",
+          "description": "Obbligatorio per Persona che ha incarichi o cariche politiche: i dati relativi all'assunzione di altre cariche, presso enti pubblici o privati, ed i relativi compensi a qualsiasi titolo corrisposti.",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "altreCariche",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "info": {
+        "edit": {
+          "label": "Ulteriori informazioni",
+          "description": "Ulteriori informazioni relative alla persona",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "info",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "contatti": {
+        "edit": {
+          "label": "Contatti",
+          "description": "Punti di contatto della persona",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "titolo"
+        },
+        "list": {
+          "label": "contatti",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "incarichi": {
+        "edit": {
+          "label": "Incarichi",
+          "description": "Collegamenti con gli incarichi",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "titolo"
+        },
+        "list": {
+          "label": "incarichi",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "responsabile_unita_organizzative": {
+        "edit": {
+          "label": "Responsabile delle unità organizzative",
+          "description": "Strutture della quali è responsabile o dirigente",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "titolo"
+        },
+        "list": {
+          "label": "responsabile_unita_organizzative",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "assessore_unita_organizzative": {
+        "edit": {
+          "label": "Assessore di riferimento delle unità organizzative",
+          "description": "Strutture della quali è assessore di riferimento",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "titolo"
+        },
+        "list": {
+          "label": "assessore_unita_organizzative",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "componente_unita_organizzative": {
+        "edit": {
+          "label": "Fa parte delle unità organizzative (componente)",
+          "description": "Strutture delle quali fa parte, è membro o impiegato presso",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "titolo"
+        },
+        "list": {
+          "label": "componente_unita_organizzative",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "nomeCompleto": {
+        "edit": {
+          "label": "Nome completo",
+          "description": "questo campo viene modificato automaticamente al salvataggio",
+          "placeholder": "",
+          "visible": true,
+          "editable": false
+        },
+        "list": {
+          "label": "nomeCompleto",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "slug": {
+        "edit": {
+          "label": "slug",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "slug",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "seo": {
+        "edit": {
+          "label": "seo",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "seo",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "funzione": {
+        "edit": {
+          "label": "Funzione",
+          "description": "La funziona amministrativa o l'incarico sostenuto dalla persona pubblica. Funge da sottotitolo nella pagina della persona, per indicare l'incarico principale/il ruolo che identifica la persona stessa. Inserire \"Consigliere di Maggioranza\" o \"Consigliere di Minoranza\" per assegnare la persona ad uno dei due gruppi consiliari, in questo caso la persona 'Fa parte dell'unita organizzativa': \"Consiglio comunale\"",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "funzione",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "createdAt": {
+        "edit": {
+          "label": "createdAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "createdAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedAt": {
+        "edit": {
+          "label": "updatedAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "updatedAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "createdBy": {
+        "edit": {
+          "label": "createdBy",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true,
+          "mainField": "firstname"
+        },
+        "list": {
+          "label": "createdBy",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedBy": {
+        "edit": {
+          "label": "updatedBy",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true,
+          "mainField": "firstname"
+        },
+        "list": {
+          "label": "updatedBy",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "edit": [
+        [
+          {
+            "name": "nome",
+            "size": 6
+          },
+          {
+            "name": "cognome",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "slug",
+            "size": 6
+          },
+          {
+            "name": "nomeCompleto",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "immagine",
+            "size": 6
+          },
+          {
+            "name": "galleria",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "contatti",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "funzione",
+            "size": 8
+          }
+        ],
+        [
+          {
+            "name": "incarichi",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "responsabile_unita_organizzative",
+            "size": 6
+          },
+          {
+            "name": "assessore_unita_organizzative",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "componente_unita_organizzative",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "competenze",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "deleghe",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "biografia",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "situazionePatrimoniale",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "cv",
+            "size": 8
+          }
+        ],
+        [
+          {
+            "name": "dichiarazioneRedditi",
+            "size": 6
+          },
+          {
+            "name": "speseElettorali",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "variazioniSituazionePatrimoniale",
+            "size": 6
+          },
+          {
+            "name": "altreCariche",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "info",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "seo",
+            "size": 12
+          }
+        ]
+      ],
+      "list": ["immagine", "cognome", "nome", "incarichi"]
+    }
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

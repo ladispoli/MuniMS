@@ -1,0 +1,750 @@
+{
+  "key": "plugin_content_manager_configuration_content_types::api::servizio.servizio",
+  "value": {
+    "uid": "api::servizio.servizio",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 100,
+      "mainField": "titolo",
+      "defaultSortBy": "titolo",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "tax_servizio": {
+        "edit": {
+          "label": "Categoria del servizio",
+          "description": "Le materie di interesse del servizio",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "tassonomia"
+        },
+        "list": {
+          "label": "tassonomia",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "titolo": {
+        "edit": {
+          "label": "Titolo",
+          "description": "Nome del Servizio. Il nome del Servizio deve essere facilmente comprensibile dai cittadini. Il Servizio di raccolta differenziata si chiamerà \"Raccolta differenziata\". Il Servizio di iscrizione all'asilo nido si chiamerà \"Iscrizione asilo nido\".",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "titolo",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "attivo": {
+        "edit": {
+          "label": "Stato (il servizio è attivo)",
+          "description": "Lo stato del servizio indica l’effettiva fruibilità del Servizio",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "attivo",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "stato": {
+        "edit": {
+          "label": "Motivo dello stato",
+          "description": "Descrizione testuale del motivo per cui un servizio NON E' ATTIVO. Es. Servizio momentaneamente disattivato perché....Servizio attivo dal...",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "stato",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "sottotitolo": {
+        "edit": {
+          "label": "Sottotitolo",
+          "description": "Eventuale sottotitolo del Servizio, oppure un nome che identifica informalmente il Servizio. Ad esempio il Servizio \"Sistema Unico di Segnalazioni\" potrebbe avere come sottotitolo/titolo alternativo \"IoSegnalo\".",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "sottotitolo",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "immagine": {
+        "edit": {
+          "label": "Immagine",
+          "description": "Immagine principale del[la notizia]+servizio+ che presumibilmente sarà in evidenza",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "immagine",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "descrizione": {
+        "edit": {
+          "label": "Descrizione breve",
+          "description": "Indicare una sintetica descrizione del Servizio (max 160 caratteri) utilizzando un linguaggio semplice che possa aiutare qualsiasi utente a identificare con chiarezza il Servizio. Non utilizzare un linguaggio ricco di riferimenti normativi.",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "descrizione",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "perChi": {
+        "edit": {
+          "label": "A chi è rivolto",
+          "description": "Descrizione testuale dei principali interlocutori del Servizio",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "perChi",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "contenuto": {
+        "edit": {
+          "label": "Descrizione estesa",
+          "description": "Descrizione estesa e completa del Servizio",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "contenuto",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "zona": {
+        "edit": {
+          "label": "Copertura geografica",
+          "description": "Eventuale area geografica a cui il servizio si riferisce. Ad esempio le zone coperte da ZTL",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "zona",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "comeUsufruire": {
+        "edit": {
+          "label": "Come fare",
+          "description": "Procedura da seguire per usufruire del Servizio",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "comeUsufruire",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "cosaServe": {
+        "edit": {
+          "label": "Cosa serve",
+          "description": "Elenco delle cose necessarie per attivare il Servizio. (Documenti necessari, o altro) con le relative istruzioni all'uso ed eventuale link di approfondimento",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "cosaServe",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "siOttiene": {
+        "edit": {
+          "label": "Cosa si ottiene",
+          "description": "Uno o più output prodotti dal servizio. Ad es.: \"certificato di residenza\", o \"carta d'identità Tipologia elettronica\"",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "siOttiene",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "procedureEsito": {
+        "edit": {
+          "label": "Procedure collegate all'esito",
+          "description": "Spiegazione relativa all'esito della procedura, e dove eventualmente ritirare l'esito (sede dell'ufficio, orari, numero sportello, etc.)",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "procedureEsito",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "accessoDigitale": {
+        "edit": {
+          "label": "Accesso online (canale digitale)",
+          "description": "Link per avviare la procedura di attivazione del servizio. Questo campo mette in relazione \"Servizio\" con il suo canale digitale di attivazione. ",
+          "placeholder": "https://... o /...",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "accessoDigitale",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "prenotaAppuntamento": {
+        "edit": {
+          "label": "Prenotazione appuntamento",
+          "description": "Link alla funzione di prenotazione appuntamento, se disponibile.",
+          "placeholder": "https://... o /...",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "prenotaAppuntamento",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "vincoli": {
+        "edit": {
+          "label": "Vincoli",
+          "description": "Eventuali vincoli all'accesso al servizio. Ad esempio: non è possibile rinnovare la carta idTipologia x mesi prima della scadenza.",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "vincoli",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "casiParticolari": {
+        "edit": {
+          "label": "Casi particolari",
+          "description": "Elenco di eventuali casi particolari riferiti all'ottenimento del Servizio in questione. Ad esempio le persone con disabilità (legge 104) possono contattare direttamente l'ufficio e concordare una procedura di rinnovo a domicilio",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "casiParticolari",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "info": {
+        "edit": {
+          "label": "Ulteriori informazioni",
+          "description": "Eventuali link a pagine web, siti, servizi esterni all'ambito comunale utili all'erogazione del servizio descritto. Ad esempio nella pagina servizio \"Carta di IdTipologia Elettronica\", potrebbe essere utile inserire in questo campo un link al Ministero dell'Interno.",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "info",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "fileCondizioni": {
+        "edit": {
+          "label": "Condizioni di servizio",
+          "description": "File allegato con tutte le condizioni di servizio, incluse eventuali tempi di risposta e obblighi da parte dell'amministrazione comunale.",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "fileCondizioni",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "contatti": {
+        "edit": {
+          "label": "Contatti",
+          "description": "I contatti per il servizio",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "titolo"
+        },
+        "list": {
+          "label": "contatti",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "unita_organizzativa_responsabile": {
+        "edit": {
+          "label": "Unità Organizzativa responsabile",
+          "description": "Ufficio responsabile dell'erogazione di questo Servizio.",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "titolo"
+        },
+        "list": {
+          "label": "unita_organizzativa_responsabile",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "documenti": {
+        "edit": {
+          "label": "Documenti",
+          "description": "Link alle schede documenti non funzionali al completamento del servizi, ma di semplice supporto",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "titolo"
+        },
+        "list": {
+          "label": "documenti",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "argomenti": {
+        "edit": {
+          "label": "Argomenti (tag)",
+          "description": "Argomenti collegabili",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "nome"
+        },
+        "list": {
+          "label": "argomenti",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "tax_eventi_persone": {
+        "edit": {
+          "label": "Eventi della vita delle persone",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "tassonomia"
+        },
+        "list": {
+          "label": "tax_eventi_persone",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "tax_eventi_imprese": {
+        "edit": {
+          "label": "Eventi della vita delle imprese",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "tassonomia"
+        },
+        "list": {
+          "label": "tax_eventi_imprese",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "codiceIpa": {
+        "edit": {
+          "label": "Codice dell’Ente erogatore (ipa)",
+          "description": "Il nome dell’organizzazione, come indicato nell’Indice della Pubblica Amministrazione (IPA), che esercita uno specifico ruolo sul Servizio.",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "codiceIpa",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "classificazione": {
+        "edit": {
+          "label": "Settore merceologico",
+          "description": "Classificazione del servizio basata su catalogo dei servizi (Classificazione NACE)",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "classificazione",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "slug": {
+        "edit": {
+          "label": "slug",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "slug",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "accessoFisico": {
+        "edit": {
+          "label": "Accesso di persona (canale fisico)",
+          "description": "Per servizio disponibile a sportello, includere le informazioni sulla sede in cui è possibile fruire dello stesso.",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "accessoFisico",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "timeline": {
+        "edit": {
+          "label": "Tempi e scadenze",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "timeline",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "costi": {
+        "edit": {
+          "label": "Costi",
+          "description": "Condizioni e termini economici per compleare la procedura di richiesta del Servizio. Ad es. il rinnovo della carta d'idTipologia ha un costo di euro X.",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "costi",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "seo": {
+        "edit": {
+          "label": "seo",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "seo",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "createdAt": {
+        "edit": {
+          "label": "createdAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "createdAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedAt": {
+        "edit": {
+          "label": "updatedAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "updatedAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "createdBy": {
+        "edit": {
+          "label": "createdBy",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true,
+          "mainField": "firstname"
+        },
+        "list": {
+          "label": "createdBy",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedBy": {
+        "edit": {
+          "label": "updatedBy",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true,
+          "mainField": "firstname"
+        },
+        "list": {
+          "label": "updatedBy",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": ["titolo", "tax_servizio", "attivo", "createdBy"],
+      "edit": [
+        [
+          {
+            "name": "tax_servizio",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "titolo",
+            "size": 6
+          },
+          {
+            "name": "slug",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "sottotitolo",
+            "size": 8
+          }
+        ],
+        [
+          {
+            "name": "attivo",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "stato",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "descrizione",
+            "size": 6
+          },
+          {
+            "name": "immagine",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "perChi",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "contenuto",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "zona",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "comeUsufruire",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "cosaServe",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "siOttiene",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "timeline",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "costi",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "procedureEsito",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "accessoFisico",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "accessoDigitale",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "prenotaAppuntamento",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "vincoli",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "casiParticolari",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "info",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "contatti",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "unita_organizzativa_responsabile",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "fileCondizioni",
+            "size": 6
+          },
+          {
+            "name": "documenti",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "argomenti",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "tax_eventi_persone",
+            "size": 6
+          },
+          {
+            "name": "tax_eventi_imprese",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "codiceIpa",
+            "size": 8
+          }
+        ],
+        [
+          {
+            "name": "classificazione",
+            "size": 8
+          }
+        ],
+        [
+          {
+            "name": "seo",
+            "size": 12
+          }
+        ]
+      ]
+    }
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

@@ -1,0 +1,56 @@
+[
+  {
+    "vocabolario": null,
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Processo non avviato"
+  },
+  {
+    "vocabolario": null,
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Processo non avviato > In bozza"
+  },
+  {
+    "vocabolario": null,
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Processo in corso"
+  },
+  {
+    "vocabolario": null,
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Processo sospeso"
+  },
+  {
+    "vocabolario": null,
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Processo in sospeso > Si richiede un’azione da parte dell’utente"
+  },
+  {
+    "vocabolario": null,
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Processo in sospeso > Si richiede un'azione da parte della Pubblica Amministrazione"
+  },
+  {
+    "vocabolario": null,
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Processo concluso"
+  },
+  {
+    "vocabolario": null,
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Processo concluso > Esito positivo"
+  },
+  {
+    "vocabolario": null,
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Processo concluso > Esito negativo"
+  }
+]

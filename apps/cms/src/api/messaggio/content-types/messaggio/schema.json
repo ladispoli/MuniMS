@@ -1,0 +1,55 @@
+{
+  "kind": "collectionType",
+  "collectionName": "messaggi",
+  "info": {
+    "singularName": "messaggio",
+    "pluralName": "messaggi",
+    "displayName": "Messaggio"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titolo": {
+      "type": "string",
+      "required": true,
+      "maxLength": 255
+    },
+    "data": {
+      "type": "datetime",
+      "required": true
+    },
+    "contenuto": {
+      "type": "customField",
+      "options": {
+        "preset": "standard"
+      },
+      "required": true,
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "pratica": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::pratica.pratica"
+    },
+    "servizio": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::servizio.servizio"
+    },
+    "dataScadenza": {
+      "type": "datetime"
+    },
+    "documenti": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::documento-pubblico.documento-pubblico"
+    },
+    "documenti_privati": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::documento-privato.documento-privato"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+	"name": "munims",
+	"description": "MuniMS (Municipality Management System). A CMS for Public Administrations and Municipalities",
+	"version": "1.0.0",
+	"author": {
+		"name": "Ladispoli"
+	},
+	"scripts": {
+		"install-all": "concurrently \"cd ./apps/cms && yarn install\" \"cd ./apps/frontend && pnpm install\"",
+		"build": "concurrently \"npm run build --prefix ./apps/cms\" \"npm run dev --prefix ./apps/frontend\"",
+		"dev": "concurrently \"npm run dev --prefix ./apps/search\" \"npm run dev --prefix ./apps/cms\" \"npm run dev --prefix ./apps/frontend\""
+	},
+	"devDependencies": {
+		"concurrently": "^6.5.1"
+	},
+	"volta": {
+		"node": "18.16.0"
+	}
+}

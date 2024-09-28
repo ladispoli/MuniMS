@@ -1,0 +1,169 @@
+{
+  "kind": "collectionType",
+  "collectionName": "persone",
+  "info": {
+    "singularName": "persona",
+    "pluralName": "persone",
+    "displayName": "Persona Pubblica",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nome": {
+      "type": "string",
+      "maxLength": 255,
+      "required": true
+    },
+    "cognome": {
+      "type": "string",
+      "required": true,
+      "maxLength": 255
+    },
+    "immagine": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "competenze": {
+      "type": "customField",
+      "options": {
+        "preset": "standard"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "deleghe": {
+      "type": "customField",
+      "options": {
+        "preset": "standard"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "biografia": {
+      "type": "customField",
+      "options": {
+        "preset": "standard"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "galleria": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "videos"
+      ]
+    },
+    "cv": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "files"
+      ]
+    },
+    "situazionePatrimoniale": {
+      "type": "customField",
+      "options": {
+        "preset": "standard"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "dichiarazioneRedditi": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "files"
+      ]
+    },
+    "speseElettorali": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "files"
+      ]
+    },
+    "variazioniSituazionePatrimoniale": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "altreCariche": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "files"
+      ]
+    },
+    "info": {
+      "type": "customField",
+      "options": {
+        "preset": "standard"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "contatti": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::contatto.contatto",
+      "mappedBy": "persona"
+    },
+    "incarichi": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::incarico.incarico",
+      "mappedBy": "persona"
+    },
+    "responsabile_unita_organizzative": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::unita-organizzativa.unita-organizzativa",
+      "mappedBy": "persona_responsabile"
+    },
+    "assessore_unita_organizzative": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::unita-organizzativa.unita-organizzativa",
+      "mappedBy": "persona_assessore"
+    },
+    "componente_unita_organizzative": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::unita-organizzativa.unita-organizzativa",
+      "inversedBy": "persone_componenti"
+    },
+    "nomeCompleto": {
+      "type": "string",
+      "private": true,
+      "required": false
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "nomeCompleto",
+      "required": true
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    },
+    "funzione": {
+      "type": "string"
+    }
+  }
+}

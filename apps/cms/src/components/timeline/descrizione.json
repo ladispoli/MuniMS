@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_timeline_descriziones",
+  "info": {
+    "displayName": "contenuto",
+    "icon": "bulletList",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "contenuto": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "rich"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "date": {
+      "type": "component",
+      "repeatable": true,
+      "component": "timeline.data"
+    },
+    "periodi": {
+      "type": "component",
+      "repeatable": true,
+      "component": "timeline.periodo"
+    }
+  }
+}

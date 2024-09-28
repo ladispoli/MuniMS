@@ -1,0 +1,50 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tax_stati_pratiche",
+  "info": {
+    "singularName": "tax-stato-pratica",
+    "pluralName": "tax-stati-pratiche",
+    "displayName": "Tassonomia - Stato Pratica",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {
+    "import-export-entries": {
+      "idField": "slug"
+    }
+  },
+  "attributes": {
+    "tassonomia": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "slug": {
+      "type": "string"
+    },
+    "nome": {
+      "type": "string"
+    },
+    "slugNome": {
+      "type": "string"
+    },
+    "livello": {
+      "type": "integer",
+      "default": 1,
+      "min": 1
+    },
+    "vocabolario": {
+      "type": "string",
+      "regex": "^https?:\\/\\/(?:www\\.)?[-a-zA-Z0-9@:%._\\+~#=]{1,256}\\.[a-zA-Z0-9()]{1,6}\\b(?:[-a-zA-Z0-9()@:%_\\+.~#?&\\/=]*)$"
+    },
+    "note": {
+      "type": "text"
+    },
+    "disabilitato": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

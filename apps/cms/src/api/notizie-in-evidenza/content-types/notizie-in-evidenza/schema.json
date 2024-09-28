@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "notizie_in_evidenza_collection",
+  "info": {
+    "singularName": "notizie-in-evidenza",
+    "pluralName": "notizie-in-evidenza-collection",
+    "displayName": "Notizie in evidenza",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "notizie": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::notizia.notizia"
+    },
+    "mostraSoloInHomepage": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

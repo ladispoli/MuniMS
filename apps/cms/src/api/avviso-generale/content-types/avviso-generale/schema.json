@@ -1,0 +1,29 @@
+{
+  "kind": "singleType",
+  "collectionName": "avvisi_generali",
+  "info": {
+    "singularName": "avviso-generale",
+    "pluralName": "avvisi-generali",
+    "displayName": "Avviso generale"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "contenuto": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "standard",
+        "maxLengthCharacters": 300
+      },
+      "required": false,
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "attivo": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    }
+  }
+}

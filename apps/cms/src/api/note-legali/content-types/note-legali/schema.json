@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "note_legali_pages",
+  "info": {
+    "singularName": "note-legali",
+    "pluralName": "note-legali-pages",
+    "displayName": "Note legali",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "contenuto": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "standard"
+      },
+      "required": true,
+      "customField": "plugin::ckeditor.CKEditor"
+    }
+  }
+}

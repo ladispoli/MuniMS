@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contatti",
+  "info": {
+    "singularName": "contatto",
+    "pluralName": "contatti",
+    "displayName": "Punto di Contatto",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titolo": {
+      "type": "string",
+      "required": true
+    },
+    "valori": {
+      "type": "dynamiczone",
+      "components": [
+        "contatti.email",
+        "contatti.link",
+        "contatti.telefono"
+      ],
+      "required": true
+    },
+    "persona": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::persona.persona",
+      "inversedBy": "contatti"
+    }
+  }
+}

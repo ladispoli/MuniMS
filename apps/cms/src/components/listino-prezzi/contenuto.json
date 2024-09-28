@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_listino_prezzi_contenutos",
+  "info": {
+    "displayName": "contenuto",
+    "icon": "bulletList",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "contenuto": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "rich"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "prezzi": {
+      "displayName": "prezzo",
+      "type": "component",
+      "repeatable": true,
+      "component": "listino-prezzi.prezzo"
+    }
+  }
+}

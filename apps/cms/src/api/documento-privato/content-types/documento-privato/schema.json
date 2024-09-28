@@ -1,0 +1,140 @@
+{
+  "kind": "collectionType",
+  "collectionName": "documenti_privati",
+  "info": {
+    "singularName": "documento-privato",
+    "pluralName": "documenti-privati",
+    "displayName": "Documento Privato",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nomeIdentificativo": {
+      "type": "string",
+      "required": true,
+      "unique": true,
+      "private": true
+    },
+    "titolo": {
+      "type": "string",
+      "required": true,
+      "maxLength": 255
+    },
+    "protocollo": {
+      "type": "uid",
+      "maxLength": 255
+    },
+    "data": {
+      "type": "datetime",
+      "required": true
+    },
+    "immagine": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "pratica": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::pratica.pratica"
+    },
+    "servizio": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::servizio.servizio"
+    },
+    "argomenti": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::argomento.argomento"
+    },
+    "descrizione": {
+      "type": "text",
+      "required": true
+    },
+    "contenuto": {
+      "type": "customField",
+      "options": {
+        "preset": "standard"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "files": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "files"
+      ]
+    },
+    "galleria": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "videos"
+      ]
+    },
+    "unita_organizzativa": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::unita-organizzativa.unita-organizzativa"
+    },
+    "autore": {
+      "type": "customField",
+      "options": {
+        "preset": "standard"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "tax_licenza": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::tax-licenza.tax-licenza"
+    },
+    "info": {
+      "type": "customField",
+      "options": {
+        "preset": "standard"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "riferimenti": {
+      "type": "customField",
+      "options": {
+        "preset": "standard"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "documenti_correlati": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::documento-pubblico.documento-pubblico"
+    },
+    "tax_eventi_persone": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::tax-evento-persona.tax-evento-persona"
+    },
+    "tax_eventi_imprese": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::tax-evento-impresa.tax-evento-impresa"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "titolo",
+      "required": true
+    }
+  }
+}

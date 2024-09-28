@@ -1,0 +1,292 @@
+[
+  {
+    "nome": "Accesso all'informazione",
+    "vocabolario": "http://eurovoc.europa.eu/453",
+    "slug": "accesso-all-informazione"
+  },
+  {
+    "nome": "Acqua",
+    "vocabolario": "http://eurovoc.europa.eu/c_98d1408a",
+    "slug": "acqua"
+  },
+  {
+    "nome": "Agricoltura",
+    "vocabolario": "http://eurovoc.europa.eu/100245",
+    "slug": "agricoltura"
+  },
+  {
+    "nome": "Animale domestico",
+    "vocabolario": "http://eurovoc.europa.eu/1919",
+    "slug": "animale-domestico"
+  },
+  {
+    "nome": "Aria",
+    "vocabolario": "http://eurovoc.europa.eu/3967",
+    "slug": "aria"
+  },
+  {
+    "nome": "Assistenza agli invalidi",
+    "vocabolario": "http://eurovoc.europa.eu/4209",
+    "slug": "assistenza-agli-invalidi"
+  },
+  {
+    "nome": "Assistenza sociale",
+    "vocabolario": "http://eurovoc.europa.eu/3357",
+    "slug": "assistenza-sociale"
+  },
+  {
+    "nome": "Associazioni",
+    "vocabolario": "http://eurovoc.europa.eu/2944",
+    "slug": "associazioni"
+  },
+  {
+    "nome": "Bilancio",
+    "vocabolario": "http://eurovoc.europa.eu/5050",
+    "slug": "bilancio"
+  },
+  {
+    "nome": "Commercio all'ingrosso",
+    "vocabolario": "http://eurovoc.europa.eu/6",
+    "slug": "commercio-all-ingrosso"
+  },
+  {
+    "nome": "Commercio al minuto",
+    "vocabolario": "http://eurovoc.europa.eu/5",
+    "slug": "commercio-al-minuto"
+  },
+  {
+    "nome": "Commercio ambulante",
+    "vocabolario": "http://eurovoc.europa.eu/3213",
+    "slug": "commercio-ambulante"
+  },
+  {
+    "nome": "Comunicazione istituzionale",
+    "vocabolario": "http://eurovoc.europa.eu/3255",
+    "slug": "comunicazione-istituzionale"
+  },
+  {
+    "nome": "Comunicazione politica",
+    "vocabolario": "http://eurovoc.europa.eu/c_9eea2203",
+    "slug": "comunicazione-politica"
+  },
+  {
+    "nome": "Concorsi",
+    "vocabolario": "http://eurovoc.europa.eu/4090",
+    "slug": "concorsi"
+  },
+  {
+    "nome": "Covid-19",
+    "vocabolario": "http://eurovoc.europa.eu/c_814bb9e4",
+    "slug": "covid-19"
+  },
+  {
+    "nome": "Elezioni",
+    "vocabolario": "http://eurovoc.europa.eu/695",
+    "slug": "elezioni"
+  },
+  {
+    "nome": "Energie rinnovabili",
+    "vocabolario": "http://eurovoc.europa.eu/754",
+    "slug": "energie-rinnovabili"
+  },
+  {
+    "nome": "Estero",
+    "vocabolario": "http://eurovoc.europa.eu/100143",
+    "slug": "estero"
+  },
+  {
+    "nome": "Formazione professionale",
+    "vocabolario": "http://eurovoc.europa.eu/1074",
+    "slug": "formazione-professionale"
+  },
+  {
+    "nome": "Gemellaggi",
+    "vocabolario": "http://eurovoc.europa.eu/5323",
+    "slug": "gemellaggi"
+  },
+  {
+    "nome": "Gestione rifiuti",
+    "vocabolario": "http://eurovoc.europa.eu/1158",
+    "slug": "gestione-rifiuti"
+  },
+  {
+    "nome": "Giustizia",
+    "vocabolario": "http://eurovoc.europa.eu/100181",
+    "slug": "giustizia"
+  },
+  {
+    "nome": "Igiene pubblica",
+    "vocabolario": "http://eurovoc.europa.eu/3371",
+    "slug": "igiene-pubblica"
+  },
+  {
+    "nome": "Immigrazione",
+    "vocabolario": "http://eurovoc.europa.eu/1302",
+    "slug": "immigrazione"
+  },
+  {
+    "nome": "Imposte",
+    "vocabolario": "http://eurovoc.europa.eu/1310",
+    "slug": "imposte"
+  },
+  {
+    "nome": "Imprese",
+    "vocabolario": "http://eurovoc.europa.eu/813",
+    "slug": "imprese"
+  },
+  {
+    "nome": "Inquinamento",
+    "vocabolario": "http://eurovoc.europa.eu/2524",
+    "slug": "inquinamento"
+  },
+  {
+    "nome": "Integrazione sociale",
+    "vocabolario": "http://eurovoc.europa.eu/1469",
+    "slug": "integrazione-sociale"
+  },
+  {
+    "nome": "Isolamento termico",
+    "vocabolario": "http://eurovoc.europa.eu/1516",
+    "slug": "isolamento-termico"
+  },
+  {
+    "nome": "Istruzione",
+    "vocabolario": "http://eurovoc.europa.eu/668",
+    "slug": "istruzione"
+  },
+  {
+    "nome": "Mercato",
+    "vocabolario": "http://eurovoc.europa.eu/1786",
+    "slug": "mercato"
+  },
+  {
+    "nome": "Mobilità sostenibile",
+    "vocabolario": "http://eurovoc.europa.eu/6850",
+    "slug": "mobilita-sostenibile"
+  },
+  {
+    "nome": "Morte",
+    "vocabolario": "http://eurovoc.europa.eu/5291",
+    "slug": "morte"
+  },
+  {
+    "nome": "Nascita",
+    "vocabolario": "http://eurovoc.europa.eu/2029",
+    "slug": "nascita"
+  },
+  {
+    "nome": "Parcheggi",
+    "vocabolario": "http://eurovoc.europa.eu/5429",
+    "slug": "parcheggi"
+  },
+  {
+    "nome": "Patrimonio culturale",
+    "vocabolario": "http://eurovoc.europa.eu/2278",
+    "slug": "patrimonio-culturale"
+  },
+  {
+    "nome": "Pesca",
+    "vocabolario": "http://eurovoc.europa.eu/100252",
+    "slug": "pesca"
+  },
+  {
+    "nome": "Piano di sviluppo",
+    "vocabolario": "http://eurovoc.europa.eu/2393",
+    "slug": "piano-di-sviluppo"
+  },
+  {
+    "nome": "Pista ciclabile",
+    "vocabolario": "http://eurovoc.europa.eu/2385",
+    "slug": "pista-ciclabile"
+  },
+  {
+    "nome": "Politica commerciale",
+    "vocabolario": "http://eurovoc.europa.eu/2449",
+    "slug": "politica-commerciale"
+  },
+  {
+    "nome": "Polizia",
+    "vocabolario": "http://eurovoc.europa.eu/2440",
+    "slug": "polizia"
+  },
+  {
+    "nome": "Prodotti alimentari",
+    "vocabolario": "http://eurovoc.europa.eu/100257",
+    "slug": "prodotti-alimentari"
+  },
+  {
+    "nome": "Protezione civile",
+    "vocabolario": "http://eurovoc.europa.eu/3057",
+    "slug": "protezione-civile"
+  },
+  {
+    "nome": "Residenza",
+    "vocabolario": "http://eurovoc.europa.eu/3460",
+    "slug": "residenza"
+  },
+  {
+    "nome": "Risposta alle emergenze",
+    "vocabolario": "http://data.europa.eu/uxp/det_39",
+    "slug": "risposta-alle-emergenze"
+  },
+  {
+    "nome": "Sistema giuridico",
+    "vocabolario": "http://eurovoc.europa.eu/100145",
+    "slug": "sistema-giuridico"
+  },
+  {
+    "nome": "Spazio Verde",
+    "vocabolario": "http://eurovoc.europa.eu/861",
+    "slug": "spazio-verde"
+  },
+  {
+    "nome": "Sport",
+    "vocabolario": "http://eurovoc.europa.eu/4245",
+    "slug": "sport"
+  },
+  {
+    "nome": "Sviluppo sostenibile",
+    "vocabolario": "http://eurovoc.europa.eu/100216",
+    "slug": "sviluppo-sostenibile"
+  },
+  {
+    "nome": "Tassa sui servizi",
+    "vocabolario": "http://eurovoc.europa.eu/1317",
+    "slug": "tassa-sui-servizi"
+  },
+  {
+    "nome": "Trasparenza amministrativa",
+    "vocabolario": "http://eurovoc.europa.eu/5936",
+    "slug": "trasparenza-amministrativa"
+  },
+  {
+    "nome": "Trasporto pubblico",
+    "vocabolario": "http://eurovoc.europa.eu/4512",
+    "slug": "trasporto-pubblico"
+  },
+  {
+    "nome": "Turismo",
+    "vocabolario": "http://publications.europa.eu/resource/authority/subject-matter/TOUR",
+    "slug": "turismo"
+  },
+  {
+    "nome": "Urbanizzazione",
+    "vocabolario": "http://eurovoc.europa.eu/4618",
+    "slug": "urbanizzazione"
+  },
+  {
+    "nome": "Viaggi",
+    "vocabolario": "http://eurovoc.europa.eu/4767",
+    "slug": "viaggi"
+  },
+  {
+    "nome": "Zone pedonali",
+    "vocabolario": "http://eurovoc.europa.eu/4799",
+    "slug": "zone-pedonali"
+  },
+  {
+    "nome": "ZTL",
+    "vocabolario": "http://eurovoc.europa.eu/3107",
+    "slug": "ztl"
+  }
+]

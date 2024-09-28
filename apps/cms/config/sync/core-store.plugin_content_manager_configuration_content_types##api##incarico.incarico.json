@@ -1,0 +1,349 @@
+{
+  "key": "plugin_content_manager_configuration_content_types::api::incarico.incarico",
+  "value": {
+    "uid": "api::incarico.incarico",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 100,
+      "mainField": "titolo",
+      "defaultSortBy": "titolo",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "titolo": {
+        "edit": {
+          "label": "Titolo carica o incarico",
+          "description": "Descrizione testuale della carica o incarico/ruolo (Es. Consigliere con delega alla innovazione, Presidente del Consiglio Comunale, direttore sistemi informativi)",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Titolo",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "compensi": {
+        "edit": {
+          "label": "Compensi",
+          "description": "Solo per incarico politico: compensi di qualsiasi natura connessi all'assunzione della carica",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "compensi",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "importi": {
+        "edit": {
+          "label": "Importi di viaggio e/o servizio",
+          "description": "Solo per incarico politico: importi di viaggi di servizio e missioni pagati con fondi pubblici",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "importi",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "dataInizio": {
+        "edit": {
+          "label": "Data inizio incarico",
+          "description": "Data di inizio dell'incarico (aggiornare se la cambia la persona)",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Data inizio",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "dataFine": {
+        "edit": {
+          "label": "Data conclusione incarico",
+          "description": "Data in cui termina l'incarico o la carica (aggiornare se cambia la persona)",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Data fine",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "dataInsediamento": {
+        "edit": {
+          "label": "Data insediamento",
+          "description": "Solo per incarichi politici: specificare la data di insediamento (aggiornare se cambia la persona)",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "dataInsediamento",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "info": {
+        "edit": {
+          "label": "Ulteriori informazioni",
+          "description": "Ulteriori informazioni relative all'incarico",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "info",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "tax_incarico": {
+        "edit": {
+          "label": "Tipo di incarico",
+          "description": "Classificazione dei tipi di incarico",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "tassonomia"
+        },
+        "list": {
+          "label": "Tipo",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "persona": {
+        "edit": {
+          "label": "Persona",
+          "description": "La persona che ha la carica e l'incarico",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "nomeCompleto"
+        },
+        "list": {
+          "label": "Persona",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "unita_organizzativa": {
+        "edit": {
+          "label": "Unità organizzativa",
+          "description": "L'organizzazione o struttura presso la quale viene svolto l'incarico. Se è un'incarico di \"Assessore\" specificare \"GIunta Comunale\" qui.",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "titolo"
+        },
+        "list": {
+          "label": "unita_organizzativa",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "atto_nomina": {
+        "edit": {
+          "label": "Atto di nomina (documento pubblico)",
+          "description": "Inserire riferimento all'atto di nomina della persona (aggiornare se cambia la persona)",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "titolo"
+        },
+        "list": {
+          "label": "atto_nomina",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "slug": {
+        "edit": {
+          "label": "slug",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "slug",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "seo": {
+        "edit": {
+          "label": "seo",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "seo",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "createdAt": {
+        "edit": {
+          "label": "createdAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "createdAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedAt": {
+        "edit": {
+          "label": "updatedAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "updatedAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "createdBy": {
+        "edit": {
+          "label": "createdBy",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true,
+          "mainField": "firstname"
+        },
+        "list": {
+          "label": "createdBy",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedBy": {
+        "edit": {
+          "label": "updatedBy",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true,
+          "mainField": "firstname"
+        },
+        "list": {
+          "label": "updatedBy",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": ["titolo", "persona", "dataInizio", "dataFine", "tax_incarico"],
+      "edit": [
+        [
+          {
+            "name": "titolo",
+            "size": 8
+          }
+        ],
+        [
+          {
+            "name": "slug",
+            "size": 8
+          }
+        ],
+        [
+          {
+            "name": "tax_incarico",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "persona",
+            "size": 6
+          },
+          {
+            "name": "unita_organizzativa",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "dataInizio",
+            "size": 6
+          },
+          {
+            "name": "dataFine",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "dataInsediamento",
+            "size": 6
+          },
+          {
+            "name": "atto_nomina",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "compensi",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "importi",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "info",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "seo",
+            "size": 12
+          }
+        ]
+      ]
+    }
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

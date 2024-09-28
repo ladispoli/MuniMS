@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_timeline_data",
+  "info": {
+    "displayName": "data",
+    "icon": "calendar",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "data": {
+      "type": "date",
+      "required": true
+    },
+    "orario": {
+      "type": "time"
+    },
+    "titolo": {
+      "type": "string",
+      "required": true
+    },
+    "descrizione": {
+      "type": "text"
+    }
+  }
+}

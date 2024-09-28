@@ -1,0 +1,220 @@
+{
+  "name": "Public",
+  "description": "Default role given to unauthenticated user.",
+  "type": "public",
+  "permissions": [
+    {
+      "action": "api::argomento.argomento.find"
+    },
+    {
+      "action": "api::argomento.argomento.findOne"
+    },
+    {
+      "action": "api::avviso-generale.avviso-generale.find"
+    },
+    {
+      "action": "api::comune.comune.findComuni"
+    },
+    {
+      "action": "api::comune.comune.findProvince"
+    },
+    {
+      "action": "api::comune.comune.findRegioni"
+    },
+    {
+      "action": "api::contatto.contatto.find"
+    },
+    {
+      "action": "api::contatto.contatto.findOne"
+    },
+    {
+      "action": "api::dataset.dataset.find"
+    },
+    {
+      "action": "api::dataset.dataset.findOne"
+    },
+    {
+      "action": "api::documenti-in-evidenza.documenti-in-evidenza.find"
+    },
+    {
+      "action": "api::documento-pubblico.documento-pubblico.find"
+    },
+    {
+      "action": "api::documento-pubblico.documento-pubblico.findOne"
+    },
+    {
+      "action": "api::eventi-in-evidenza.eventi-in-evidenza.find"
+    },
+    {
+      "action": "api::evento.evento.find"
+    },
+    {
+      "action": "api::evento.evento.findOne"
+    },
+    {
+      "action": "api::faq.faq.find"
+    },
+    {
+      "action": "api::homepage.homepage.find"
+    },
+    {
+      "action": "api::impostazioni.impostazioni.find"
+    },
+    {
+      "action": "api::incarico.incarico.find"
+    },
+    {
+      "action": "api::incarico.incarico.findOne"
+    },
+    {
+      "action": "api::luoghi-in-evidenza.luoghi-in-evidenza.find"
+    },
+    {
+      "action": "api::luogo.luogo.find"
+    },
+    {
+      "action": "api::luogo.luogo.findOne"
+    },
+    {
+      "action": "api::note-legali.note-legali.find"
+    },
+    {
+      "action": "api::notizia.notizia.find"
+    },
+    {
+      "action": "api::notizia.notizia.findOne"
+    },
+    {
+      "action": "api::notizie-in-evidenza.notizie-in-evidenza.find"
+    },
+    {
+      "action": "api::persona.persona.find"
+    },
+    {
+      "action": "api::persona.persona.findOne"
+    },
+    {
+      "action": "api::privacy.privacy.find"
+    },
+    {
+      "action": "api::servizi-lista.servizi-lista.find"
+    },
+    {
+      "action": "api::servizio.servizio.find"
+    },
+    {
+      "action": "api::servizio.servizio.findOne"
+    },
+    {
+      "action": "api::sitemap.sitemap.findUrls"
+    },
+    {
+      "action": "api::tax-documento-albo-pretorio.tax-documento-albo-pretorio.find"
+    },
+    {
+      "action": "api::tax-documento-albo-pretorio.tax-documento-albo-pretorio.findOne"
+    },
+    {
+      "action": "api::tax-documento.tax-documento.find"
+    },
+    {
+      "action": "api::tax-documento.tax-documento.findOne"
+    },
+    {
+      "action": "api::tax-evento-impresa.tax-evento-impresa.find"
+    },
+    {
+      "action": "api::tax-evento-impresa.tax-evento-impresa.findOne"
+    },
+    {
+      "action": "api::tax-evento-persona.tax-evento-persona.find"
+    },
+    {
+      "action": "api::tax-evento-persona.tax-evento-persona.findOne"
+    },
+    {
+      "action": "api::tax-evento.tax-evento.find"
+    },
+    {
+      "action": "api::tax-evento.tax-evento.findOne"
+    },
+    {
+      "action": "api::tax-incarico.tax-incarico.find"
+    },
+    {
+      "action": "api::tax-incarico.tax-incarico.findOne"
+    },
+    {
+      "action": "api::tax-licenza.tax-licenza.find"
+    },
+    {
+      "action": "api::tax-licenza.tax-licenza.findOne"
+    },
+    {
+      "action": "api::tax-luogo.tax-luogo.find"
+    },
+    {
+      "action": "api::tax-luogo.tax-luogo.findOne"
+    },
+    {
+      "action": "api::tax-notizia.tax-notizia.find"
+    },
+    {
+      "action": "api::tax-notizia.tax-notizia.findOne"
+    },
+    {
+      "action": "api::tax-servizio.tax-servizio.find"
+    },
+    {
+      "action": "api::tax-servizio.tax-servizio.findOne"
+    },
+    {
+      "action": "api::tax-stato-pratica.tax-stato-pratica.find"
+    },
+    {
+      "action": "api::tax-stato-pratica.tax-stato-pratica.findOne"
+    },
+    {
+      "action": "api::tax-tema-dataset.tax-tema-dataset.find"
+    },
+    {
+      "action": "api::tax-tema-dataset.tax-tema-dataset.findOne"
+    },
+    {
+      "action": "api::tax-unita-organizzativa.tax-unita-organizzativa.find"
+    },
+    {
+      "action": "api::tax-unita-organizzativa.tax-unita-organizzativa.findOne"
+    },
+    {
+      "action": "api::unita-organizzativa.unita-organizzativa.find"
+    },
+    {
+      "action": "api::unita-organizzativa.unita-organizzativa.findOne"
+    },
+    {
+      "action": "api::valutazione.valutazione.create"
+    },
+    {
+      "action": "plugin::users-permissions.auth.callback"
+    },
+    {
+      "action": "plugin::users-permissions.auth.connect"
+    },
+    {
+      "action": "plugin::users-permissions.auth.emailConfirmation"
+    },
+    {
+      "action": "plugin::users-permissions.auth.forgotPassword"
+    },
+    {
+      "action": "plugin::users-permissions.auth.register"
+    },
+    {
+      "action": "plugin::users-permissions.auth.resetPassword"
+    },
+    {
+      "action": "plugin::users-permissions.auth.sendEmailConfirmation"
+    }
+  ]
+}

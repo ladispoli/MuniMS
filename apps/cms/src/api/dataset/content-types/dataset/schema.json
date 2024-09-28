@@ -1,0 +1,101 @@
+{
+  "kind": "collectionType",
+  "collectionName": "datasets",
+  "info": {
+    "singularName": "dataset",
+    "pluralName": "datasets",
+    "displayName": "Dataset",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titolo": {
+      "type": "string",
+      "required": true,
+      "maxLength": 255
+    },
+    "descrizione": {
+      "type": "text",
+      "required": true
+    },
+    "tax_temi_dataset": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::tax-tema-dataset.tax-tema-dataset"
+    },
+    "distribuzione": {
+      "type": "customField",
+      "options": {
+        "preset": "standard"
+      },
+      "required": true,
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "tax_licenza": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::tax-licenza.tax-licenza"
+    },
+    "files": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "files"
+      ]
+    },
+    "dataModifica": {
+      "type": "datetime",
+      "required": true
+    },
+    "unita_organizzativa": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::unita-organizzativa.unita-organizzativa"
+    },
+    "freqAggiornamento": {
+      "type": "enumeration",
+      "enum": [
+        "altro",
+        "annuale",
+        "bidecennale",
+        "biennale",
+        "bimensile",
+        "bimestrale",
+        "bisettimanale",
+        "continuo",
+        "decennale",
+        "due volte al giorno",
+        "in continuo aggiornamento",
+        " irregolare",
+        "mai",
+        "mensile",
+        "ogni cinque anni",
+        "ogni due ore",
+        "ogni ora",
+        "ogni quattro anni",
+        "ogni tre ore",
+        "quindicinale",
+        "quotidiano",
+        "sconosciuto",
+        "semestrale",
+        "settimanale",
+        "tre volte a settimana",
+        "tre volte al mese",
+        "tre volte all'anno",
+        "tridecennale",
+        "triennale",
+        "trimestrale"
+      ],
+      "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "titolo",
+      "required": true
+    }
+  }
+}

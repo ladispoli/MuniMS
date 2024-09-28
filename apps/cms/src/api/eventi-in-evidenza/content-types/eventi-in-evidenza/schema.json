@@ -1,0 +1,22 @@
+{
+  "kind": "singleType",
+  "collectionName": "eventi_in_evidenza_collection",
+  "info": {
+    "singularName": "eventi-in-evidenza",
+    "pluralName": "eventi-in-evidenza-collection",
+    "displayName": "Eventi in evidenza"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "eventi": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::evento.evento"
+    },
+    "mostraSoloInHomepage": {
+      "type": "boolean"
+    }
+  }
+}

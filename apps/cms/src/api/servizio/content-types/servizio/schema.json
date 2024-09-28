@@ -1,0 +1,211 @@
+{
+  "kind": "collectionType",
+  "collectionName": "servizi",
+  "info": {
+    "singularName": "servizio",
+    "pluralName": "servizi",
+    "displayName": "Servizio",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "tax_servizio": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::tax-servizio.tax-servizio"
+    },
+    "titolo": {
+      "type": "string",
+      "required": true,
+      "maxLength": 255
+    },
+    "attivo": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    },
+    "stato": {
+      "type": "customField",
+      "options": {
+        "preset": "rich"
+      },
+      "required": false,
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "sottotitolo": {
+      "type": "string",
+      "maxLength": 255
+    },
+    "immagine": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "descrizione": {
+      "type": "text",
+      "required": true
+    },
+    "perChi": {
+      "type": "customField",
+      "options": {
+        "preset": "rich"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "contenuto": {
+      "type": "customField",
+      "options": {
+        "preset": "rich"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "zona": {
+      "type": "customField",
+      "options": {
+        "preset": "rich"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "comeUsufruire": {
+      "type": "customField",
+      "options": {
+        "preset": "rich"
+      },
+      "required": true,
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "cosaServe": {
+      "type": "customField",
+      "options": {
+        "preset": "rich"
+      },
+      "required": true,
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "siOttiene": {
+      "type": "customField",
+      "options": {
+        "preset": "rich"
+      },
+      "required": true,
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "procedureEsito": {
+      "type": "customField",
+      "options": {
+        "preset": "rich"
+      },
+      "required": false,
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "accessoDigitale": {
+      "type": "string"
+    },
+    "prenotaAppuntamento": {
+      "type": "string"
+    },
+    "vincoli": {
+      "type": "customField",
+      "options": {
+        "preset": "rich"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "casiParticolari": {
+      "type": "customField",
+      "options": {
+        "preset": "rich"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "info": {
+      "type": "customField",
+      "options": {
+        "preset": "rich"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "fileCondizioni": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "files"
+      ]
+    },
+    "contatti": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::contatto.contatto"
+    },
+    "unita_organizzativa_responsabile": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::unita-organizzativa.unita-organizzativa",
+      "inversedBy": "servizi"
+    },
+    "documenti": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::documento-pubblico.documento-pubblico"
+    },
+    "argomenti": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::argomento.argomento"
+    },
+    "tax_eventi_persone": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::tax-evento-persona.tax-evento-persona"
+    },
+    "tax_eventi_imprese": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::tax-evento-impresa.tax-evento-impresa"
+    },
+    "codiceIpa": {
+      "type": "string",
+      "maxLength": 255
+    },
+    "classificazione": {
+      "type": "string",
+      "maxLength": 255
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "titolo",
+      "required": true
+    },
+    "accessoFisico": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "standard"
+      },
+      "required": false,
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "timeline": {
+      "type": "component",
+      "repeatable": false,
+      "component": "timeline.descrizione"
+    },
+    "costi": {
+      "type": "component",
+      "repeatable": false,
+      "component": "listino-prezzi.contenuto"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    }
+  }
+}

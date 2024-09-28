@@ -1,0 +1,632 @@
+{
+  "key": "plugin_content_manager_configuration_content_types::api::documento-pubblico.documento-pubblico",
+  "value": {
+    "uid": "api::documento-pubblico.documento-pubblico",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "titolo",
+      "defaultSortBy": "titolo",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "titolo": {
+        "edit": {
+          "label": "Titolo",
+          "description": "Nome del documento, visibile a utenti esterni. Il nome del Documento deve essere facilmente comprensibile dai cittadini. Vincoli: massimo 160 caratteri spazi inclusi",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "titolo",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "data": {
+        "edit": {
+          "label": "Data",
+          "description": "Data di protocollo o di pubblicazione del documento",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "data",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "immagine": {
+        "edit": {
+          "label": "Immagine",
+          "description": "Immagine di riferimento del documento",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "immagine",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "tax_documento": {
+        "edit": {
+          "label": "Tipo di documento",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "tassonomia"
+        },
+        "list": {
+          "label": "categoria",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "tax_documento_albo_pretorio": {
+        "edit": {
+          "label": "Tipo Documento albo pretorio",
+          "description": "Secondo la tassonomia prevista (solo se il documento è da albo pretorio)",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "tassonomia"
+        },
+        "list": {
+          "label": "tax_documento_albo_pretorio",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "argomenti": {
+        "edit": {
+          "label": "Argomenti",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "nome"
+        },
+        "list": {
+          "label": "argomenti",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "descrizione": {
+        "edit": {
+          "label": "Descrizione breve",
+          "description": "Descrizione sintetica del documento (max 255 caratteri) utilizzando un linguaggio semplice che possa aiutare qualsiasi utente a identificare con chiarezza il documento. Non utilizzare un linguaggio ricco di riferimenti normativi",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "descrizione",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "contenuto": {
+        "edit": {
+          "label": "Descrizione",
+          "description": "L'oggetto del documento, utilizzando un linguaggio semplice che possa aiutare qualsiasi utente a identificare con chiarazza il documento. Non utilizzare un linguaggio ricco di riferimenti normativi.",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "contenuto",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "files": {
+        "edit": {
+          "label": "File",
+          "description": "Documento vero e proprio, caricare in più formati se necessario. Il primo formato è quello più importante (solitamente PDF)",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "file",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "galleria": {
+        "edit": {
+          "label": "Galleria di immagini",
+          "description": "Una o più immagini corredate da didascalie",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "galleria",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "unita_organizzativa": {
+        "edit": {
+          "label": "Ufficio responsabile del documento (unità organizzativa)",
+          "description": "Link alla scheda dell'ufficio responsabile del documento",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "titolo"
+        },
+        "list": {
+          "label": "unita_organizzativa",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "autore": {
+        "edit": {
+          "label": "Autore/i",
+          "description": "Persone che hanno redatto il documento",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "autore",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "tax_licenza": {
+        "edit": {
+          "label": "Licenza di distribuzione",
+          "description": "Licenza con il quale il documento viene distribuito",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "tassonomia"
+        },
+        "list": {
+          "label": "tax_licenza",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "servizi": {
+        "edit": {
+          "label": "Servizi",
+          "description": "servizio collegato, scheda di presentazione del servizio.",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "titolo"
+        },
+        "list": {
+          "label": "servizi",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "dataInizio": {
+        "edit": {
+          "label": "Data inizio",
+          "description": "Data iniziale (se rilevante). Es data di apertura della partecipazione a un bando",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "dataInizio",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "dataFine": {
+        "edit": {
+          "label": "Data fine",
+          "description": "Data finale (se rilevante). Es. data comunicazione vincitori del bando",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "dataFine",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "info": {
+        "edit": {
+          "label": "Ulteriori informazioni",
+          "description": "Ulteriori informazioni sul documento",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "info",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "riferimenti": {
+        "edit": {
+          "label": "Riferimenti normativi",
+          "description": "Lista di link con riferimenti normativi utili per il documento",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "riferimenti",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "tax_eventi_persone": {
+        "edit": {
+          "label": "Eventi della vita delle persone",
+          "description": "Life events collegati",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "tassonomia"
+        },
+        "list": {
+          "label": "tax_eventi_persone",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "tax_eventi_imprese": {
+        "edit": {
+          "label": "Eventi della vita delle imprese",
+          "description": "Business events collegati",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "tassonomia"
+        },
+        "list": {
+          "label": "tax_eventi_imprese",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "documenti_correlati": {
+        "edit": {
+          "label": "Documenti collegati",
+          "description": "Lista di documenti allegati: link a quelli strutturati a loro volta come documenti",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "nomeIdentificativo"
+        },
+        "list": {
+          "label": "documenti_correlati",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "identificativo": {
+        "edit": {
+          "label": "Identificativo del documento",
+          "description": "Un numero identificativo del documento (es DOI, ISBN)",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "identificativo",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "protocollo": {
+        "edit": {
+          "label": "Protocollo",
+          "description": "Numero di protocollo del documento",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "protocollo",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "datasets": {
+        "edit": {
+          "label": "Dataset",
+          "description": "Lista alle schede dataset collegate al documento",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "titolo"
+        },
+        "list": {
+          "label": "datasets",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "slug": {
+        "edit": {
+          "label": "slug",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "slug",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "seo": {
+        "edit": {
+          "label": "seo",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "seo",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "nomeIdentificativo": {
+        "edit": {
+          "label": "Nome Identificativo",
+          "description": "Nome utile ad identificare il documento all'interno del CMS, per metterlo in relazione con altre tipologie di contenuto. Questo nome non é visibile a utenti esterni, é utile solamente agli operatori che gestiscono i contenuti del CMS.",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "nomeIdentificativo",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "createdAt": {
+        "edit": {
+          "label": "createdAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "createdAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedAt": {
+        "edit": {
+          "label": "updatedAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "updatedAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "createdBy": {
+        "edit": {
+          "label": "createdBy",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true,
+          "mainField": "firstname"
+        },
+        "list": {
+          "label": "createdBy",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedBy": {
+        "edit": {
+          "label": "updatedBy",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true,
+          "mainField": "firstname"
+        },
+        "list": {
+          "label": "updatedBy",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "edit": [
+        [
+          {
+            "name": "nomeIdentificativo",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "titolo",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "slug",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "files",
+            "size": 8
+          }
+        ],
+        [
+          {
+            "name": "argomenti",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "tax_documento",
+            "size": 6
+          },
+          {
+            "name": "tax_documento_albo_pretorio",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "data",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "dataInizio",
+            "size": 6
+          },
+          {
+            "name": "dataFine",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "identificativo",
+            "size": 6
+          },
+          {
+            "name": "protocollo",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "descrizione",
+            "size": 6
+          },
+          {
+            "name": "tax_licenza",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "contenuto",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "autore",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "unita_organizzativa",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "servizi",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "info",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "riferimenti",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "immagine",
+            "size": 6
+          },
+          {
+            "name": "galleria",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "datasets",
+            "size": 6
+          },
+          {
+            "name": "documenti_correlati",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "tax_eventi_persone",
+            "size": 6
+          },
+          {
+            "name": "tax_eventi_imprese",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "seo",
+            "size": 12
+          }
+        ]
+      ],
+      "list": [
+        "immagine",
+        "titolo",
+        "tax_documento",
+        "files"
+      ]
+    }
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

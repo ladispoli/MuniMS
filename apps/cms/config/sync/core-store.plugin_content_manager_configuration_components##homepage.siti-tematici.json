@@ -1,0 +1,153 @@
+{
+  "key": "plugin_content_manager_configuration_components::homepage.siti-tematici",
+  "value": {
+    "uid": "homepage.siti-tematici",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "titolo",
+      "defaultSortBy": "titolo",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "titolo": {
+        "edit": {
+          "label": "Titolo",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "titolo",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "link": {
+        "edit": {
+          "label": "Link",
+          "description": "formato: \"http...\" = link esterno, \"/...\" = link interno",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "link",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "descrizione": {
+        "edit": {
+          "label": "Descrizione breve",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "descrizione",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "immagine": {
+        "edit": {
+          "label": "Immagine icona",
+          "description": "Quando presente, sostituisce \"Icona Bootstrap Italia\"",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "immagine",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "coloreSfondo": {
+        "edit": {
+          "label": "Colore di sfondo",
+          "description": "Scegliere un colore scuro, tenendo a mente che il testo all'interno è bianco. Evitare che ci sia basso contrasto tra sfondo e testo",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "coloreSfondo",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "icona": {
+        "edit": {
+          "label": "Icona Bootstrap Italia",
+          "description": "Secondo la nomenclatura bootstrap italia: https://italia.github.io/bootstrap-italia/docs/utilities/icone/",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "icona",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "titolo",
+        "descrizione",
+        "immagine"
+      ],
+      "edit": [
+        [
+          {
+            "name": "titolo",
+            "size": 6
+          },
+          {
+            "name": "link",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "descrizione",
+            "size": 6
+          },
+          {
+            "name": "coloreSfondo",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "immagine",
+            "size": 6
+          },
+          {
+            "name": "icona",
+            "size": 6
+          }
+        ]
+      ]
+    },
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

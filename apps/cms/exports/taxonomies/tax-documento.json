@@ -1,0 +1,62 @@
+[
+  {
+    "vocabolario": "https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/government-documents-types/1",
+    "note": "Gli atti amministrativi per i quali è previsto l'obbligo di pubblicità legale.",
+    "disabilitato": false,
+    "tassonomia": "Documento albo Pretorio"
+  },
+  {
+    "vocabolario": "https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/government-documents-types/2",
+    "note": "Tutti i moduli predisposti per la stesura di documenti o scritture.",
+    "disabilitato": false,
+    "tassonomia": "Modulistica"
+  },
+  {
+    "vocabolario": "https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/government-documents-types/3",
+    "note": "I regolamenti interni, i provvedimenti dirigenziali e i codici disciplinari degli organi di indirizzo politico.",
+    "disabilitato": false,
+    "tassonomia": "Documento funzionamento interno"
+  },
+  {
+    "vocabolario": "https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/government-documents-types/4",
+    "note": "Gli accordi del Comune con altre istituzioni, fondazioni ed enti.",
+    "disabilitato": false,
+    "tassonomia": "Atto normativo"
+  },
+  {
+    "vocabolario": "https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/government-documents-types/5",
+    "note": "Gli accordi del Comune con altre istituzioni, fondazioni ed enti.",
+    "disabilitato": false,
+    "tassonomia": "Accordo tra enti"
+  },
+  {
+    "vocabolario": "https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/government-documents-types/6",
+    "note": "Sedute, ordini del giorno e interrogazioni degli organi di governo comunali.",
+    "disabilitato": false,
+    "tassonomia": "Documento attività politica"
+  },
+  {
+    "vocabolario": "https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/government-documents-types/7",
+    "note": "I rapporti tecnici e la documentazione di progetto.",
+    "disabilitato": false,
+    "tassonomia": "Documento (tecnico) di supporto"
+  },
+  {
+    "vocabolario": "https://schema.gov.it/lodview/controlled-vocabulary/classifications-for-documents/government-documents-types/8",
+    "note": "Le richieste private rivolte agli organi amministrativi o giurisdizionali del Comune.",
+    "disabilitato": false,
+    "tassonomia": "Istanza"
+  },
+  {
+    "vocabolario": "https://schema.gov.it/lodview/controlled-vocabulary/classifications-for-documents/government-documents-types/9",
+    "note": "Rendiconti, procedure, bilanci consuntivi e preventivi.",
+    "disabilitato": false,
+    "tassonomia": "Documento di programmazione e rendicontazione"
+  },
+  {
+    "vocabolario": "http://dati.gov.it/onto/dcatapit#Dataset",
+    "note": "Le statistiche e i dati strutturati riguardanti le attività produttive, la qualità della vita e la popolazione del Comune.",
+    "disabilitato": false,
+    "tassonomia": "Dataset"
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "vocabolario": "https://op.europa.eu/web/eu-vocabularies/concept/-/resource?uri=http://publications.europa.eu/resource/authority/data-theme/AGRI",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Agricoltura, pesca, silvicoltura e prodotti alimentari"
+  },
+  {
+    "vocabolario": "https://op.europa.eu/web/eu-vocabularies/concept/-/resource?uri=http://publications.europa.eu/resource/authority/data-theme/ECON",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Economia e Finanze"
+  },
+  {
+    "vocabolario": "https://op.europa.eu/web/eu-vocabularies/concept/-/resource?uri=http://publications.europa.eu/resource/authority/data-theme/ENER",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Energia"
+  },
+  {
+    "vocabolario": "https://op.europa.eu/web/eu-vocabularies/concept/-/resource?uri=http://publications.europa.eu/resource/authority/data-theme/ENVI",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Ambiente"
+  },
+  {
+    "vocabolario": "https://op.europa.eu/web/eu-vocabularies/concept/-/resource?uri=http://publications.europa.eu/resource/authority/data-theme/GOVE",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Governo e settore pubblico"
+  },
+  {
+    "vocabolario": "https://op.europa.eu/web/eu-vocabularies/concept/-/resource?uri=http://publications.europa.eu/resource/authority/data-theme/HEAL",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Salute"
+  },
+  {
+    "vocabolario": "https://op.europa.eu/web/eu-vocabularies/concept/-/resource?uri=http://publications.europa.eu/resource/authority/data-theme/INTR",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Tematiche internazionali"
+  },
+  {
+    "vocabolario": "https://op.europa.eu/web/eu-vocabularies/concept/-/resource?uri=http://publications.europa.eu/resource/authority/data-theme/JUST",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Giustizia, sistema giuridico e sicurezza pubblica"
+  },
+  {
+    "vocabolario": "https://op.europa.eu/web/eu-vocabularies/concept/-/resource?uri=http://publications.europa.eu/resource/authority/data-theme/SOCI",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Popolazione e società"
+  },
+  {
+    "vocabolario": "https://op.europa.eu/web/eu-vocabularies/concept/-/resource?uri=http://publications.europa.eu/resource/authority/data-theme/REGI",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Regioni e città"
+  },
+  {
+    "vocabolario": "https://op.europa.eu/web/eu-vocabularies/concept/-/resource?uri=http://publications.europa.eu/resource/authority/data-theme/TECH",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Scienza e tecnologia"
+  },
+  {
+    "vocabolario": "https://op.europa.eu/web/eu-vocabularies/concept/-/resource?uri=http://publications.europa.eu/resource/authority/data-theme/TRAN",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Trasporti"
+  }
+]

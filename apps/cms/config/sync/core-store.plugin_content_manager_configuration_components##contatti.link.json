@@ -1,0 +1,72 @@
+{
+  "key": "plugin_content_manager_configuration_components::contatti.link",
+  "value": {
+    "uid": "contatti.link",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 100,
+      "mainField": "valore",
+      "defaultSortBy": "valore",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "valore": {
+        "edit": {
+          "label": "Link",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "valore",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "tipo": {
+        "edit": {
+          "label": "Tipo",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "tipo",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": ["id", "valore", "tipo"],
+      "edit": [
+        [
+          {
+            "name": "valore",
+            "size": 8
+          },
+          {
+            "name": "tipo",
+            "size": 4
+          }
+        ]
+      ]
+    },
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

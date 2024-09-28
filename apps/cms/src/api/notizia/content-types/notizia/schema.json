@@ -1,0 +1,111 @@
+{
+  "kind": "collectionType",
+  "collectionName": "notizie",
+  "info": {
+    "singularName": "notizia",
+    "pluralName": "notizie",
+    "displayName": "Notizia",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titolo": {
+      "type": "string",
+      "maxLength": 255,
+      "required": true,
+      "pluginOptions": {}
+    },
+    "descrizione": {
+      "type": "text",
+      "required": true
+    },
+    "data": {
+      "type": "date",
+      "required": true
+    },
+    "dataScadenza": {
+      "type": "date"
+    },
+    "numeroComunicato": {
+      "type": "string",
+      "maxLength": 255
+    },
+    "immagine": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "contenuto": {
+      "type": "customField",
+      "options": {
+        "preset": "rich"
+      },
+      "required": true,
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "galleria": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "videos"
+      ]
+    },
+    "tax_notizia": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::tax-notizia.tax-notizia"
+    },
+    "argomenti": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::argomento.argomento"
+    },
+    "persone": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::persona.persona"
+    },
+    "luoghi": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::luogo.luogo"
+    },
+    "unita_organizzativa": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::unita-organizzativa.unita-organizzativa"
+    },
+    "allegati": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::documento-pubblico.documento-pubblico"
+    },
+    "datasets": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::dataset.dataset"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "titolo",
+      "required": true
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    },
+    "showImagePreviewOnly": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

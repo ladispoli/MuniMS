@@ -1,0 +1,589 @@
+{
+  "key": "plugin_content_manager_configuration_content_types::api::luogo.luogo",
+  "value": {
+    "uid": "api::luogo.luogo",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "nome",
+      "defaultSortBy": "nome",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "nome": {
+        "edit": {
+          "label": "Nome del luogo",
+          "description": "Nome principale del luogo o nome con il quale il luogo è conosciuto (ad es. Colosseo)",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "nome",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "nome2": {
+        "edit": {
+          "label": "Nome alternativo",
+          "description": "Nome alternativo o secondario del luogo (ad es. Anfiteatro Flavio)",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "nome2",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "slug": {
+        "edit": {
+          "label": "slug",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "slug",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "argomenti": {
+        "edit": {
+          "label": "Argomenti (tag)",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "nome"
+        },
+        "list": {
+          "label": "argomenti",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "tax_luogo": {
+        "edit": {
+          "label": "Tipo di luogo",
+          "description": "Una classificazione dei luoghi di pubblico interesse. Non obbligatoria perché il luogo potrebbe non essere un POI",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "tassonomia"
+        },
+        "list": {
+          "label": "tassonomia",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "immagine": {
+        "edit": {
+          "label": "Immagine",
+          "description": "Immagine principale del luogo",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "immagine",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "descrizione": {
+        "edit": {
+          "label": "Descrizione breve",
+          "description": "Descrizione sintetica (meno di 255 caratteri)",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "descrizione",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "contenuto": {
+        "edit": {
+          "label": "Descrizione estesa",
+          "description": "Descrizione del luogo e degli elementi di interesse presenti nel luogo (POI)",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "contenuto",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "galleria": {
+        "edit": {
+          "label": "Galleria",
+          "description": "Una o più immagini o video corredate da didascalie",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "galleria",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "servizi": {
+        "edit": {
+          "label": "Servizi presenti nel luogo",
+          "description": "Se il luogo presenta servizi di carattere privato, descrizione testuale del servizio e link esterno al servizio. Se il luogo è sede di unità organizzativa abbiamo i servizi collegati all'unità organizzativa",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "servizi",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "accesso": {
+        "edit": {
+          "label": "Modalità di accesso",
+          "description": "Modalità di accesso al luogo con particolare attenzione agli accessi per disabili ed eventuale descrizione di come arrivare, costi di accesso",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "accesso",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "indirizzo": {
+        "edit": {
+          "label": "Indirizzo",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "indirizzo",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "quartiere": {
+        "edit": {
+          "label": "Quartiere",
+          "description": "Se il territorio è mappato in quartieri, riportare il Quartiere dove è situato il luogo",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "quartiere",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "circoscrizione": {
+        "edit": {
+          "label": "Circoscrizione",
+          "description": "Se il territorio è mappato in circoscrizioni, riportare la Circoscrizione dove è situato il luogo",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "circoscrizione",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "cap": {
+        "edit": {
+          "label": "CAP",
+          "description": "Codice di avviamento postale del luogo",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "cap",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "contatti": {
+        "edit": {
+          "label": "Contattti",
+          "description": "Telefono, mail o altri punti di contatto",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "titolo"
+        },
+        "list": {
+          "label": "contatti",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "info": {
+        "edit": {
+          "label": "Ulteriori informazioni",
+          "description": "Ulteriori informazioni sul luogo, FAQ ed eventuali riferimenti normativi",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "info",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "unita_organizzativa": {
+        "edit": {
+          "label": "Struttura responsabile",
+          "description": "Unità organizzativa che ha la responsabilità del luogo",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "titolo"
+        },
+        "list": {
+          "label": "unita_organizzativa",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "identificativo": {
+        "edit": {
+          "label": "Identificativo",
+          "description": "Codice identificativo del luogo. Nel MIBAC c'è il codice del DBUnico per i luoghi della cultura e il codice ISIL per le biblioteche.",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "identificativo",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "orari": {
+        "edit": {
+          "label": "Orari di apertura",
+          "description": "Orari di apertura al pubblico del luogo ed eventuali regole di accesso (es prenotazione).",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "orari",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "costi": {
+        "edit": {
+          "label": "Costi",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "costi",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "luoghi_correlati": {
+        "edit": {
+          "label": "Luoghi collegati",
+          "description": "Elenco di eventuali altri luoghi d'interesse collegati",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "nome"
+        },
+        "list": {
+          "label": "luoghi_correlati",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "indirizzo2": {
+        "edit": {
+          "label": "Indirizzo aggiuntivo",
+          "description": "Informazioni ulteriori riguardanti l'indirizzo (piano, interno, ecc...)",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "indirizzo2",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "seo": {
+        "edit": {
+          "label": "seo",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "seo",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "showImagePreviewOnly": {
+        "edit": {
+          "label": "Mostra immagine solamente in anteprima",
+          "description": "L'immagine non viene mostrata nella pagina del luogo, ma solamente in anteprima",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "showImagePreviewOnly",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "createdAt": {
+        "edit": {
+          "label": "createdAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "createdAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedAt": {
+        "edit": {
+          "label": "updatedAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "updatedAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "createdBy": {
+        "edit": {
+          "label": "createdBy",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true,
+          "mainField": "firstname"
+        },
+        "list": {
+          "label": "createdBy",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedBy": {
+        "edit": {
+          "label": "updatedBy",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true,
+          "mainField": "firstname"
+        },
+        "list": {
+          "label": "updatedBy",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "edit": [
+        [
+          {
+            "name": "nome",
+            "size": 6
+          },
+          {
+            "name": "nome2",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "slug",
+            "size": 8
+          }
+        ],
+        [
+          {
+            "name": "tax_luogo",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "descrizione",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "immagine",
+            "size": 6
+          },
+          {
+            "name": "showImagePreviewOnly",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "identificativo",
+            "size": 8
+          }
+        ],
+        [
+          {
+            "name": "argomenti",
+            "size": 6
+          },
+          {
+            "name": "luoghi_correlati",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "galleria",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "contenuto",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "accesso",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "servizi",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "indirizzo",
+            "size": 6
+          },
+          {
+            "name": "cap",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "indirizzo2",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "quartiere",
+            "size": 6
+          },
+          {
+            "name": "circoscrizione",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "orari",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "costi",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "unita_organizzativa",
+            "size": 6
+          },
+          {
+            "name": "contatti",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "info",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "seo",
+            "size": 12
+          }
+        ]
+      ],
+      "list": [
+        "immagine",
+        "nome",
+        "indirizzo",
+        "tax_luogo"
+      ]
+    }
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

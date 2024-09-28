@@ -1,0 +1,422 @@
+[
+  {
+    "vocabolario": "https://schema.gov.it/lodview/controlled-vocabulary/public-event-types/1",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Evento culturale"
+  },
+  {
+    "vocabolario": "https://schema.gov.it/lodview/controlled-vocabulary/public-event-types/11",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Evento culturale > Manifestazione artistica"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/public-event-types/111",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Evento culturale > Manifestazione artistica > Festival"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/public-event-types/112",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Evento culturale > Manifestazione artistica > Mostra"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/public-event-types/113",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Evento culturale > Manifestazione artistica > Spettacolo teatrale"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/public-event-types/114",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Evento culturale > Manifestazione artistica > Spettacolo di danza"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/public-event-types/115",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Evento culturale > Manifestazione artistica > Manifestazione musicale"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/public-event-types/116",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Evento culturale > Manifestazione artistica > Visita guidata"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/public-event-types/117",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Evento culturale > Manifestazione artistica > Lettura (pubblica)"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/public-event-types/118",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Evento culturale > Manifestazione artistica > Proiezione cinematografica"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/public-event-types/119",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Evento culturale > Manifestazione artistica > Visita libera"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/public-event-types/12",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Evento culturale > Evento di formazione"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/public-event-types/121",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Evento culturale > Evento di formazione > Scuola estiva/invernale"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/public-event-types/122",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Evento culturale > Evento di formazione > Webinar"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/public-event-types/123",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Evento culturale > Evento di formazione > Seminario"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/public-event-types/124",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Evento culturale > Evento di formazione > Laboratorio"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/public-event-types/125",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Evento culturale > Evento di formazione > Presentazione libro"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/public-event-types/126",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Evento culturale > Evento di formazione > Corso"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/public-event-types/13",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Evento culturale > Conferenza e Summit"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/public-event-types/131",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Evento culturale > Conferenza e Summit > Convegno"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/public-event-types/132",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Evento culturale > Conferenza e Summit > Vertice"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/public-event-types/133",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Evento culturale > Conferenza e Summit > Congresso"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/public-event-types/14",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Evento culturale > Giornata informativa"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/public-event-types/141",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Evento culturale > Giornata informativa > Giornata aperta"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/public-event-types/2",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Eventi sociali"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/public-event-types/21",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Eventi sociali > Concorso e cerimonia"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/public-event-types/211",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Eventi sociali > Concorso e cerimonia > Cerimonia"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/public-event-types/212",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Eventi sociali > Concorso e cerimonia > Concorso/competizione"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/public-event-types/22",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Eventi sociali > Dibattito pubblico"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/public-event-types/221",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Eventi sociali > Dibattito pubblico > Dibattito/dialogo pubblico"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/public-event-types/222",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Eventi sociali > Dibattito pubblico > Forum"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/public-event-types/23",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Eventi sociali > Incontro con esperti"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/public-event-types/231",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Eventi sociali > Incontro con esperti > Riunione esperti"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/public-event-types/232",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Eventi sociali > Incontro con esperti > Hackathon / Datathon"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/public-event-types/24",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Eventi sociali > Raduno di comunità"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/public-event-types/241",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Eventi sociali > Raduno di comunità > Sfilata"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/public-event-types/242",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Eventi sociali > Raduno di comunità > Sagra"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/public-event-types/243",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Eventi sociali > Raduno di comunità > Torneo storico o Palio"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/public-event-types/244",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Eventi sociali > Raduno di comunità > Festa Patronale o dei santi"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/public-event-types/245",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Eventi sociali > Raduno di comunità > Mercatino"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/public-event-types/246",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Eventi sociali > Raduno di comunità > Commemorazione"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/public-event-types/25",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Eventi sociali > Evento religioso"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/public-event-types/251",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Eventi sociali > Evento religioso > Giubileo"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/public-event-types/252",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Eventi sociali > Evento religioso > Udienza giubiliare"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/public-event-types/253",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Eventi sociali > Evento religioso > Processione"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/public-event-types/254",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Eventi sociali > Evento religioso > Celebrazione religiosa"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/public-event-types/255",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Eventi sociali > Evento religioso > Lettura religiosa"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/public-event-types/256",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Eventi sociali > Evento religioso > Raduno religioso"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/public-event-types/257",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Eventi sociali > Evento religioso > Santificazione"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/public-event-types/3",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Eventi politici"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/public-event-types/31",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Eventi politici > Incontro pubblico"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/public-event-types/311",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Eventi politici > Incontro pubblico > Congresso o riunione di partito"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/public-event-types/312",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Eventi politici > Incontro pubblico > Corteo o sciopero"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/public-event-types/313",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Eventi politici > Incontro pubblico > Comizio elettorale"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/public-event-types/4",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Eventi di affari o commerciali"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/public-event-types/41",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Eventi di affari o commerciali > Fiera o Salone"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/public-event-types/412",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Eventi di affari o commerciali > Fiera o Salone > Esposizione o Esposizione globale"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/public-event-types/42",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Eventi di affari o commerciali > Riunione d’affari"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/public-event-types/422",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Eventi di affari o commerciali > Riunione d’affari > Convention"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/public-event-types/423",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Eventi di affari o commerciali > Riunione d’affari > Tavola rotonda"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/public-event-types/43",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Eventi di affari o commerciali > Evento stagionale commerciale"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/public-event-types/431",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Eventi di affari o commerciali > Evento stagionale commerciale > Vendita di fine stagione"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/public-event-types/5",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Eventi Sportivi"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/public-event-types/51",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Eventi Sportivi > Manifestazione sportiva"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/public-event-types/511",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Eventi Sportivi > Manifestazione sportiva > Partita"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/public-event-types/512",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Eventi Sportivi > Manifestazione sportiva > Gara o Torneo o Competizione"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/public-event-types/513",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Eventi Sportivi > Manifestazione sportiva > Escursione"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/public-event-types/514",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Eventi Sportivi > Manifestazione sportiva > Galà sportivo"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/public-event-types/515",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Eventi Sportivi > Manifestazione sportiva > Corsa"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/public-event-types/516",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Eventi Sportivi > Manifestazione sportiva > Raduno sportivo"
+  }
+]

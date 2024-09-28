@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_homepage_link_utilis",
+  "info": {
+    "displayName": "link",
+    "icon": "bulletList",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "titolo": {
+      "type": "string",
+      "required": true
+    },
+    "link": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

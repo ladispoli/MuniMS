@@ -1,0 +1,19 @@
+{
+  "kind": "singleType",
+  "collectionName": "luoghi_in_evidenza_collection",
+  "info": {
+    "singularName": "luoghi-in-evidenza",
+    "pluralName": "luoghi-in-evidenza-collection",
+    "displayName": "Luoghi in evidenza"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "luoghi": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::luogo.luogo"
+    }
+  }
+}

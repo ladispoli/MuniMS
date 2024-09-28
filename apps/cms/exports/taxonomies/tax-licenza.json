@@ -1,0 +1,56 @@
+[
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/licences/A_OpenLicense",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Licenza aperta"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/licences/A1_PublicDomain",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Licenza aperta > Pubblico dominio"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/licences/A2_Attribution",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Licenza aperta > Attribuzione"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/licences/A3_ShareAlike",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Licenza aperta > Effetto virale"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/licences/A4_ShareAlikeCopyleftNonComp",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Licenza aperta > condivisione allo stesso modo - copyleft non compatibile"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/licences/B_NonOpenLicense",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Non aperta"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/licences/B1_NonCommercial",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Non aperta > Solo uso non commerciale"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/licences/B2_NoDerivs",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Non aperta > Non opere derivate"
+  },
+  {
+    "vocabolario": "https://ontopia-lodview.agid.gov.it/controlled-vocabulary/licences/C_Unknown",
+    "note": null,
+    "disabilitato": false,
+    "tassonomia": "Licenza sconosciuta"
+  }
+]

@@ -1,0 +1,135 @@
+{
+  "key": "plugin_content_manager_configuration_components::impostazioni.link",
+  "value": {
+    "uid": "impostazioni.link",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "titolo",
+      "defaultSortBy": "titolo",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "titolo": {
+        "edit": {
+          "label": "Titolo",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "titolo",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "link": {
+        "edit": {
+          "label": "Link",
+          "description": "formato: \"http...\" = link esterno, \"/...\" = link interno",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "link",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "descrizione": {
+        "edit": {
+          "label": "Descrizione",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "descrizione",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "attrs": {
+        "edit": {
+          "label": "attrs",
+          "description": "Lista di attributi",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "attrs",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "icona": {
+        "edit": {
+          "label": "Icona",
+          "description": "Secondo la nomenclatura bootstrap italia: https://italia.github.io/bootstrap-italia/docs/utilities/icone/",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "icona",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "titolo",
+        "link",
+        "descrizione"
+      ],
+      "edit": [
+        [
+          {
+            "name": "titolo",
+            "size": 6
+          },
+          {
+            "name": "link",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "descrizione",
+            "size": 6
+          },
+          {
+            "name": "icona",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "attrs",
+            "size": 12
+          }
+        ]
+      ]
+    },
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

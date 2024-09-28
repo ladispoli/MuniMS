@@ -1,0 +1,9 @@
+{
+  "key": "plugin_meilisearch_meilisearch_listened_content_types",
+  "value": [
+    null
+  ],
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

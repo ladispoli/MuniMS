@@ -1,0 +1,293 @@
+{
+  "key": "plugin_content_manager_configuration_content_types::api::dataset.dataset",
+  "value": {
+    "uid": "api::dataset.dataset",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "titolo",
+      "defaultSortBy": "titolo",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "titolo": {
+        "edit": {
+          "label": "Titolo del dataset",
+          "description": "Titolo del dataset. Si raccomanda di inserire un testo semplice e corto. Esempi di titoli di dataset –> «Contratti del Sistema Pubblico di Connettività (SPC)» oppure «Luoghi ed eventi della cultura».",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "titolo",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "descrizione": {
+        "edit": {
+          "label": "Descrizione breve",
+          "description": "Descrizione del dataset. Si raccomanda di fornire una breve descrizione dei contenuti principali del dataset. Evitare di utilizzare un linguaggio ricco di riferimenti normativi. Utilizzare invece un linguaggio semplice che possa aiutare qualsiasi utente a identificare il contenuto del dataset. Esempi–> «Il dataset contiene i dati sui contratti del Sistema Pubblico di Connettività (SPC) relativi al Lotto 1 dell’anno 2007.» ",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "descrizione",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "tax_temi_dataset": {
+        "edit": {
+          "label": "Temi",
+          "description": "Temi di cui tratta il dataset",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "tassonomia"
+        },
+        "list": {
+          "label": "tax_temi_dataset",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "distribuzione": {
+        "edit": {
+          "label": "Distribuzione ",
+          "description": "Una distribuzione è una forma attraverso cui il dataset è disponibile. Ogni dataset può essere disponibile in diverse forme, come per esempio diversi formati o differenti endpoint (e.g., SPARQL endpoint). Nel caso di serie temporali o spaziali o viste di un dataset, queste sono descritte mediante le distribuzioni. Per esempio, nel caso di un dataset suddiviso per regioni, le suddivisioni rappresentano distribuzioni di un dataset più ampio che include tutti i dati del territorio nazionale.",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "distribuzione",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "tax_licenza": {
+        "edit": {
+          "label": "Licenza",
+          "description": "Licenza del dataset",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "tassonomia"
+        },
+        "list": {
+          "label": "tax_licenza",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "files": {
+        "edit": {
+          "label": "File",
+          "description": "File e documenti che compongono il dataset",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "file",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "dataModifica": {
+        "edit": {
+          "label": "Ultima modifica",
+          "description": "Data dell'ultima modifica effettuata sul dataset.",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "dataModifica",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "unita_organizzativa": {
+        "edit": {
+          "label": "Titolare (unità organizzativa)",
+          "description": "Organizzazione (o pubblica amministrazione) responsabile della gestione complessiva del dataset in virtù dei propri compiti istituzionali. Si raccomanda di evitare l’inserimento di nomi di singole persone.",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "titolo"
+        },
+        "list": {
+          "label": "unità organizzativa",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "freqAggiornamento": {
+        "edit": {
+          "label": "Frequenza di aggiornamento",
+          "description": "Indicare la frequenza di aggiornamento del dataset seguendo il la tassonomia prevista nel vocabolario europeo",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "freqAggiornamento",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "slug": {
+        "edit": {
+          "label": "slug",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "slug",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "createdAt": {
+        "edit": {
+          "label": "createdAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "createdAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedAt": {
+        "edit": {
+          "label": "updatedAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "updatedAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "createdBy": {
+        "edit": {
+          "label": "createdBy",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true,
+          "mainField": "firstname"
+        },
+        "list": {
+          "label": "createdBy",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedBy": {
+        "edit": {
+          "label": "updatedBy",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true,
+          "mainField": "firstname"
+        },
+        "list": {
+          "label": "updatedBy",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "titolo",
+        "files",
+        "unita_organizzativa",
+        "createdBy"
+      ],
+      "edit": [
+        [
+          {
+            "name": "titolo",
+            "size": 6
+          },
+          {
+            "name": "slug",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "descrizione",
+            "size": 8
+          }
+        ],
+        [
+          {
+            "name": "tax_temi_dataset",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "distribuzione",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "files",
+            "size": 8
+          }
+        ],
+        [
+          {
+            "name": "dataModifica",
+            "size": 6
+          },
+          {
+            "name": "freqAggiornamento",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "unita_organizzativa",
+            "size": 6
+          },
+          {
+            "name": "tax_licenza",
+            "size": 6
+          }
+        ]
+      ]
+    }
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

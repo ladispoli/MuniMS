@@ -1,0 +1,132 @@
+{
+  "kind": "singleType",
+  "collectionName": "impostazioni_pages",
+  "info": {
+    "singularName": "impostazioni",
+    "pluralName": "impostazioni-pages",
+    "displayName": "Impostazioni",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "municipalityName": {
+      "type": "string",
+      "required": true,
+      "default": "Il mio Comune",
+      "maxLength": 30
+    },
+    "municipalityTagline": {
+      "type": "string",
+      "required": false,
+      "maxLength": 40,
+      "private": true
+    },
+    "municipalityAddress": {
+      "type": "string"
+    },
+    "municipalityFiscalCode": {
+      "type": "string"
+    },
+    "municipalityVatNumber": {
+      "type": "string"
+    },
+    "municipalityFreephone": {
+      "type": "string"
+    },
+    "municipalitySwitchboard": {
+      "type": "string"
+    },
+    "municipalityEmail": {
+      "type": "email"
+    },
+    "municipalityPec": {
+      "type": "email"
+    },
+    "municipalityUrpEmail": {
+      "type": "email"
+    },
+    "ownerName": {
+      "type": "string",
+      "maxLength": 40
+    },
+    "ownerUrl": {
+      "type": "string"
+    },
+    "cittadinoAttivoBaseUrl": {
+      "type": "string"
+    },
+    "facebookUrl": {
+      "type": "string"
+    },
+    "twitterUrl": {
+      "type": "string"
+    },
+    "youtubeUrl": {
+      "type": "string"
+    },
+    "telegramUrl": {
+      "type": "string"
+    },
+    "whatsappUrl": {
+      "type": "string"
+    },
+    "instagramUrl": {
+      "type": "string"
+    },
+    "rssUrl": {
+      "type": "string"
+    },
+    "navTopBar": {
+      "type": "component",
+      "repeatable": true,
+      "component": "impostazioni.link"
+    },
+    "footerPrimaryExtra": {
+      "type": "component",
+      "repeatable": true,
+      "component": "impostazioni.link"
+    },
+    "footerSecondaryExtra": {
+      "type": "component",
+      "repeatable": true,
+      "component": "impostazioni.link"
+    },
+    "prenotaAppuntamentoLink": {
+      "type": "string",
+      "default": "/prenotazione-appuntamento"
+    },
+    "richiediAssistenzaLink": {
+      "type": "string",
+      "required": false,
+      "default": "/richiesta-assistenza"
+    },
+    "segnalaDisservizioLink": {
+      "type": "string",
+      "default": "/segnalazione-disservizio"
+    },
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "favicon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "dichiarazioneAccessibilitaLink": {
+      "type": "string"
+    },
+    "obiettiviAccessibilitaLink": {
+      "type": "string"
+    }
+  }
+}
